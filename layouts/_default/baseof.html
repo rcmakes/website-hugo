@@ -8,13 +8,22 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <title>RCMakes {{ if .Title }} | {{ .Title }} {{ end }}</title>
+  <title> {{ if .Title }} {{ .Title }} | {{ end }} RCMakes</title>
 </head>
 <body>
+
+  <!-- Begin Bootstrap Container -->
+  <div class="container">
+
+
   {{ block "main" .}}
   {{ end }}
 
   <!-- Site footer -->
   {{ partial "footer" . }}
+  
+  <!-- End Bootstrap container -->
+  </div>
+
 </body>
 </html>
