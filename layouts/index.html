@@ -1,8 +1,26 @@
 {{ define "main" }}
 
-    <h1>This is the index.html layout file </h1>
-    Where you homepage content must be. :)
+  <section class="row">
+    
+    <div class="col-lg-6">
+      {{ partial "carousel-homepage" . }}
+    </div>
 
-    {{ partial "carousel-homepage" . }}
+    <div class="col-lg-6">
+      <h1>
+        Student-Operated Makerspace
+      </h1>
+      <h6>
+        RCMakes is a non-profit, school-based, student-operated enterprise to manage a Job Shop & Community Makerspace.
+      </h6>
+      <h6>
+        RCMakes produces goods and services, provides internships and student employment, awards earned academic scholarships, and incubates startup businesses.
+      </h6>
+    </div>
+
+  </section>
+
+    
+
 
 {{ end }}
