@@ -3,19 +3,26 @@
   <section class="row">
     
     <div class="col-lg-6">
-      {{ partial "carousel-homepage" . }}
+      <div class="jumbotron py-3">
+        <h1 class="display-4 ">
+          RCMakes
+        </h1>
+        <p class="lead">
+          We are a school-based, student-operated Job Shop & Community Makerspace at Rancho Campana High School in Camarillo. 
+        </p>
+        <hr class="my-4">
+        <p>
+          We produce goods and services, provide internships and student employment, award earned academic scholarships, and incubate startup businesses. 
+        </p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="/about" role="button">Learn More</a>
+        </p>
+      </div>
     </div>
 
+
     <div class="col-lg-6">
-      <h1>
-        Student-Operated Makerspace
-      </h1>
-      <h6>
-        RCMakes is a non-profit, school-based, student-operated enterprise to manage a Job Shop & Community Makerspace.
-      </h6>
-      <h6>
-        RCMakes produces goods and services, provides internships and student employment, awards earned academic scholarships, and incubates startup businesses.
-      </h6>
+      {{ partial "carousel-homepage" . }}
     </div>
 
   </section>
