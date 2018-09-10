@@ -1,10 +1,13 @@
 {{ define "main" }}
-  <section class="row">
-    
+
+  <section class="row mt-2">
     <div class="col-lg-12">
       <h1>{{ .Title }}</h1>
     </div>
-  
+  </section>
+
+  <section class="row mt-2">
+
     <div class="col-lg-4">
       <img src="{{ .Params.productImage }}" alt="" class="img-fluid rounded">
     </div>
@@ -17,6 +20,7 @@
       <h6>${{ .Params.price }}</h6>
       <a href=".Params.freedomMerchantsLink" class="btn btn-primary">Buy Now</a>
     </div>
+
   </section>
   
 {{ end }}
