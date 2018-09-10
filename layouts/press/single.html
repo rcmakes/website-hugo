@@ -1,13 +1,14 @@
 {{ define "main" }}
 
-  <section class="row">
+  <section class="row my-3">
     <div class="col-lg-12">
       <h1>
         {{ .Title }}
       </h1>
-      <h5>
+      <h5 class="mt-4">
         {{ .Params.subheading }}
       </h5>
+      <hr>
       <p>
         {{ .Params.location }} - {{ .Date.Format "January 01, 2006" }}
       </p>
