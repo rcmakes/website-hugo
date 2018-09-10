@@ -5,4 +5,24 @@
   <br>
 
   Put your awesome marketing content here 🙌
+
+  <section class="row mt-4">
+
+    {{ range .Pages }}
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <img class="card-img-top" src="{{ .Params.productImage }}" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">{{ .Title }}</h5>
+            <p class="card-text">{{ .Content }}</p>
+            <h6 class="card-title">${{ .Params.price }}</h6>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+    {{ end }}
+
+  </section>
+  
 {{ end }}
