@@ -18,8 +18,8 @@
             <a href="{{ .URL }}">
               <h5 class="card-title">{{ .Title }}</h5>
             </a>
-            <h6>{{ .Date }}</h6>
-            <p class="card-text">{{ truncate 40 .Content }}</p>
+            <h6>{{ .Date.Format "January 2, 2006" }}</h6>
+            <p class="card-text">{{ truncate 200 .Content }}</p>
           </div>
         </div>
       </div>
