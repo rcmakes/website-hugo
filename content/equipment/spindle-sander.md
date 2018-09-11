@@ -6,7 +6,7 @@ draft: true
 photos: [spindle-sander-1.jpg]
 ---
 
-### Safety Guidelines
+##### Safety Guidelines
 1. Keep loose clothing, long hair, and jewelry away from spindle when in operation.
 2. Always use safety glasses when using the spindle sander.
 3. Before turning the sander on, ensure that the stock is fully clear of the spindle, as well as any scraps.
@@ -20,12 +20,12 @@ photos: [spindle-sander-1.jpg]
 11. Never leave the sander running unattended. When you turn it off, stay in the work zone until the sander has completely stopped moving.
 12. Be aware of the stop button and if necessary, use your knee to turn the machine off, should you get caught in the sander yourself.
 
-### How to Use
+##### How to Use
 1. Select desired spindle size (located in side panel)
 2. Press green start button to begin sanding
 3. Push wood against the sander until desired shape is created
 4. Press red stop button to stop the sander
 
-### Video 
+##### Video 
 {{< youtube XjCYYkNKXCo >}}
 
