@@ -6,12 +6,9 @@ draft: true
 photos: [
     band-saw-1.jpg
 ]
-videos: [
-    https://youtu.be/wGbZqWac0jU
-]
+videos: []
 ---
 
-{{< youtube wGbZqWac0jU >}}
 
 ##### How to Use:
 1. Turning on the machine is very simple 
@@ -43,3 +40,6 @@ videos: [
 8. As well that you position the Guide Post depending on how tall your wood is      too, if the post is placed too high and you are cutting a short piece, this may   lead to the blade breaking
 9. When you are done using the Band Saw, position the Guide Post to where the       bottom, called the upper bearing Guide, is making contact with the plate
 10. This allows others to remember that they have to postion the Post when using    this machine, because doing this can be forgotten easily
+
+### Video
+{{< youtube wGbZqWac0jU >}}
