@@ -14,11 +14,14 @@
 </head>
 <body>
 
+  <div id="navbar-container" class="mb-3">
+    {{ partial "navbar" . }}
+  </div>
+
   <!-- Begin Bootstrap Container -->
   <div class="container">
 
-    {{ partial "navbar" . }}
-
+    <!-- Main Page Content -->
     {{ block "main" .}}
     {{ end }}
 
