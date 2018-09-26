@@ -4,7 +4,7 @@ date: 2018-09-26T09:00:13-07:00
 draft: true
 
 photos: [
-
+    flashforge-printer.jpg
 ]
 ---
 
