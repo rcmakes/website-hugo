@@ -8,13 +8,13 @@
 
   <section class="row mt-2">
 
-    <div class="col-lg-6">
+    <div class="col-lg-4">
         {{ range .Params.photos }}
             <img src="/equipment/{{ . }}" alt="" class="img-fluid rounded">
         {{ end }}
     </div>
 
-    <div class="col-lg-6">
+    <div class="col-lg-8">
       <p>{{ .Content }}</p>
     </div>
 
