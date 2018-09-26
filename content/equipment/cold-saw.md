@@ -5,7 +5,7 @@ draft: true
 
 photos: [cold-saw-1.jpg]
 ---
-##### How to Use
+##### How to use
 1. To your right on the wall behind the cold saw, there is a white box with a switch, flip the switch up
 2. Then on the right side of the machine, there is a green knob, flip the knob on the right to turn on the machine
 3. Above the green knob, there's a black knob that gives you the option of High to Low or Stop, turn the Black knob to the right on the slow setting 
