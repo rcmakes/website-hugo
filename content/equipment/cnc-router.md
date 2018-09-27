@@ -3,6 +3,9 @@ title: "CNC Router"
 date: 2018-09-18T16:14:47-07:00
 draft: true
 
+aliases:
+    - /cnc_router.html
+    
 photos: [
     cnc-router.jpg
 ]
