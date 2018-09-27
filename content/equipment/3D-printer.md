@@ -3,6 +3,9 @@ title: "3D Printer"
 date: 2018-09-26T09:00:13-07:00
 draft: true
 
+aliases:
+    - /3d_printer.html
+    
 photos: [
     flashforge-printer.jpg
 ]
