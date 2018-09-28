@@ -3,6 +3,9 @@ title: "Drill Press"
 date: 2018-09-12T11:01:06-07:00
 draft: true
 
+aliases:
+    - /drill_press.html
+    
 photos: [
     drill-press.jpg
 ]
