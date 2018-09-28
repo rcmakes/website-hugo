@@ -74,12 +74,11 @@
   <div class="row">
     {{ range .Pages }}
       <div class="col-lg-4 col-md-6">
-        {{ .Params.iframe }}
+        {{ .Title }}
         <h1>
           {{ .Params.videoName}}
         </h1>
       </div>
-  
     {{end}}
   </div>
   <!-- End of markdown list area -->
