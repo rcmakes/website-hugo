@@ -3,6 +3,9 @@ title: "Wood Lathe"
 date: 2018-09-11T16:56:21-07:00
 draft: true
 
+aliases:
+    - /wood_lathe.html
+    
 photos: [
     wood-lathe.jpg
 ]

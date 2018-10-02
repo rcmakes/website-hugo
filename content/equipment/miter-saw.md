@@ -3,6 +3,9 @@ title: "Miter Saw"
 date: 2018-09-11T17:14:09-07:00
 draft: true
 
+aliases:
+    - /miter_saw.html
+
 photos: [
     miter-saw.jpg
 ]
