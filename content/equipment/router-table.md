@@ -3,9 +3,6 @@ title: "Router Table"
 date: 2018-09-18T16:48:55-07:00
 draft: true
 
-aliases:
-    - /router_table.html
-    
 photos: [
     router-table.jpg
 ]

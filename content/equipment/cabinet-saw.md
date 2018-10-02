@@ -3,9 +3,6 @@ title: "Cabinet Saw"
 date: 2018-09-11T19:13:25-07:00
 draft: true
 
-aliases:
-    - /cabinet_saw.html
-    
 photos: [
     cabinet-saw.jpg
 ]
