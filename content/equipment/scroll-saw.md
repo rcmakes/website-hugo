@@ -3,9 +3,6 @@ title: "Scroll Saw"
 date: 2018-09-18T16:13:49-07:00
 draft: true
 
-aliases:
-    - /scroll_saw.html
-    
 photos: [
     scroll-saw.jpg
 ]
