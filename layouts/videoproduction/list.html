@@ -17,7 +17,7 @@
         </p>
         <p class="lead">
           <a class="btn btn-primary btn-lg" href="#" role="button">
-            Request a quote
+            Request a Quote
           </a>
         </p>
       </div>
@@ -71,13 +71,24 @@
   <!-- End of jumbotron/ carousel area -->
 
   <!-- Start of markdown list area -->
+  <div>
+      <h2 class="display-4 pt-3">
+          Portfolio
+      </h2>
+  </div>
+  <hr>
   <div class="row">
-    {{ range .Pages }}
-      <div class="col-lg-4 col-md-6">
-        {{ .Title }}
-        <h1>
+    {{ range .Pages.ByDate }}
+      <div class="col-lg-6 col-md-6">
+        <h4>
           {{ .Params.videoName}}
-        </h1>
+        </h4>
+        <div class="video-container">
+          <iframe width="100%" height="300" src={{ .Params.embedLink }} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <p>
+          {{ .Params.videoDescription}}
+        </p>
       </div>
     {{end}}
   </div>
