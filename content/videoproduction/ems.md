@@ -1,7 +1,7 @@
 ---
 title: "Personal Preparedness"
 date: 2018-06-30T16:29:42-07:00
-draft: true
+draft: false
 author: "RCMakes"
 client: "Ventura County Emergency Medical Sservices"
 youtubeURL: "7SPnNgygWfk"
