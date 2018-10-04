@@ -3,11 +3,10 @@ title: "Academy Bridge Program"
 date: 2018-09-26T16:40:57-07:00
 draft: true
 
-photos: []
+image:
 
-shortDescription: "short description goes here"
+subtitle: "subtitle goes here"
 
-longDescription: "long description goes here"
 ---
 
 ##### Academy Bridge Program
