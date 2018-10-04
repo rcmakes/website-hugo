@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+<div class="row">
+
+  <div class="col-lg-12">
+
+    <div class="jumbotron">
+      <h1 class="display-4">Expanded Learning Services</h1>
+      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
+        featured content or information.</p>
+      <hr class="my-4">
+      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </p>
+    </div>
+
+  </div>
+</div>
+
+<div class="row">
+  {{ range .Pages.ByDate }}
+  <div class="col-lg-6">
+    <div class="card">
+      <img class="card-img-top" src="/img/{{ .Params.image }}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{ .Title }}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">{{ .Params.subtitle }}</h6>
+        <p class="card-text">
+          {{ .Content }}
+        </p>
+        <a href="{{ .URL }}" class="btn btn-primary">View Details</a>
+      </div>
+    </div>
+
+  </div>
+  {{ end }}
+</div>
+
+{{ end }}
