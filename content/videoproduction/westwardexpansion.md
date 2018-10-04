@@ -1,7 +1,7 @@
 ---
 title: "Westwardexpansion"
 date: 2018-10-03T11:26:05-07:00
-draft: true
+draft: false
 author: "RCMakes"
 client: "RCMakes"
 youtubeURL: "ulvsGhsqc_g"
