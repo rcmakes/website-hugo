@@ -3,9 +3,6 @@ title: "Plasma Cutter"
 date: 2018-09-18T15:04:49-07:00
 draft: true
 
-aliases:
-    - /plasma_cutter.html
-    
 photos: [
     plasma-cutter.jpg
 ]
