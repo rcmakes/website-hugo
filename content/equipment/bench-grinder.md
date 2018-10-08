@@ -3,9 +3,6 @@ title: "Bench Grinder"
 date: 2018-09-11T19:35:49-07:00
 draft: true
 
-aliases:
-    - /bench_grinder.html
-    
 photos: [
     bench-grinder.jpg
 ]

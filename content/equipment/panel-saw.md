@@ -3,8 +3,6 @@ title: "Panel Saw"
 date: 2018-09-18T17:14:16-07:00
 draft: true
 
-aliases:
-    - /panel_saw.html
 photos: [
     panel-saw.jpeg
 ]

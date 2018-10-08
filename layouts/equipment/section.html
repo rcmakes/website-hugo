@@ -1,37 +1,30 @@
 {{ define "main" }}
+  <h1> {{ .Title }} </h1>
+  This is the section.html page for Shop Equipment
 
-<section class="row">
+  <br>
 
-  <div class="col-lg-12">
-    <div class="jumbotron py-4">
-      <h1 class="display-4">{{ .Title }}</h1>
-      <p class="lead">Safety Rules and Operating Procedures</a>
-      </p>
-    </div>
-  </div>
+  Put your awesome landing page content here 🙌
 
-</section>
+  <section class="row mt-4">
 
-<section class="row">
-
-  {{ range .Pages }}
-  <div class="col-lg-4 col-md-6 mb-4">
-    <div class="card">
-      <a href="{{ .URL }}">
-        <img class="card-img-top" src="..." alt="Card image cap">
-      </a>
-      <div class="card-body">
-        <a href="{{ .URL }}">
-          <h5 class="card-title">{{ .Title }}</h5>
-        </a>
-        <a href="{{ .URL }}" class="btn btn-primary">View Instructions</a>
+    {{ range .Pages }}
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <a href="{{ .URL }}">
+            <img class="card-img-top" src="..." alt="Card image cap">
+          </a>
+          <div class="card-body">
+            <a href="{{ .URL }}">
+              <h5 class="card-title">{{ .Title }}</h5>
+            </a>
+            <a href="{{ .URL }}" class="btn btn-primary">View Instructions</a>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
 
-  {{ end }}
+    {{ end }}
 
-</section>
-
-
+  </section>
+  
 {{ end }}
