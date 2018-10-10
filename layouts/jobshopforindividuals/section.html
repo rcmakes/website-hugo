@@ -83,7 +83,7 @@
     {{ range .Pages }}
       <div class="col-lg-6 my-3">
         <div class="card">
-          <img class="card-img-top" src="..." alt="Card image cap">
+          <img class="card-img-top" src="/img/{{ .Params.image }}" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">{{ .Title }}</h5>
             <h6 class="card-subtitle mb-2 text-muted">{{ .Params.subTitle }}</h6>
