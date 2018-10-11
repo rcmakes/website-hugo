@@ -9,7 +9,7 @@ client: "RCMakes"
 
 videoName: "RCFresh"
 
-videoDescription: "Here at RCMakes we value hardwork, care, authenticity and simplicity."
+videoDescription: "Here at RCMakes, we value hardwork, care, authenticity and simplicity."
 
 embedLink: "https://www.youtube.com/embed/sX8nwbw2_-w"
 ---
