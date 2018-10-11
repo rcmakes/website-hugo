@@ -10,11 +10,11 @@
     </p>
     <div class="row">
         <div class="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+            <form id="contact-form" name="contact-form" action="https://formspree.io/info@rcmakes.com" method="POST">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="md-form mb-0">
-                            <input type="text" id="name" name="name" class="form-control">
+                            <input type="text" name="name" class="form-control">
                             <label for="name" class="">Your Name</label>
                         </div>
                     </div>
@@ -30,7 +30,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="md-form mb-0">
-                            <input type="text" id="subject" name="subject" class="form-control">
+                            <input type="text" id="subject" name="_subject" class="form-control">
                             <label for="subject" class="">Subject</label>
                         </div>
                     </div>
@@ -44,10 +44,11 @@
                         </div>
                     </div>
                 </div>
+                <div class="text-center text-md-left">
+                    <!-- <input type="submit" value="Send"> -->
+                    <button type="submit" value="Send" class="btn btn-primary text-white">Send</button>
+                </div>
             </form>
-            <div class="text-center text-md-left">
-                <button class="btn btn-primary text-white">Send</button>
-            </div>
         </div>
         
         <div class="col-md-3 text-center">
