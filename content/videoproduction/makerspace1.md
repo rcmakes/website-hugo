@@ -9,7 +9,7 @@ client: "RCMakes"
 
 videoName: "Makerspace Montage"
 
-videoDescription: "Video advertising RCMakes with montage videos of the shop tools." 
+videoDescription: "Check out our awesome makerspace and equipment we offer." 
 
 embedLink: "https://www.youtube.com/embed/l_JbxY2Hxqw"
 ---

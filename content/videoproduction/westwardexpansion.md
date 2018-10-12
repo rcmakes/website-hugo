@@ -9,7 +9,7 @@ client: "RCMakes"
 
 videoName: "Westward Expansion"
 
-videoDescription: "At RCMakes learn to show your creative side."
+videoDescription: "At RCMakes, learn to show your creative side."
 
 embedLink: "https://www.youtube.com/embed/ulvsGhsqc_g"
 ---

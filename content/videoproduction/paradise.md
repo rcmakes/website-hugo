@@ -9,7 +9,7 @@ client: "RCMakes"
 
 videoName: "Paradise at RCMakes"
 
-videoDescription: "Aloha! Let RCMakes be your close to home paradise."
+videoDescription: "Aloha! Let RCMakes be your close-to-home paradise."
 
 embedLink: "https://www.youtube.com/embed/4nUhPx5jcR8"
 ---
