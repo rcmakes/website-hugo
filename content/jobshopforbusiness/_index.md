@@ -5,4 +5,7 @@ draft: false
 
 aliases:
     - /b2b/
+    - /b2bjobshop/
+    - /jobshop/forbusiness/
+    - /jobshop/b2b/
 ---
