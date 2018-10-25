@@ -1,11 +1,9 @@
 ---
 title: "Scroll Saw"
 date: 2018-09-18T16:13:49-07:00
-draft: true
+draft: false
 
-photos: [
-    scroll-saw.jpg
-]
+photo: scroll-saw.jpg
 ---
 
 ##### Safety Guidelines:

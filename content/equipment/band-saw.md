@@ -1,11 +1,10 @@
 ---
 title: "Band Saw"
 date: 2018-09-11T15:36:50-07:00
-draft: true
+draft: false
 
-photos: [
-    band-saw-1.jpg
-]
+photo: band-saw-1.jpg
+
 videos: []
 ---
 
