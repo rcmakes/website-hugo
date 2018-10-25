@@ -3,15 +3,13 @@ title: "Academy Bridge Program"
 date: 2018-09-26T16:40:57-07:00
 draft: true
 
-image:
+image: ABP-jenga-bridge-1200x900.jpg
 
-subtitle: "subtitle goes here"
+subtitle: "Summer Enrichment for Incoming Freshmen"
 
 ---
 
-##### Academy Bridge Program
-
-The Academy Bridge program is designed to expose incoming freshmen to
+This three-week summer pgoram exposes incoming freshmen to
 woodworking, metalworking, solid modeling, 3D printing, laser
-cutting, and coding to help them prepare for the various courses
-Rancho Campana has to offer.
+cutting, and coding to help them prepare for the multitude of courses
+Rancho Campana High School has to offer.
