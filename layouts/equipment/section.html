@@ -1,15 +1,11 @@
 {{ define "main" }}
   <h1> {{ .Title }} </h1>
-  This is the section.html page for Shop Equipment
-
-  <br>
-
-  Put your awesome landing page content here 🙌
+  OUR SHOP IS AWESOME
 
   <section class="row mt-4">
 
     {{ range .Pages }}
-      <div class="col-lg-4 col-md-6">
+      <div class="col-lg-4 col-md-6 mb-3">
         <div class="card">
           <a href="{{ .URL }}">
             <img class="card-img-top" src="/equipment/{{ .Params.photo }}" alt="Card image cap">
