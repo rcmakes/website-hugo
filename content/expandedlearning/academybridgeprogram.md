@@ -7,9 +7,21 @@ image: ABP-jenga-bridge-1200x900.jpg
 
 subtitle: "Summer Enrichment for Incoming Freshmen"
 
+datesTimes: [ 
+   ]
+
+location:
+
+cost:
+
+instructors: [
+]   
+
+registrationInstructions:
+
 ---
 
-This three-week summer pgoram exposes incoming freshmen to
+This three-week summer program exposes incoming freshmen to
 woodworking, metalworking, solid modeling, 3D printing, laser
 cutting, and coding to help them prepare for the multitude of courses
 Rancho Campana High School has to offer.
