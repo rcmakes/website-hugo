@@ -5,7 +5,7 @@ draft: true
 
 subtitle: "Public Speaking Workshop"
 
-image: tighty-dwighty-tedx.jpg
+image: tighty-dwighty-tedx-1200x900.jpg
 
 datesTimes: [ 
   "October 10, 2018 - 3-5:30p",
