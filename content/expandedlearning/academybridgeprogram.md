@@ -1,14 +1,14 @@
 ---
 title: "Academy Bridge Program"
 date: 2018-09-26T16:40:57-07:00
-draft: true
+draft: false
 
 image: ABP-jenga-bridge-1200x900.jpg
 
 subtitle: "Summer Enrichment for Incoming Freshmen"
 
 datesTimes: [ 
-  (Coming Summer 2019)
+  (Returning Summer 2019)
    ]
 
 location:
