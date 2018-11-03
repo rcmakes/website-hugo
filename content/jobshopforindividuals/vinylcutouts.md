@@ -6,6 +6,8 @@ draft: false
 image: vinyl-cutter-1200x900.JPG
 
 subTitle: Custom Stickers & Water Bottles
+
+Description: Makes stickers on vinyl by cutting them out.
 ---
 
 ## Great For:
