@@ -7,5 +7,5 @@ subtitle: Get up and running with .... Includes Training
 
 image: 3D-package-1200x900.png
 
-link:
+link: /3D-flyer/flyer.html
 ---
