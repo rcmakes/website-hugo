@@ -5,7 +5,7 @@ draft: false
 
 subtitle: Get up and running with .... Includes Training
 
-image: procore-cornhole.jpg
+image: procore-cornhole-1200x900.jpg
 
 link:
 ---
