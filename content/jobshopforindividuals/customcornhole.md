@@ -7,6 +7,7 @@ subTitle: Our Most Popular Product
 
 image: custom-cornhole-two-sets-1200x900.jpg
 
+Description: Well constructed cornhole with custom faces and staining.
 ---
 
 ## Great For:
