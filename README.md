@@ -6,7 +6,13 @@ rcmakes.com website built with Hugo static site builder
 
 Deployment of `develop` branch: http://rcmakes.github.io
 
-## Git Workflow
+# Git Workflow
+
+## Getting the Latest Changes
+
+Before making any changes, `$ git pull origin <branch-you-are-working-on>` to get the latest changes from GitHub
+
+## Creating a New Feature Branch
 
 All new feature branches must be created from `develop`. You must be on branch `develop` before running `$ git checkout -b abc/new-feature-branch-name`
 
@@ -14,12 +20,13 @@ All new feature branches must be created from `develop`. You must be on branch `
 
 ### Branch Naming Rules
 
-To keep track of who is working on what and avoid a cluttered namespace, use this format:
+To keep track of who is working on what and avoid cluttering our branch namespace, use your three letter initials followed by a `/` and then the branch name using [kebab case](http://wiki.c2.com/?KebabCase) (use hyphens to separate words). Remember, *no spaces!*
 
-##### OK:
+##### Examples:
 
 1. `ipn/update-calendar`
 2. `ajc/fix-dropdown-bug`
+3. `cjd/give-me-roblox-vbucks`
 
 ##### Not OK:
 
