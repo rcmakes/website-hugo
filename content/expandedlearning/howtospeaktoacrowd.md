@@ -15,7 +15,6 @@ datesTimes: [
   "February 6, 2019 - 3-4:30p",
   "February 13, 2019 - 3-4:30p",
   "February 20, 2019 - 3-4:30p"
-  
    ]
 
 location: Computer Lab C3-104, Rancho Campana High School
@@ -31,6 +30,3 @@ registrationInstructions: Text "@rcspks" to 81010
 ---
 
 This workshop introduces students to public speaking and teaches students basics in public speaking techniques. At the end of the workshop, students will have gained skills that will help them to present with confidence in public and classroom settings.
-
-
-
