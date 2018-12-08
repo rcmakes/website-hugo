@@ -2,27 +2,30 @@
 
   <section class="row">
     
-    <div class="col-lg-6">
+    <div class="col-lg-12">
       <div class="jumbotron py-3">
-        <h1 class="display-4 ">
-          Student-Powered Entrepreneurship
-        </h1>
-        <p class="lead">
-          RCMakes is a school-based, student-operated enterprise at Rancho Campana High School in Camarillo. We run a community makerspace & contract job shop, do video production an software development, offer expanded learning workshops, host events and offer a number of products for sale.
-        </p>
-        <hr class="my-4">
-        <p>
-          We produce goods and services, provide internships and student employment, award earned academic scholarships, and incubate startup businesses. 
-        </p>
-        <p class="lead">
-          <a class="btn btn-primary btn-lg" href="/about" role="button">Learn More</a>
-        </p>
+        <div class="row">
+
+          <div class="col-lg-6 my-flex-item">
+            <h1 class="display-4 ">
+              Student-Powered Entrepreneurship
+            </h1>
+            <p class="lead">
+              RCMakes is a school-based, student-operated enterprise at Rancho Campana High School in Camarillo. We run a community makerspace & contract job shop, do video production an software development, offer expanded learning workshops, host events and offer a number of products for sale.
+            </p>
+            <hr class="my-4">
+            <p>
+              We produce goods and services, provide internships and student employment, award earned academic scholarships, and incubate startup businesses. 
+            </p>
+            <p class="lead">
+              <a class="btn btn-primary btn-lg" href="/about" role="button">Learn More</a>
+            </p>
+          </div>
+          <div class="col-lg-6 align-self-center my-flex-item">
+              {{ partial "carousel-homepage" . }}
+          </div>
+        </div>
       </div>
-    </div>
-
-
-    <div class="col-lg-6">
-      {{ partial "carousel-homepage" . }}
     </div>
 
   </section>
