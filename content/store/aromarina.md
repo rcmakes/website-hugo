@@ -8,5 +8,3 @@ price: 10
 productImage: "/products/aromarina.png"
 freedomMerchantsLink: "https://freedommerchants.com/rcmakes.html?qbinvoice=true&invoicenum=------&amt=10&desc=Aromarina%20Pillow"
 ---
-
-Aromarina description goes here
