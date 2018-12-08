@@ -3,7 +3,7 @@ title: "Drill Press"
 date: 2018-09-12T11:01:06-07:00
 draft: false
 
-photo: drill-press.jpg
+photo: drill-press1.jpg
 ---
 
 ##### How to Use:
