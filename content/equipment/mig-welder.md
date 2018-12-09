@@ -1,11 +1,9 @@
 ---
 title: "MIG Welder"
 date: 2018-09-12T11:09:17-07:00
-draft: true
+draft: false
 
-photos: [
-    mig-welder.jpg
-]
+photos: mig-welder.jpg
 ---
 
 ##### Safety Guidelines:

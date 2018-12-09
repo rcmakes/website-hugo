@@ -1,11 +1,9 @@
 ---
 title: "3D Printer"
 date: 2018-09-26T09:00:13-07:00
-draft: true
+draft: false
 
-photos: [
-    flashforge-printer.jpg
-]
+photo: flashforge-printer.jpg
 ---
 
 ##### Safety
