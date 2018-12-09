@@ -12,10 +12,16 @@ datesTimes: [
   "Month 17, 2018 - 3-5:30p"
    ]
 
+location:
+
 cost: "cost"
 
 instructors: [
   "Ima Monarch, RCHS Senior",
   "Sophia Taylor, RCHS Senior"
 ]
+
+registrationInstructions:
 ---
+
+(Description goes here. You can use *Markdown* for formatting)

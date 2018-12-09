@@ -1,11 +1,9 @@
 ---
 title: "CNC Router"
 date: 2018-09-18T16:14:47-07:00
-draft: true
+draft: false
 
-photos: [
-    cnc-router.jpg
-]
+photo: cnc-router.jpg
 ---
 
 ##### Safety Guidelines:

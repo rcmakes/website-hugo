@@ -9,9 +9,7 @@
   <section class="row mt-2">
 
     <div class="col-lg-4">
-        {{ range .Params.photos }}
-            <img src="/equipment/{{ . }}" alt="" class="img-fluid rounded">
-        {{ end }}
+            <img src="/equipment/{{ .Params.photo }}" alt="" class="img-fluid rounded">
     </div>
 
     <div class="col-lg-8">
