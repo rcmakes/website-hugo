@@ -11,5 +11,5 @@ videoName: "Santa's Scene Shop"
 
 videoDescription: "The night before Christmas as everyone sleeps, Santa's Scene Shop is full of interns!"
 
-embedLink: "https://www.youtube.com/embed/Hd_SEU9vCLA"
+embedLink: "https://www.youtube.com/embed/KRnVldWI7R0"
 ---
