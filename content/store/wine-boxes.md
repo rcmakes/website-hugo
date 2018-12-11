@@ -10,3 +10,5 @@ freedomMerchantsLink: "https://freedommerchants.com/rcmakes.html?qbinvoice=true&
 ---
 
 Choose your design (Left: "Harvest", Right: "Vine") and color (Left: "Rosé", Right: "Pecan").
+
+*Order by Dec. 15 to receive by Christmas*
