@@ -1,6 +1,11 @@
 {{ define "main" }}
 
-  <section class="row">
+<section class="alert alert-success">
+
+  <div class="row" >
+    <div class="col-lg-2 col-md-3 col-sm-6">
+      <img src="holiday-craft-day-2018.jpg" alt="" class="img-fluid rounded">
+    </div>
     
     <div class="col-lg-12">
 
@@ -31,9 +36,16 @@
           </div>
         </div>
       </div>
+    
     </div>
+  </div>
 
-  </section>
+
+  <div class="col-lg-6">
+    {{ partial "carousel-homepage" . }}
+  </div>
+
+</section>
 <div>
   {{ partial "clients" . }}
 </div>

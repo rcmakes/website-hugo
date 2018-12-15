@@ -15,9 +15,9 @@
             <a href="{{ .URL }}">
               <h5 class="card-title">{{ .Title }}</h5>
             </a>
-            <p class="card-text">{{ .Content }}</p>
+            <p class="card-text">{{ .Params.oneLineDescription }}</p>
             <h6 class="card-title">${{ .Params.price }}</h6>
-            <a href="{{ .URL }}" class="btn btn-primary">View Product</a>
+            <a href="{{ .URL }}" class="btn btn-primary">Learn More</a>
             <a href="{{ .Params.freedomMerchantsLink }}" target="_blank" class="btn btn-primary ml-2">Buy Now</a>
           </div>
         </div>
