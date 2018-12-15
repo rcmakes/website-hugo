@@ -5,7 +5,7 @@ draft: true
 
 subtitle: "Under Constructio"
 
-image: film-festival.jpeg
+image: film-festival-1200x900.jpeg
 
 datesTimes: [ 
    ]

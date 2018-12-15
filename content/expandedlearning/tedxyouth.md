@@ -5,7 +5,7 @@ draft: true
 
 subtitle: "Under Construction"
 
-image: tedx-youth.jpeg
+image: tedx-youth-884x663.jpeg
 
 datesTimes: [
    ]
