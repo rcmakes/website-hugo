@@ -3,7 +3,7 @@ title: "Router Table"
 date: 2018-09-18T16:48:55-07:00
 draft: false
 
-photo: router-table.jpg
+photo: router-table-1000x850.jpg
 ---
 
 ##### Safety Guidelines:

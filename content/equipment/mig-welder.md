@@ -3,7 +3,7 @@ title: "MIG Welder"
 date: 2018-09-12T11:09:17-07:00
 draft: false
 
-photo: mig-welder.jpg
+photo: mig-welder-300x300.jpg
 ---
 
 ##### Safety Guidelines:
