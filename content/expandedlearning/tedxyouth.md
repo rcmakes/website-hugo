@@ -1,9 +1,9 @@
 ---
-title: "Tedx Youth"
+title: "TEDx Youth"
 date: 2018-12-15T08:51:11-08:00
 draft: true
 
-subtitle: "Under Construction"
+subtitle: "Coming Spring 2019"
 
 image: tedx-youth-884x663.jpeg
 
@@ -19,5 +19,3 @@ instructors: [
 
 registrationInstructions:
 ---
-
-Coming Spring 2019
