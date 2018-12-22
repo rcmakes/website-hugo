@@ -6,6 +6,10 @@ rcmakes.com website built with Hugo static site builder
 
 Deployment of `develop` branch: http://rcmakes.github.io
 
+## Viewing Your Changes
+
+`$ hugo server` to start the development server. Pass the `-D` flag to render drafts as well
+
 # Git Workflow
 
 ## Getting the Latest Changes
