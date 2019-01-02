@@ -1,11 +1,9 @@
 ---
 title: "Cabinet Saw"
 date: 2018-09-11T19:13:25-07:00
-draft: true
+draft: false
 
-photos: [
-    cabinet-saw.jpg
-]
+photo: cabinet-saw-1500x1090.jpg
 ---
 
 ##### Safety Guidelines:

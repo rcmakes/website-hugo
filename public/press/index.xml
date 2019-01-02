@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Press on Student-operated Makerspace in Camarillo, CA</title>
+    <link>https://rcmakes.github.io/press/</link>
+    <description>Recent content in Press on Student-operated Makerspace in Camarillo, CA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Sep 2018 13:02:49 -0700</lastBuildDate>
+    
+	<atom:link href="https://rcmakes.github.io/press/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Community Makerspace Grand Opening at Rancho Campana High School</title>
+      <link>https://rcmakes.github.io/press/grand-opening/</link>
+      <pubDate>Thu, 27 Apr 2017 13:46:18 -0700</pubDate>
+      
+      <guid>https://rcmakes.github.io/press/grand-opening/</guid>
+      <description>RCMAKES, a student-operated business at Rancho Campana High School, is holding the Grand Opening of the Community Makerspace from 11:00 am to 2:00 pm on Saturday May 13th. There will be food trucks, corn hole, giant tumbling blocks, the RCMAKES store, memberships, activities, guided tours, demonstrations, kid’s crafts and more. The event is at Rancho Campana High School and is open to the public.
+The RCMAKES Community Makerspace is an 1,800 square-foot collaborative work space at Rancho Campana High School.</description>
+    </item>
+    
+    <item>
+      <title>RCMAKES Engineers $250,000 in Startup Funding</title>
+      <link>https://rcmakes.github.io/press/startup-funding/</link>
+      <pubDate>Tue, 18 Apr 2017 13:58:56 -0700</pubDate>
+      
+      <guid>https://rcmakes.github.io/press/startup-funding/</guid>
+      <description>RCMAKES, a student-operated business at Rancho Campana High School, is launching with $250,000 in startup funding from engineer, entrepreneur and venture capitalist Dave Gross and his wife, Dawn Gross, Braille Manager at the Alternate Text Production Center. Mr. Gross currently teaches engineering and business classes offered at Rancho Campana through a partnership with the Ventura County Office of Education and Oxnard Union High School District. Mr.Gross will volunteer as general manager of the new venture.</description>
+    </item>
+    
+  </channel>
+</rss>

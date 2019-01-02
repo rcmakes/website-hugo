@@ -1,11 +1,9 @@
 ---
 title: "Mill and Lathe Combo"
 date: 2018-09-12T16:20:32-07:00
-draft: true
+draft: false
 
-photos: [
-    mill-and-lathe-combo.jpg
-]
+photo: mill-and-lathe-combo-1500x1408.jpg
 ---
 
 ##### Safety Guidelines:

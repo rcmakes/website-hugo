@@ -3,9 +3,7 @@ title: "Wood Lathe"
 date: 2018-09-11T16:56:21-07:00
 draft: true
 
-photos: [
-    wood-lathe.jpg
-]
+photo: wood-lathe-1500x1500.jpg
 ---
 
 ##### How to Use:

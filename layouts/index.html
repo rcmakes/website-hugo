@@ -1,33 +1,62 @@
 {{ define "main" }}
 
-  <section class="row">
+<!-- Alerts -->
+<section class="alert alert-success">
+  
+  <div class="row">
     
-    <div class="col-lg-6">
-      <div class="jumbotron py-3">
-        <h1 class="display-4 ">
-          RCMakes
-        </h1>
-        <p class="lead">
-          We are a school-based, student-operated Job Shop & Community Makerspace at Rancho Campana High School in Camarillo. 
-        </p>
-        <hr class="my-4">
-        <p>
-          We produce goods and services, provide internships and student employment, award earned academic scholarships, and incubate startup businesses. 
-        </p>
-        <p class="lead">
-          <a class="btn btn-primary btn-lg" href="/about" role="button">Learn More</a>
-        </p>
+    <div class="col-lg-12">
+      <p class="mt-2">
+        Happy Holidays! The Community Makerspace reopens January 5th, 2019
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="row">
+
+  <div class="col-lg-12">
+
+    <div class="jumbotron py-3">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="display-4 pb-3">
+            Student-Powered Entrepreneurship
+          </h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 my-flex-item pb-3">
+          <p class="lead">
+            RCMakes is a school-based, student-operated enterprise at Rancho Campana High School in Camarillo. We run a
+            community makerspace & contract job shop, do video production an software development, offer expanded
+            learning workshops, host events and offer a number of products for sale.
+          </p>
+          <hr class="my-4">
+          <p>
+            We produce goods and services, provide internships and student employment, award earned academic
+            scholarships, and incubate startup businesses.
+          </p>
+          <p class="lead">
+            <a class="btn btn-primary btn-lg" href="/about" role="button">Learn More</a>
+          </p>
+        </div>
+        <div class="col-lg-6 my-2">
+          {{ partial "carousel-homepage" . }}
+        </div>
       </div>
     </div>
 
+  </div>
 
-    <div class="col-lg-6">
-      {{ partial "carousel-homepage" . }}
-    </div>
+</section>
 
-  </section>
-
-    
+<div>
+  {{ partial "clients" . }}
+</div>
 
 
 {{ end }}

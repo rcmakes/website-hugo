@@ -1,0 +1,74 @@
+{{ define "main" }}
+
+  <section class="row mt-2">
+    <div class="col-lg-12">
+    </div>
+  </section>
+
+  <section class="row mt-2">
+
+    <div class="col-lg-6">
+      <img class="img-fluid" src="/img/{{ .Params.image }}" alt="expanded learning program image">
+    </div>
+
+    <div class="col-lg-6">
+      <h1>{{ .Title }}</h1>
+      <h5 class="text-muted mt-3">{{ .Params.subtitle }}</h5>
+      <p>{{ .Content }}</p>
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h6>Dates & Times</h6>
+            <p>
+            {{ range .Params.datesTimes }}
+              {{ . }}
+              <br>
+            {{ end }}
+            </p>
+
+          <h6>Location</h6>
+          <p>
+            {{ .Params.location}}
+          </p>
+          
+        </div>
+
+        <div class="col-lg-6">
+
+          <h6>
+            Instructor(s)
+          </h6>
+          <p>
+            {{ range .Params.instructors }}
+              {{ . }}
+              <br>
+            {{ end }}
+          </p>
+
+          <h6>
+            Cost
+          </h6>
+          <p>
+            {{ .Params.cost }}
+          </p>
+
+          <h6>
+            Register
+          </h6>
+          <p>
+            {{ .Params.registrationInstructions}}
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="col-lg-6">
+    </div>
+
+  </section>
+  
+{{ end }}
