@@ -1,7 +1,7 @@
 ---
 title: "TEDx Youth"
 date: 2018-12-15T08:51:11-08:00
-draft: true
+draft: false
 
 subtitle: "Coming Spring 2019"
 
