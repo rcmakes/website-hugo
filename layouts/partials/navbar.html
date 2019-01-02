@@ -11,11 +11,23 @@
       <li class="nav-item">
         <a class="nav-link" href="/makerspace">Makerspace</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/jobshopforbusiness">Jobshop For Businesses</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/jobshopforindividuals">Jobshop For Individuals</a>
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          id="jobshopNavbarDropdown"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Job Shop
+        </a>
+        <div class="dropdown-menu" aria-labelledby="jobshopNavbarDropdown">
+          <a class="dropdown-item" href="/jobshopforbusiness">For Businesses</a>
+          <a class="dropdown-item" href="/jobshopforindividuals"
+            >For Individuals</a
+          >
+        </div>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/videoproduction">Video Production</a>
