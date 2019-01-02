@@ -2,7 +2,8 @@
 title: "NewCo Foundation Secures $5 Million"
 date: 2018-02-20T13:46:18-07:00
 
-subheading: "RCMAKES Will Host This Special Event on May 13th from 11-2"
+subheading: "Founders go all in to promote student entrepreneurship"
+
 location: "Camarillo, CA"
 
 draft: false
