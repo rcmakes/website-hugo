@@ -3,7 +3,7 @@ title: "Panel Saw"
 date: 2018-09-18T17:14:16-07:00
 draft: false
 
-photo: panel-saw.jpeg
+photo: panel-saw-1050x788.png
 ---
 
 ##### Safety Guidelines:

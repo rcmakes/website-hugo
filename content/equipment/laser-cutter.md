@@ -3,7 +3,7 @@ title: "Laser Cutter"
 date: 2018-09-18T15:33:11-07:00
 draft: false
 
-photo: laser-cutter.png
+photo: laser-cutter-802x802.png
 
 ---
 
