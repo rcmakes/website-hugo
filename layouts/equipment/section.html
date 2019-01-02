@@ -1,25 +1,31 @@
 {{ define "main" }}
-  <h1> {{ .Title }} </h1>
+<h1> {{ .Title }} </h1>
 
-  <section class="row mt-4">
+<section class="row mt-4">
 
-    {{ range .Pages }}
-      <div class="col-lg-4 col-md-6 mb-3 d-flex align-items-stretch">
-        <div class="card">
-          <a href="{{ .URL }}">
-            <img class="card-img-top" src="/equipment/{{ .Params.photo }}" alt="Card image cap">
-          </a>
-          <div class="card-body">
+  {{ range .Pages }}
+  <div class="col-lg-4 col-md-6 mb-3 d-flex align-items-stretch">
+    <div class="card">
+      <a href="{{ .URL }}">
+        <img class="card-img-top" src="/equipment/{{ .Params.photo }}" alt="Card image cap">
+      </a>
+      <div class="card-body d-flex align-items-end">
+        <div class="col">
+          <div class="row">
             <a href="{{ .URL }}">
               <h5 class="card-title">{{ .Title }}</h5>
             </a>
+          </div>
+          <div class="row">
             <a href="{{ .URL }}" class="btn btn-primary">View Instructions</a>
           </div>
         </div>
       </div>
+    </div>
+  </div>
 
-    {{ end }}
+  {{ end }}
 
-  </section>
-  
+</section>
+
 {{ end }}
