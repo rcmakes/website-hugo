@@ -19,3 +19,5 @@ instructors: [
 
 registrationInstructions:
 ---
+
+Subscribe to our newsletter for updates.
