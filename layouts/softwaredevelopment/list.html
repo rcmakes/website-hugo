@@ -1,0 +1,180 @@
+{{ define "main" }}
+
+<!-- Jumbotron -->
+
+<div class="jumbotron">
+  <h1 class="display-4">Software Development</h1>
+  <p class="lead">
+    Want a nice, clean, elegant web design for your site? Save yourself the hassle and have RCMakes make it for you.
+  </p>
+  <hr class="my-4" />
+  <p>
+    Our team of highly trained software developpers and graphic designers are ready when you are 
+  </p>
+  <a class="btn btn-primary btn-lg" href="#order" role="button">Build My Site</a>
+</div>
+
+<!-- Benefits -->
+
+<!-- Trinity -->
+
+<div class="container">
+  <div class="row">
+    <div class="card col-lg-6 border-0">
+      <img class="" src="/img/languages-gray.svg" alt="" />
+    </div>
+    <div class="card col-lg-6 text-right d-flex align-self-center border-0">
+      <h1 class="font-weight-bold">
+        Total Design Freedom and Control to Create Anything
+      </h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="card col-lg-6 text-center d-flex align-self-center border-0">
+      <h1 class="font-weight-bold">Responsive Web Design </h1>
+    </div>
+    <div class="card col-lg-6 border-0">
+      <img class="" src="/img/responsive-gray.svg" alt="" />
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="card col-lg-6 border-0">
+      <img class="" src="/img/design-gray.svg" alt="" />
+    </div>
+    <div class="card col-lg-6 text-center d-flex align-self-center border-0">
+      <h1 class="font-weight-bold">
+        Artistic, Elegant, and Modern Web Sites
+      </h1>
+    </div>
+  </div>
+</div>
+
+<!-- Trinity-/ -->
+
+<!-- Sponsors -->
+<div id="sponsors" class="container text-center pb-5 indigo">
+  <h1 class="bungee">Thank you to all our clients!</h1>
+</div>
+<div class="container pt-5 p-5">
+  <div class="card-deck col-lg-12">
+    <div class="card col-lg-4 d-flex align-self-center border-0">
+      <a href="https://www.rcmakes.com/" target="_blank">
+        <img class="card-img" src="/img/newco_foundation_logo.png" alt="" />
+      </a>
+    </div>
+    <div class="card col-lg-4 d-flex align-self-center border-0">
+      <a href="https://www.newco.foundation/" target="_blank">
+        <img class="card-img" src="/img/rcmakes-wordmark1.png" alt="" />
+      </a>
+    </div>
+    <div class="card col-lg-4 d-flex align-self-center border-0">
+      <a href="https://www.newcoding.org/" target="_blank">
+        <img class="card-img" src="/img/newcoding_logo.png" alt="" />
+      </a>
+    </div>
+    <div class="card col-lg-4 d-flex align-self-center border-0">
+      <a href="https://swoolu.github.io/hack-iloilo/" target="_blank">
+        <img class="card-img" src="/img/rcmakes-wordmark1.png" alt="" />
+      </a>
+    </div>
+  </div>
+</div>
+<!-- Sponsors-/ -->
+
+<!-- Testimonials -->
+<div class="text-center font-italic py-5">
+  <div class="card bg-light text-muted py-5" style="border-color: #e6e6e6;">
+    <h4>"RCMakes made me the best web designed site ever!" ~ Dave Gross</h4>
+  </div>
+</div>
+
+<!-- Order -->
+
+<section id="order" class="section card alert-dark p-5" style="border-color: #;">
+  <h2 class="h1-responsive mb-3 display-4">Get a Free Quote Today</h2>
+  <!--Section description-->
+  <p class="w-responsive mb-4">
+    Do you want an elegant, professional, responsive web design? Tell us your
+    vision for your website and we will reach you as soon as possible.
+  </p>
+  <div class="row">
+    <div class="col-md-9 mb-md-0 mb-5">
+      <form
+        id="contact-form"
+        name="contact-form"
+        action="https://formspree.io/info@rcmakes.com"
+        method="POST"
+      >
+        <div class="row">
+          <div class="col-md-6">
+            <div class="md-form mb-0">
+              <input type="text" name="name" class="form-control" />
+              <label for="name" class="">Your Name</label>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="md-form mb-0">
+              <input type="text" id="email" name="email" class="form-control" />
+              <label for="email" class="">Your Email</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="md-form mb-0">
+              <input
+                type="text"
+                id="subject"
+                name="_subject"
+                class="form-control"
+              />
+              <label for="subject" class="">Company Name</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="md-form">
+              <textarea
+                type="text"
+                id="message"
+                name="message"
+                rows="2"
+                class="form-control md-textarea"
+              ></textarea>
+              <label for="message">Website Design Details</label>
+            </div>
+          </div>
+        </div>
+        <div class="text-center text-md-left">
+          <!-- <input type="submit" value="Send"> -->
+          <button type="submit" value="Send" class="btn btn-primary text-white">
+            Send
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div class="col-md-3 text-center">
+      <ul class="list-unstyled">
+        <h4>Email Us</h4>
+        <li>
+          <a href="mailto:info@rcmakes.com">
+            <i
+              href="mailto:info@rcmakes.com"
+              class="fa fa-envelope mt-4 fa-2x"
+            ></i>
+          </a>
+          <a href="mailto:info@rcmakes.com"> <p>info@rcmakes.com</p> </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+{{ end }}
