@@ -3,6 +3,7 @@ language: node_js
 node_js:
   - node
 script:
+ - snap install hugo
   # build the website with Hugo, output will be in public directory
   - hugo
 deploy:
