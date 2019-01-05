@@ -12,9 +12,7 @@
             <img class="card-img-top" src="{{ .Params.productImage }}" alt="Card image cap">
           </a>
           <div class="card-body">
-            <a href="{{ .URL }}">
-              <h5 class="card-title">{{ .Title }}</h5>
-            </a>
+              <h5 class="card-title text-grape">{{ .Title }}</h5>
             <p class="card-text">{{ .Params.oneLineDescription }}</p>
             <h6 class="card-title">${{ .Params.price }}</h6>
             <a href="{{ .URL }}" class="btn btn-primary">Learn More</a>
