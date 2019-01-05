@@ -1,0 +1,23 @@
+language: node_js
+# use latest version of node
+node_js:
+  - node
+script:
+  # build the website with Hugo, output will be in public directory
+  - hugo
+deploy:
+  provider: s3
+
+  # these environment variables are stored on Travis website
+  access_key_id: $AWS_ACCESS_KEY_ID
+  secret_access_key: $AWS_SECRET_ACCESS_KEY
+
+  bucket: rcmakes.com
+  region: us-west-1
+
+  local_dir: public
+  on:
+    branch: master
+  # Prevent Travis from deleting built site (so it can be uploaded)
+  skip_cleanup: true
+  # cache_control: "max-age=21600"
