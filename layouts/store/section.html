@@ -1,40 +1,63 @@
 {{ define "main" }}
-  <h1 class="display-4">
-    Store
-  </h1>
+<h1 class="display-4">
+  Store
+</h1>
 
-  <section class="row mt-4">
-
-    {{ range .Pages }}
-      <div class="col-lg-4 col-md-6 pb-3">
-        <div class="card">
-          <a href="{{ .URL }}">
-            <img class="card-img-top" src="{{ .Params.productImage }}" alt="Card image cap">
-          </a>
-          <div class="card-body">
-            <a href="{{ .URL }}">
-              <h5 class="card-title">{{ .Title }}</h5>
-            </a>
-            <p class="card-text">{{ .Params.oneLineDescription }}</p>
-            <h6 class="card-title">${{ .Params.price }}</h6>
-            <a href="{{ .URL }}" class="btn btn-primary">Learn More</a>
-            <a href="{{ .Params.freedomMerchantsLink }}" target="_blank" class="btn btn-primary ml-2">Buy Now</a>
-          </div>
-        </div>
+<section>
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-lg-4">
+        <h1 class="display-4">
+          Cornhole
+        </h1>
+        <p class="lead">
+          Our Bestseller!
+        </p>
+        <hr class="my-4">
+        <p>
+          Wood cornhole, with custom laser engraved tops.
+        </p>
+        <a class="btn btn-primary btn-lg" href="/store/custom-cornhole/" role="button">Learn more</a>
       </div>
-
-    {{ end }}
-
-  </section>
-
-  <div class="jumbotron py-3">
-    <h2 class="display-4">Can't find what you're looking for?</h2>
-    <p class="lead">
-      Learn more about our custom creations!
-    </p>
-    <a class="btn btn-primary btn-lg" href="/jobshopforindividuals" role="button">
-      Learn More
-    </a>
+      <div class="col-lg-8">
+        <img src="\img\cornhole-collage-700x285.png">
+      </div>
+    </div>
   </div>
-  
+</section>
+
+<section class="row mt-4">
+
+  {{ range .Pages }}
+  <div class="col-lg-4 col-md-6 pb-3">
+    <div class="card">
+      <a href="{{ .URL }}">
+        <img class="card-img-top" src="{{ .Params.productImage }}" alt="Card image cap">
+      </a>
+      <div class="card-body">
+        <a href="{{ .URL }}">
+          <h5 class="card-title">{{ .Title }}</h5>
+        </a>
+        <p class="card-text">{{ .Params.oneLineDescription }}</p>
+        <h6 class="card-title">${{ .Params.price }}</h6>
+        <a href="{{ .URL }}" class="btn btn-primary">Learn More</a>
+        <a href="{{ .Params.freedomMerchantsLink }}" target="_blank" class="btn btn-primary ml-2">Buy Now</a>
+      </div>
+    </div>
+  </div>
+
+  {{ end }}
+
+</section>
+
+<div class="jumbotron py-3">
+  <h2 class="display-4">Can't find what you're looking for?</h2>
+  <p class="lead">
+    Learn more about our custom creations!
+  </p>
+  <a class="btn btn-primary btn-lg" href="/jobshopforindividuals" role="button">
+    Learn More
+  </a>
+</div>
+
 {{ end }}
