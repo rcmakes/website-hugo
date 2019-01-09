@@ -13,8 +13,8 @@
         </p>
         <hr class="my-4">
         <p>
-          Everyone wants something made just for them. Pick from any number of customizable items that are made to
-          order so that you know that your product is one one of a kind.
+          Everyone wants something made just for them. Pick from any number of customizable items that are made to order so that you
+          know that your product is one one of a kind.
         </p>
         <p class="lead">
           <a class="btn btn-primary btn-lg" href="#" role="button">
@@ -70,8 +70,31 @@
 
   </div>
 
-  <hr>
+  <section>
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-lg-4">
+          <h1 class="display-4">
+            Cornhole
+          </h1>
+          <p class="lead">
+            Our Bestseller!
+          </p>
+          <hr class="my-4">
+          <p>
+            Wood cornhole, with custom laser engraved tops.
+          </p>
+          <a class="btn btn-primary btn-lg" href="/store/custom-cornhole/" role="button">Learn more</a>
+        </div>
+        <div class="col-lg-8">
+          <img src="\img\cornhole-collage-700x285.png">
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <hr>
+  
   <div class="row">
 
     <div class="col-lg-12">
@@ -81,17 +104,17 @@
     </div>
 
     {{ range .Pages }}
-      <div class="col-lg-6 my-3">
-        <div class="card">
-          <img class="card-img-top" src="/img/{{ .Params.image }}" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">{{ .Title }}</h5>
-            <h6 class="card-subtitle mb-2 text-muted">{{ .Params.subTitle }}</h6>
-            <p class="card-text">{{ .Content }}</p>
-            <a href="{{ .URL }}" class="btn btn-primary">Learn More</a>
-          </div>
+    <div class="col-lg-6 my-3">
+      <div class="card">
+        <img class="card-img-top" src="/img/{{ .Params.image }}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">{{ .Title }}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">{{ .Params.subTitle }}</h6>
+          <p class="card-text">{{ .Content }}</p>
+          <a href="{{ .URL }}" class="btn btn-primary">Learn More</a>
         </div>
       </div>
+    </div>
     {{ end }}
   </div>
 
