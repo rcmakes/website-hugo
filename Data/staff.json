@@ -2,23 +2,127 @@
   "semesters": [
     {
       "semesterTitle": "Spring 2018",
-      "students": ["Karina Arteaga", "Sebastian Baehr", "Alex Cano", "Cooper D'Inca", "Dwight Diesmo", "Melanie Elenes", "Ricardo Estrada", "Samantha Gronwald", "Jaquelin Guzman", "Maddy Hood", "Daniel Jilani", "Tatum Maggiore", "Arianna Mangubat", "Nicolas Marselian", "Zach Menes", "Tori Nardoni", "Sam Northrup", "Sam Ott", "Abby Pritchett", "Daniela Del Toro Ramirez", "Zane Reis", "Tanner Rompal", "Noah Roth", "Cameron Rust", "Sophia Scipione", "Nicholas Slone", "Keaten Smith", "Nash Stephenson", "Cody Sylvester", "Jake Sylvester", "Sophie Taylor", "Mia Yates", "Caden Ziegler"]
+      "students": [
+        "Karina Arteaga",
+        "Sebastian Baehr",
+        "Alex Cano",
+        "Cooper D'Inca",
+        "Dwight Diesmo",
+        "Melanie Elenes",
+        "Ricardo Estrada",
+        "Samantha Gronwald",
+        "Jaquelin Guzman",
+        "Maddy Hood",
+        "Daniel Jilani",
+        "Tatum Maggiore",
+        "Arianna Mangubat",
+        "Nicolas Marselian",
+        "Zach Menes",
+        "Tori Nardoni",
+        "Sam Northrup",
+        "Sam Ott",
+        "Abby Pritchett",
+        "Daniela Del Toro Ramirez",
+        "Zane Reis",
+        "Tanner Rompal",
+        "Noah Roth",
+        "Cameron Rust",
+        "Sophia Scipione",
+        "Nicholas Slone",
+        "Keaten Smith",
+        "Nash Stephenson",
+        "Cody Sylvester",
+        "Jake Sylvester",
+        "Sophie Taylor",
+        "Mia Yates",
+        "Caden Ziegler"
+      ]
     },
     {
       "semesterTitle": "Winter 2017",
-      "students": ["Ima Monarch", "Student 2"]
+      "students": [
+        "Karina Arteaga",
+        "Sebastian Baehr",
+        "Cooper D'Inca",
+        "Dwight Diesmo",
+        "Jaquelin Guzman",
+        "Melanie Elenes",
+        "Ricardo Estrada",
+        "Maddy Hood",
+        "Daniel Jilani",
+        "Arianna Mangubat",
+        "Nicolas Marselian",
+        "Tori Nardoni",
+        "Sophia Scipione",
+        "Keaten Smith",
+        "Nash Stephenson",
+        "Cody Sylvester",
+        "Jake Sylvester",
+        "Sophie Taylor",
+        "Caden Ziegler"
+      ]
     },
     {
       "semesterTitle": "Fall 2017",
-      "students": ["Ima Monarch", "Student 2"]
+      "students": [
+        "Daniel Jilani",
+        "Isabella Herrick",
+        "Melanie Elenes",
+        "Nicolas Marselian",
+        "Ricardo Estrada",
+        "Sophia Scipione",
+        "Caden Ziegler",
+        "Cooper D'Inca",
+        "Dwight Diesmo",
+        "Lilah Guerra",
+        "Sebastian Baehr",
+        "Sophie Taylor",
+        "Tori Nardoni"
+      ]
     },
     {
       "semesterTitle": "Summer 2017",
-      "students": ["Ima Monarch", "Student 2"]
+      "students": [
+        "Sebastian Baehr",
+        "Andrea Marie Batoon",
+        "Cooper D'Inca",
+        "Wyatt Damon",
+        "Dwight Diesmo",
+        "Melanie Elenes",
+        "Ricardo Estrada",
+        "Lilah Guerra",
+        "Kaitlyn Hannigan",
+        "Isabella Herrick",
+        "Daniel Jilani",
+        "Alan Lee",
+        "Nicolas Marselian",
+        "Asha Nahas",
+        "Tori Nardoni",
+        "Sophia Scipione",
+        "Sophie Taylor",
+        "Caden Ziegler"
+      ]
     },
     {
       "semesterTitle": "Spring 2017",
-      "students": ["Ima Monarch", "Student 2"]
+      "students": [
+        "Kellen Barsley",
+        "Jackson Cipriano",
+        "Wyatt Damon",
+        "Melanie Elenes",
+        "Ricardo Estrada",
+        "Evan Freer",
+        "Isabella Herrick",
+        "Andy Infante",
+        "Alan Lee",
+        "Daniel Jilani",
+        "Jose Marmolejo",
+        "Nicolas Marselian",
+        "Atharva Nanodkar",
+        "Jayson Rosete",
+        "Sophia Scipione",
+        "Carlos Torres"
+      ]
     }
   ]
 }
