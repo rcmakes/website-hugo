@@ -1,6 +1,40 @@
 {
   "semesters": [
     {
+      "semesterTitle": "Summer 2018",
+      "students": [
+        "Karina Arteaga",
+        "Sebastian Baehr",
+        "Angela Batoon",
+        "Alex Cano",
+        "Jeremy Carroll",
+        "Aiden Clark",
+        "Aidan Compton",
+        "Dwight Diesmo",
+        "C.J. DuHamel",
+        "Melanie Elenes",
+        "Ricardo Estrada",
+        "Tiare Gulsvig",
+        "Isabella Herrick",
+        "Daniel Jilani",
+        "Jackson Kaiser",
+        "Sam Kristofferson",
+        "Nicolas Marselian",
+        "Zach Menes",
+        "Sage Mertes",
+        "Jake Needham",
+        "Anthony Paulo",
+        "Abby Pritchett",
+        "Tanner Rompal",
+        "Sophia Scipione",
+        "Cody Sylvester",
+        "Jake Sylvester",
+        "Sophie Taylor",
+        "Ceceli Wong",
+        "Caden Ziegler"
+      ]
+    },
+    {
       "semesterTitle": "Spring 2018",
       "students": [
         "Karina Arteaga",
