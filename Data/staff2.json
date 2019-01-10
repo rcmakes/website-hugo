@@ -1,0 +1,25 @@
+{
+  "semesters": [
+    {
+      "semesterFiveTitle": "Spring 2018",
+      "students5": ["Karina Arteaga", "Sebastian Baehr", "Alex Cano", "Cooper D'Inca", "Dwight Diesmo", "Melanie Elenes", "Ricardo Estrada", "Samantha Gronwald", "Jaquelin Guzman", "Maddy Hood", "Daniel Jilani", "Tatum Maggiore", "Arianna Mangubat", "Nicolas Marselian", "Zach Menes", "Tori Nardoni", "Sam Northrup", "Sam Ott", "Abby Pritchett", "Daniela Del Toro Ramirez", "Zane Reis", "Tanner Rompal", "Noah Roth", "Cameron Rust", "Sophia Scipione", "Nicholas Slone", "Keaten Smith", "Nash Stephenson", "Cody Sylvester", "Jake Sylvester", "Sophie Taylor", "Mia Yates", "Caden Ziegler"]
+    },
+    {
+      "semesterFourTitle": "Winter 2017",
+      "students4": ["Ima Monarch", "Student 2"]
+    },
+    {
+      "semesterThreeTitle": "Fall 2017",
+      "students3": ["Ima Monarch", "Student 2"]
+    },
+    {
+      "semesterTwoTitle": "Summer 2017",
+      "students2": ["Ima Monarch", "Student 2"]
+    },
+    {
+      "semesterOneTitle": "Spring 2017",
+      "students1": ["Ima Monarch", "Student 2"]
+    }
+  ]
+
+}
