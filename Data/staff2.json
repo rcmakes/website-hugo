@@ -2,7 +2,7 @@
   "semesters": [
     {
       "semesterFiveTitle": "Spring 2018",
-      "students5": ["Karina Arteaga", "Sebastian Baehr", "Alex Cano", "Cooper D'Inca", "Dwight Diesmo", "Melanie Elenes", "Ricardo Estrada", "Samantha Gronwald", "Jaquelin Guzman", "Maddy Hood", "Daniel Jilani", "Tatum Maggiore", "Arianna Mangubat", "Nicolas Marselian", "Zach Menes", "Tori Nardoni", "Sam Northrup", "Sam Ott", "Abby Pritchett", "Daniela Del Toro Ramirez", "Zane Reis", "Tanner Rompal", "Noah Roth", "Cameron Rust", "Sophia Scipione", "Nicholas Slone", "Keaten Smith", "Nash Stephenson", "Cody Sylvester", "Jake Sylvester", "Sophie Taylor", "Mia Yates", "Caden Ziegler"]
+      "students": ["Karina Arteaga", "Sebastian Baehr", "Alex Cano", "Cooper D'Inca", "Dwight Diesmo", "Melanie Elenes", "Ricardo Estrada", "Samantha Gronwald", "Jaquelin Guzman", "Maddy Hood", "Daniel Jilani", "Tatum Maggiore", "Arianna Mangubat", "Nicolas Marselian", "Zach Menes", "Tori Nardoni", "Sam Northrup", "Sam Ott", "Abby Pritchett", "Daniela Del Toro Ramirez", "Zane Reis", "Tanner Rompal", "Noah Roth", "Cameron Rust", "Sophia Scipione", "Nicholas Slone", "Keaten Smith", "Nash Stephenson", "Cody Sylvester", "Jake Sylvester", "Sophie Taylor", "Mia Yates", "Caden Ziegler"]
     },
     {
       "semesterFourTitle": "Winter 2017",
