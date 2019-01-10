@@ -2,132 +2,35 @@
 <section>
     <div class="row">
         <div class="col-lg-12">
-            <center>
-                <h1 class="display-3">
-                    RCMakes Staff
-                </h1>
-            </center>
+            <h1 class="display-3">
+                Our Intern Alumni
+            </h1>
         </div>
     </div>
 
-    <div class="row pb-3">
-        <div class="col-lg-12">
-            <br>
-            <center>
-                {{ range .Site.Data.staff2.semesters }}
-                <h4 class="display-4">
-                    {{ .semesterFiveTitle }}
-                </h4>
-                {{ end }}
-            </center>
-        </div>
-    </div>
-    <div class="row">
-            <p>
-                {{ range .Site.Data.staff2.semesters }}
-                <div class="col-lg-2 col-md-2 pb-3">
-                    <center>
-                        {{ .students5 }}
-                    </center>
-                </div>
-                {{ end }}
-            </p>
-    </div>
-
-    <div class="row pb-3">
-        <div class="col-lg-12">
-            <br>
-            <center>
-                {{ range .Site.Data.staff2.semesters }}
-                <h4 class="display-4">
-                    {{ .semesterFourTitle }}
-                </h4>
-                {{ end }}
-            </center>
-        </div>
-    </div>
-    <div class="row">
-        <p>
-            {{ range .Site.Data.staff.winter2017 }}
-            <div class="col-lg-2 col-md-2 pb-3">
-                <center>
-                    {{ .Name }}
-                </center>
+    
+    {{ range .Site.Data.staff.semesters }}
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>
+                    {{ .semesterTitle }}
+                </h2>
             </div>
-            {{ end }}
-        </p>
-    </div>
-
-    <div class="row pb-3">
-        <div class="col-lg-12">
-            <br>
-            <center>
-                {{ range .Site.Data.staff2.semesters }}
-                <h4 class="display-4">
-                    {{ .semesterThreeTitle }}
-                </h4>
-                {{ end }}
-            </center>
         </div>
-    </div>
-    <div class="row">
-        <p>
-            {{ range .Site.Data.staff.fall2017 }}
-            <div class="col-lg-2 col-md-2 pb-3">
-                <center>
-                    {{ .Name }}
-                </center>
-            </div>
-            {{ end }}
-        </p>
-    </div>
-
-    <div class="row pb-3">
-        <div class="col-lg-12">
-            <br>
-            <center>
-                {{ range .Site.Data.staff2.semesters }}
-                <h4 class="display-4">
-                    {{ .semesterTwoTitle }}
-                </h4>
+        <div class="row">
+            {{ range .students }}
+                    <div class="col-lg-3">
+                        {{ . }}
+                    </div>
                 {{ end }}
-            </center>
-        </div>
-    </div>
-    <div class="row">
-        <p>
-            {{ range .Site.Data.staff.summer2017 }}
-            <div class="col-lg-2 col-md-2 pb-3">
-                <center>
-                    {{ .Name }}
-                </center>
-            </div>
-            {{ end }}
-        </p>
-    </div>
 
-    <div class="row pb-3">
-        <div class="col-lg-12">
-            <br>
-            <center>
-                {{ range .Site.Data.staff2.semesters }}
-                <h4 class="display-4">
-                    {{ .semesterOneTitle }}
-                </h4>
-                {{ end }}
-            </center>
         </div>
-    </div>
-    <div class="row">
-        <p>
-            {{ range .Site.Data.staff.spring2017 }}
-            <div class="col-lg-2 col-md-2 pb-3">
-                <center>
-                    {{ .Name }}
-                </center>
-            </div>
-            {{ end }}
-        </p>
-    </div>
+        <hr>
+    {{ end }}
+                
+
+    
+
+    
 </section>
 {{ end }}
