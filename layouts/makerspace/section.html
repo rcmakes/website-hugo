@@ -77,6 +77,21 @@
         <h1>Previous Projects</h1>
       </div>
       <div class="row">
+        {{ range .Pages }}
+          <div class="col-lg-6 my-3">
+            <div class="card">
+              <img class="card-img-top" src="/img/{{ .Params.image }}" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">{{ .Title }}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">{{ .Params.subTitle }}</h6>
+                <!-- <p class="card-text">{{ .Content }}</p> -->
+                <!-- <a href="{{ .URL }}" class="btn btn-primary">Learn More</a> -->
+              </div>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+      <!-- <div class="row">
         <div class="col-lg-6 my-3">
           <div class="card">
             <img class="card-img-top" src="/img/leatherwork-3955 x 2966.jpeg" alt="Card image cap">
@@ -96,7 +111,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
 </section>
 
