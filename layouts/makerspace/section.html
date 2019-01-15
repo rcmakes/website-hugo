@@ -43,6 +43,8 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -52,21 +54,15 @@
                     <p>Our wide variety of classic woodworking tools makes any project doable</p>
                   </div>
                 </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="/img/rcmakes-laser-engrave.jpg" alt="Second slide">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Laser Cutter</h5>
-                    <p>We combine first class ingenuity with front of the line engineering that is perfect for a wide
-                      range of projects</p>
+                {{ range .Pages }}
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="/img/{{ .Params.image }}" alt="Slide">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>{{ .Title }}</h5>
+                      <p>{{ .Params.subTitle }}</p>
+                    </div>
                   </div>
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="/img/3d-print-makerspace-5333x3999.jpeg" alt="Third slide">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>3D Printers</h5>
-                    <p>With our CAD software 3D printing has never been easier</p>
-                  </div>
-                </div>
+                {{ end }}
               </div>
               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
