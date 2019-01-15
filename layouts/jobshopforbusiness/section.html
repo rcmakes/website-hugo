@@ -18,15 +18,15 @@
   </p>
 </div>
 
-<section class="row">
-  <div class="col-lg-6">
+<section class="row mb-4">
+  <div class="col-lg-6 mb-4">
 
-    <h2 class="display-4">
+    <h2 class="display-4 mb-3">
       Customers
     </h2>
 
     <!-- Start of carousel area -->
-    <div id="customersCarouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="customersCarouselExampleIndicators" class="carousel slide mb-2" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#customersCarouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#customersCarouselExampleIndicators" data-slide-to="1"></li>
@@ -74,14 +74,14 @@
 
   </div>
 
-  <div class="col-lg-6">
+  <div class="col-lg-6 mb-4">
 
-    <h2 class="display-4">
+    <h2 class="display-4 mb-3">
       Capabilities
     </h2>
 
     <!-- Start of carousel area -->
-    <div id="capabilitiesCarouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="capabilitiesCarouselExampleIndicators" class="carousel slide mb-2" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#capabilitiesCarouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#capabilitiesCarouselExampleIndicators" data-slide-to="1"></li>
@@ -162,70 +162,6 @@
   </div>
 </section>
 
-<section class="row">
-  <div class="col-lg-12 pb-2">
-    <h2>
-      Services
-    </h2>
-  </div>
-</section>
-<div class="row pb-4">
-  <div class="col-lg-6 my-flex-item">
-    <!-- Start of carousel area -->
-    <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators1" data-slide-to="3"></li>
-        <li data-target="#carouselExampleIndicators1" data-slide-to="4"></li>
-        <li data-target="#carouselExampleIndicators1" data-slide-to="5"></li>
-      </ol>
-      
-      <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-    <!-- End of carousel area -->
-  </div>
-  <div class="col-lg-6 align-self-center">
-    <p class="lead">
-      Here at RCMakes we have a plethora of services to offer to you and your business. Here are some of the most useful things.
-    </p>
-  </div>
-</div>
+<br> 
 
-<section class="row">
-  <div class="col-lg-12 pb-2">
-    <h2>
-      Past Projects
-    </h2>
-  </div>
-
-  {{ range .Pages }}
-  <div class="col-lg-4 pb-3">
-    <div class="card">
-      <img class="card-img-top" src="/img/{{ .Params.image }}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">{{ .Title }}</h5>
-        <h6 class="card-subtitle mb-2 text-muted">{{ .Params.subtitle }}</h6>
-        <p class="card-text">
-          {{ .Content }}
-        </p>
-        <a href="{{ .Params.link }}" class="btn btn-primary">View Details</a>
-      </div>
-    </div>
-  </div>
-  {{ end }}
-</section>
-
-<br>
-<br>
-<hr class="my-4" , color="black">
-<br>
-<br> {{ partial "clients" . }} {{ end }}
+{{ partial "clients" . }} {{ end }}
