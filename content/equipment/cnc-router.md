@@ -3,7 +3,7 @@ title: "CNC Router"
 date: 2018-09-18T16:14:47-07:00
 draft: false
 
-photo: cnc-router.jpg
+photo: cnc-router-800x800.jpg
 ---
 
 ##### Safety Guidelines:

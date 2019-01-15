@@ -3,7 +3,7 @@ title: "Cold Saw"
 date: 2018-09-11T16:55:09-07:00
 draft: false
 
-photo: cold-saw-1.jpg
+photo: cold-saw-830x830.jpg
 ---
 ##### How to Use
 1. To your right on the wall behind the cold saw, there is a white box with a switch, flip the switch up.

@@ -3,7 +3,7 @@ title: "Bench Grinder"
 date: 2018-09-11T19:35:49-07:00
 draft: false
 
-photo: bench-grinder.jpg
+photo: bench-grinder-1000x1000.jpg
 ---
 
 ##### Safety Guidelines:

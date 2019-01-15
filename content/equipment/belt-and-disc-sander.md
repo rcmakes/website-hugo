@@ -3,7 +3,7 @@ title: "Belt and Disc Sander"
 date: 2018-09-11T16:22:11-07:00
 draft: false
 
-photo: belt-and-disc-sander.jpg
+photo: belt-and-disc-sander-1500x1500.jpg
 
 ---
 
