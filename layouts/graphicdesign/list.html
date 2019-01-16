@@ -6,40 +6,54 @@
 
     <div class="jumbotron py-3">
       <div class="row">
-        <div class="col-lg-1">
-          <img src="\img\expanded-learning-no-text-logo-70x76.png">
+        <div class="col-lg-1 align-self-center">
+          <img src="\img\graphic-design-logo-66x66.png">
         </div>
-        <div class="col-lg-9">
-          <h1 class="display-4">
+        <div class="col-lg-10">
+          <h1 class="display-4 align-self-center">
             {{ .Title }}
           </h1>
         </div>
       </div>
-        <p class="lead pt-3">Learn by Doing</p>
-        <hr class="my-4">
-        <p>
-          We offer supplemental workshops that expand on what is taught in the classroom. Students gain valuable knowledge and skills they can apply to both the classroom and their career. Workshops are led by student interns with subject-matter expertise.
-        </p>
+      <p class="lead pt-1">
+        Profesionally-designed artwork for your business
+      </p>
+      <hr class="my-4">
+      <p>
+        We create work for the web, social media, and print.
+      </p>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-lg-6 pb-2">
+              <a class="btn btn-primary btn-lg" href="/contact" role="button">Request a Free Consultation</a>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+  </div>
+</div>
 
+<div class="row">
+  <div class="col-lg-12">
+    <h1 class="display-4 mb-4">
+      Portfolio
+    </h1>
   </div>
 </div>
 
 <div class="row">
   {{ range .Pages.ByDate }}
-  <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
+  <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch pb-2">
     <div class="card">
-      <img class="card-img-top" src="/img/{{ .Params.image }}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">{{ .Title }}</h5>
-        <h6 class="card-subtitle mb-2 text-muted">{{ .Params.subtitle }}</h6>
-        <p class="card-text">
-          {{ .Content }}
-        </p>
-        <a href="{{ .URL }}" class="btn btn-primary">View Details</a>
+      <img class="card-img-top" src="{{ .Params.image }}" alt="Card image cap">
+      <div class="card-body d-flex align-items-end  mt-1 mb-0 py-0">
+        <div class="card-body">
+          <h6 class="card-subtitle mb-0 pb-0"> Client: {{ .Params.client }}</h6>
+        </div>
       </div>
     </div>
-
   </div>
   {{ end }}
 </div>
