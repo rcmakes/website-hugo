@@ -6,8 +6,8 @@
   <section class="row mt-4">
 
     {{ range .Pages }}
-      <div class="col-lg-4 col-md-6 pb-3 d-flex align-items-stretch">
-        <div class="card">
+      <div class="col-lg-4 col-md-6 pb-3 mb-3 d-flex align-items-stretch">
+        <div class="card pb-2">
           <a href="{{ .URL }}">
             <img class="card-img-top" src="{{ .Params.productImage }}" alt="Card image cap">
           </a>
@@ -17,7 +17,7 @@
                 <h5 class="card-title">{{ .Title }}</h5>
               </a>
               <p class="card-text">{{ .Params.oneLineDescription }}</p>
-              <h6 class="card-title">${{ .Params.price }}</h6>
+              <h5 class="card-title mb-3">${{ .Params.price }}</h5>
               <a href="{{ .URL }}" class="btn btn-primary">Learn More</a>
               <a href="{{ .Params.freedomMerchantsLink }}" target="_blank" class="btn btn-primary ml-2">Buy Now</a>
             </div>
