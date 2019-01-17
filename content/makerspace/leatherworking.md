@@ -5,6 +5,6 @@ draft: false
 
 image: leatherwork-1978x1483.jpeg
 
-subTitle: Beautiful creations of leather
+subTitle: Customize your leather projects
 
 ---
