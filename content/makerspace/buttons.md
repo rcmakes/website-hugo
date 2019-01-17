@@ -5,6 +5,6 @@ draft: false
 
 image: 805strong-buttons-635x476.jpeg
 
-subTitle: Create custom buttons to your liking.
+subTitle: A fun and easy activity
 
 ---

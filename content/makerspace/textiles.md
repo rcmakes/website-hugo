@@ -5,6 +5,6 @@ draft: false
 
 image: sewing-2024x1518.jpeg
 
-subTitle: Make textiles with our sewing equipment
+subTitle: Customize your leather projects
 
 ---
