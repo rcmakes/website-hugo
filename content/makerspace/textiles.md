@@ -5,6 +5,6 @@ draft: false
 
 image: sewing-2024x1518.jpeg
 
-subTitle: Customize your leather projects
+subTitle: Perfect for any sewing projects
 
 ---
