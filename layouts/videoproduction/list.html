@@ -81,25 +81,12 @@
   </div>
   <!-- End of jumbotron/ carousel area -->
 
-  <!-- Start of youtube link area -->
-  <div>
-    <h2 class="display-4 pt-3">
-      Our YouTube Channel
-    </h2>
-  </div>
-  <hr>
-  <a href="https://www.youtube.com/channel/UC8FhniwG-OggTQB3WVC4j3Q" target="_blank">
-    <img class="border img-fluid mb-1" src="/img/youtube-channel-1106x588.png">
-  </a>
-  <!-- End of youtube link area -->
-
   <!-- Start of markdown list area -->
   <div>
-      <h2 class="display-4 pt-3">
+      <h2 class="display-4 mb-4">
           Portfolio
       </h2>
   </div>
-  <hr>
   <div class="row">
     {{ range .Pages.ByDate }}
       <div class="col-lg-6 col-md-6">
@@ -109,12 +96,23 @@
         <div class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src={{ .Params.embedLink }} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
-        <p class="pb-3">
+        <p class=" mt-1 pb-3">
           {{ .Params.videoDescription}}
         </p>
       </div>
     {{end}}
   </div>
   <!-- End of markdown list area -->
+
+<!-- Start of youtube link area -->
+  <div>
+    <h2 class="display-4 pt-3">
+      Our YouTube Channel
+    </h2>
+  </div>
+  <a href="https://www.youtube.com/channel/UC8FhniwG-OggTQB3WVC4j3Q" target="_blank">
+    <img class="border img-fluid mb-1" src="/img/youtube-channel-1106x588.png">
+  </a>
+  <!-- End of youtube link area -->
 
 {{ end }}
