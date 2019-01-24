@@ -1,28 +1,31 @@
 {{ define "main" }}
 
-<div class="row">
+<div class="jumbotron py-3">
+  
+  <div class="row">
 
-  <div class="col-lg-12">
-
-    <div class="jumbotron py-3">
-      <div class="row">
-        <div class="col-lg-1 my-flex-item">
-          <img src="\img\expanded-learning-transparent-logo-70x76.png">
+    <div class="col-lg-12">
+      
+      <div class="row pb-3">
+        <div class="col-lg-2 col-md-4 col-sm-6 col-6 my-2">
+          <img class="img-fluid" src="/logos/expanded-learning-logo.svg">
         </div>
-        <div class="col-lg-9 align-self-center">
-          <h1 class="display-4">
-            {{ .Title }}
-          </h1>
+        <div class="col-lg-10 col-md-8 my-2 align-self-center">
+          <h1 class="display-4">{{ .Title }}</h1>
         </div>
       </div>
-        <p class="lead pt-3">Learn by Doing</p>
-        <hr class="my-4">
-        <p>
-          We offer supplemental workshops that expand on what is taught in the classroom, including summer programs, after-school workshops led by student interns with subject-matter expertise, and special events. Students gain valuable knowledge and skills they can apply to both the classroom and their career.
-        </p>
-      </div>
+
+      <p class="lead pt-3">Learn by Doing</p>
+      <hr class="my-4">
+      <p>
+        We offer supplemental workshops that expand on what is taught in the classroom. Students gain valuable knowledge and skills they can apply to both the classroom and their career. Workshops are led by student interns with subject-matter expertise.
+      </p>
+      
+    </div>
+    
 
   </div>
+
 </div>
 
 <div class="row">
