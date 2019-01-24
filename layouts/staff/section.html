@@ -1,0 +1,35 @@
+{{ define "main" }}
+
+<section>
+    <div class="row mb-4">
+        <div class="col-lg-12">
+            <h1 class="display-3 text-center">
+                Our Intern Alumni
+            </h1>
+        </div>
+    </div>
+</section>
+
+<section>
+    {{ range .Site.Data.staff.semesters }}
+    <div class="row mt-4 mb-2">
+        <div class="col-lg-12">
+            <h2>
+                {{ .semesterTitle }}
+            </h2>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        {{ range .students }}
+        <div class="col-lg-3 col-md-4 col-6 mb-1">
+            {{ . }}
+        </div>
+        {{ end }}
+    </div>
+
+    <hr>
+    {{ end }}   
+</section>
+    
+{{ end }}
