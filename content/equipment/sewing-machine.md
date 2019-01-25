@@ -3,7 +3,7 @@ title: "Sewing Machine"
 date: 2018-09-12T16:39:52-07:00
 draft: false
 
-photo: Sewing-machine.jpg
+photo: Sewing-machine-2592x1944.jpg
 ---
 
 ##### How to Use:

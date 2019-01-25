@@ -11,15 +11,47 @@
       <li class="nav-item">
         <a class="nav-link" href="/makerspace">Makerspace</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/jobshopforbusiness">Jobshop For Businesses</a>
+
+      <!-- Jobshop Dropdown -->
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          id="jobshopNavbarDropdown"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Job Shop
+        </a>
+        <div class="dropdown-menu" aria-labelledby="jobshopNavbarDropdown">
+          <a class="dropdown-item" href="/jobshopforbusiness">For Businesses</a>
+          <a class="dropdown-item" href="/jobshopforindividuals"
+            >For Individuals</a
+          >
+        </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/jobshopforindividuals">Jobshop For Individuals</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/videoproduction">Video Production</a>
-      </li>
+
+      <!-- Services Dropdown -->
+
+      <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            id="servicesNavbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="servicesNavbarDropdown">
+            <a class="dropdown-item" href="/videoproduction">Video Production</a>
+            <a class="dropdown-item" href="/graphicdesign">Graphic Design</a>
+            <a class="dropdown-item" href="/softwaredevelopment">Software Development</a>
+          </div>
+        </li>
+
       <li class="nav-item">
         <a class="nav-link" href="/expandedlearning">Expanded Learning</a>
       </li>

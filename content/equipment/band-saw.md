@@ -3,7 +3,7 @@ title: "Band Saw"
 date: 2018-09-11T15:36:50-07:00
 draft: false
 
-photo: band-saw-1.jpg
+photo: band-saw-425x425.jpg
 
 videos: []
 ---
