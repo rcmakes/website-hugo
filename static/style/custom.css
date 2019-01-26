@@ -1,4 +1,17 @@
-.map-responsive{
+carousel-h5 {
+  color: rgba(255, 255, 255, 0.952);
+  text-shadow: 1px 1px 1px #000, 
+  3px 3px 5px rgb(17, 17, 17);
+  font-weight: bold;
+}
+
+carousel-p {
+  color: rgba(255, 255, 255, 0.952);
+  text-shadow: 1px 1px 1px #000, 
+  3px 3px 5px rgb(17, 17, 17);
+}
+
+map-responsive{
   overflow:hidden;
   padding-bottom:56.25%;
   position:relative;
