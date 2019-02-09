@@ -11,9 +11,6 @@ install:
 # clone the parent repository, note this is different from Parsia-Clone
 - git clone https://github.com/rcmakes/rcmakes.git
 - cd rcmakes
-# update and fetch submodules
-- git submodule init
-- git submodule update --recursive --remote
 
 script:
   # build the website with Hugo, output will be in public directory
