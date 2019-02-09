@@ -11,3 +11,11 @@
   3px 3px 5px rgb(17, 17, 17);
 }
 
+/* menu dropdowns expand on hover */
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
