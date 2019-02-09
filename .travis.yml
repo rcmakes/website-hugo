@@ -5,9 +5,11 @@ node_js:
   
 install:
 # change this version as it goes up
+
 # get and install Hugo
 - wget https://github.com/gohugoio/hugo/releases/download/v0.53/hugo_0.53_Linux-64bit.deb
 - sudo dpkg -i hugo*.deb
+
 # clone the parent repository, note this is different from Parsia-Clone
 - git clone https://github.com/rcmakes/rcmakes.git
 - cd rcmakes
