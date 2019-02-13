@@ -2,20 +2,22 @@ language: node_js
 # use latest version of node
 node_js:
   - node
+  
 install:
 # change this version as it goes up
+
 # get and install Hugo
 - wget https://github.com/gohugoio/hugo/releases/download/v0.53/hugo_0.53_Linux-64bit.deb
 - sudo dpkg -i hugo*.deb
+
 # clone the parent repository, note this is different from Parsia-Clone
 - git clone https://github.com/rcmakes/rcmakes.git
 - cd rcmakes
-# update and fetch submodules
-- git submodule init
-- git submodule update --recursive --remote
+
 script:
   # build the website with Hugo, output will be in public directory
   - hugo
+
 deploy:
   provider: s3
 
