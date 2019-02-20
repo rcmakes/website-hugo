@@ -3,6 +3,9 @@ title: "Bench Grinder"
 date: 2018-09-11T19:35:49-07:00
 draft: false
 
+aliases:
+    - /bench_grinder.html
+
 photo: bench-grinder-1000x1000.jpg
 ---
 

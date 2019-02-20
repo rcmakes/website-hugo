@@ -3,6 +3,9 @@ title: "Cabinet Saw"
 date: 2018-09-11T19:13:25-07:00
 draft: false
 
+aliases:
+    - /cabinet_saw.html
+
 photo: cabinet-saw-1500x1090.jpg
 ---
 
