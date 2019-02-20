@@ -3,6 +3,9 @@ title: "Laser Cutter"
 date: 2018-09-18T15:33:11-07:00
 draft: false
 
+aliases:
+    - /laser.html
+
 photo: laser-cutter-802x802.png
 
 ---
