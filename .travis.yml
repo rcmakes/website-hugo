@@ -38,8 +38,9 @@ deploy:
 
     # deploy develop branch to GitHub Pages
   - provider: pages
-    skip-cleanup: true
     github-token: $GITHUB_TOKEN  # this environment variable stored on Travis website
-    keep-history: true # Deploying to GitHub Pages uses git push --force to overwrite the history on the target branch. This disable this “force push” behavior
+    local_dir: public
     on:
       branch: develop
+    skip-cleanup: true
+    keep-history: true # Deploying to GitHub Pages uses git push --force to overwrite the history on the target branch. This disable this “force push” behavior
