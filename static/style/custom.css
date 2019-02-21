@@ -25,7 +25,23 @@
   line-height: 1.2;
 }
 
-@media (max-width: 470px) {
+@media (max-width: 300px) {
+  .display-responsive {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 301px) and (max-width: 360px) {
+  .display-responsive {
+    font-size: 2.0rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 470px) {
   .display-responsive {
     font-size: 2.5rem;
     font-weight: 300;
@@ -33,11 +49,12 @@
   }
 }
 
-@media (min-width: 470px) {
+@media (min-width: 471px) {
   .display-responsive {
     font-size: 3.5rem;
     font-weight: 300;
     line-height: 1.2;
   }
 }
+
 
