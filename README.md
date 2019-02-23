@@ -57,3 +57,9 @@ Use [kebab case](http://wiki.c2.com/?KebabCase), and all characters must be lowe
 Images must have the resolution in the file name.
 
 Ex: `cornhole-custom1200x900.jpg`
+
+## AWS
+
+# S3
+
+Bucket: http://rcmakes.com.s3-website-us-west-1.amazonaws.com
