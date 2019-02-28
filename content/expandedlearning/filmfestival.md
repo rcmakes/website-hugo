@@ -3,7 +3,7 @@ title: "Film Festival"
 date: 2018-12-15T09:04:42-08:00
 draft: false
 
-subtitle: "Student film festival"
+subtitle: "Student Film Festival"
 
 image: film-festival-1200x900.jpeg
 
@@ -20,5 +20,3 @@ instructors: [
 
 registrationInstructions: "https://goo.gl/czQ5Df"
 ---
-
-Subscribe to our newsletter for updates.
