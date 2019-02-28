@@ -6,6 +6,7 @@ draft: false
 aliases:
     - /drill_press.html
     - /drill-press/
+    - /scrool_saw.html
 
 photo: drill-press-786x634.jpg
 ---
