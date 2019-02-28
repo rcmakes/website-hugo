@@ -18,5 +18,6 @@ cost:
 instructors: [
 ]
 
-registrationInstructions: "https://goo.gl/czQ5Df"
+registrationInstructions: 
 ---
+Attention all high school student writers, directors, and editors of all levels of experience! Here is your opportunity to show us what you got! Hosted by RCMakes and RCHS Film Club, there will be a #FilmFestival on March 24th at Rancho Campana High School. Participants may fill out [this form](https://goo.gl/forms/760yT8PAx7OxNjH42) if they are interested in making a film for a chance to win $300, $225, or $150. Get filming
