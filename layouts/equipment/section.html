@@ -1,9 +1,13 @@
 {{ define "main" }}
 <h1> {{ .Title }} </h1>
 
+<hr>
+
+<h2 class="text-center">Woodworking</h2>
+
 <section class="row mt-4">
 
-  {{ range .Pages }}
+  {{ range .Site.Taxonomies.tags.woodworking }}
   <div class="col-lg-4 col-md-6 mb-3 d-flex align-items-stretch">
     <div class="card">
       <a href="{{ .URL }}">
@@ -25,6 +29,62 @@
   </div>
 
   {{ end }}
+
+</section>
+
+<h2 class="text-center">Metalworking</h2>
+
+<section class="row mt-4">
+  {{ range .Site.Taxonomies.tags.metalworking }}
+  <div class="col-lg-4 col-md-6 mb-3 d-flex align-items-stretch">
+    <div class="card">
+      <a href="{{ .URL }}">
+        <img class="card-img-top" src="/equipment/{{ .Params.photo }}" alt="Card image cap">
+      </a>
+      <div class="card-body d-flex align-items-end">
+        <div class="col">
+          <div class="row">
+            <a href="{{ .URL }}">
+              <h5 class="card-title">{{ .Title }}</h5>
+            </a>
+          </div>
+          <div class="row">
+            <a href="{{ .URL }}" class="btn btn-primary">View Instructions</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {{ end }} 
+
+</section>
+
+<h2 class="text-center">Other</h2>
+
+<section class="row mt-4">
+  {{ range .Site.Taxonomies.tags.other }}
+  <div class="col-lg-4 col-md-6 mb-3 d-flex align-items-stretch">
+    <div class="card">
+      <a href="{{ .URL }}">
+        <img class="card-img-top" src="/equipment/{{ .Params.photo }}" alt="Card image cap">
+      </a>
+      <div class="card-body d-flex align-items-end">
+        <div class="col">
+          <div class="row">
+            <a href="{{ .URL }}">
+              <h5 class="card-title">{{ .Title }}</h5>
+            </a>
+          </div>
+          <div class="row">
+            <a href="{{ .URL }}" class="btn btn-primary">View Instructions</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {{ end }} 
 
 </section>
 
