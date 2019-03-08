@@ -2,6 +2,7 @@
 title: "Laser Cutter"
 date: 2018-09-18T15:33:11-07:00
 draft: false
+tags: ["woodworking"] 
 
 aliases:
     - /laser.html

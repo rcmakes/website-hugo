@@ -2,6 +2,7 @@
 title: "Band Saw"
 date: 2018-09-11T15:36:50-07:00
 draft: false
+tags: ["woodworking"]
 
 aliases:
     - /band_saw.html

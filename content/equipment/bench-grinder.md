@@ -2,6 +2,7 @@
 title: "Bench Grinder"
 date: 2018-09-11T19:35:49-07:00
 draft: false
+tags: ["metalworking"]
 
 aliases:
     - /bench_grinder.html
