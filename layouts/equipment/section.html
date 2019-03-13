@@ -1,14 +1,12 @@
 {{ define "main" }}
 <h1> {{ .Title }} </h1>
 
-<hr>
-
-<h2 class="text-center">Woodworking</h2>
+<h2 class="mt-4">Woodworking</h2>
 
 <section class="row mt-4">
 
   {{ range .Site.Taxonomies.tags.woodworking }}
-  <div class="col-lg-4 col-md-6 mb-3 d-flex align-items-stretch">
+  <div class="col-lg-3 col-md-6 my-3 d-flex align-items-stretch">
     <div class="card">
       <a href="{{ .URL }}">
         <img class="card-img-top" src="/equipment/{{ .Params.photo }}" alt="Card image cap">
@@ -32,11 +30,11 @@
 
 </section>
 
-<h2 class="text-center">Metalworking</h2>
+<h2 class="mt-4">Metalworking</h2>
 
 <section class="row mt-4">
   {{ range .Site.Taxonomies.tags.metalworking }}
-  <div class="col-lg-4 col-md-6 mb-3 d-flex align-items-stretch">
+  <div class="col-lg-3 col-md-6 my-3 d-flex align-items-stretch">
     <div class="card">
       <a href="{{ .URL }}">
         <img class="card-img-top" src="/equipment/{{ .Params.photo }}" alt="Card image cap">
@@ -60,11 +58,11 @@
 
 </section>
 
-<h2 class="text-center">Other</h2>
+<h2 class="mt-4">Other</h2>
 
 <section class="row mt-4">
   {{ range .Site.Taxonomies.tags.other }}
-  <div class="col-lg-4 col-md-6 mb-3 d-flex align-items-stretch">
+  <div class="col-lg-3 col-md-6 my-3 d-flex align-items-stretch">
     <div class="card">
       <a href="{{ .URL }}">
         <img class="card-img-top" src="/equipment/{{ .Params.photo }}" alt="Card image cap">
