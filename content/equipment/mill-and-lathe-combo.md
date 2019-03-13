@@ -2,6 +2,7 @@
 title: "Mill and Lathe Combo"
 date: 2018-09-12T16:20:32-07:00
 draft: false
+tags: ["metalworking"]
 
 aliases:
     - /mill-lathe_combo.html

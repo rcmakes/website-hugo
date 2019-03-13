@@ -2,6 +2,7 @@
 title: "Wood Lathe"
 date: 2018-09-11T16:56:21-07:00
 draft: false
+tags: ["woodworking"]
 
 aliases:
     - /wood_lathe.html
