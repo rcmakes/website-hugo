@@ -2,7 +2,7 @@
 title: "Soldering Iron"
 date: 2018-09-11T16:56:21-07:00
 draft: false
-tags: ["metalworking"]
+tags: ["other"]
 
 aliases:
     - /soldering-iron.html
