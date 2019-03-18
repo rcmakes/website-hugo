@@ -15,7 +15,9 @@
     <div class="col-lg-4">
       <p>{{ .Params.oneLineDescription }}</p>
       <p>{{ .Content }}</p>
-      {{ partial "cornhole-carousel" . }}
+      {{ if isset .Params "carousel" }}
+        {{ partial "cornhole-carousel" . }}
+      {{ end }}
     </div>
 
     <div class="col-lg-4">
