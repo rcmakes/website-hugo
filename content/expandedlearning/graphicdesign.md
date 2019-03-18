@@ -16,7 +16,7 @@ datesTimes: [
   "May 23, 2019 - 3-4:30p "
    ]
 
-location: Mac Lab
+location: C3 Computer lab or Mac Lab
 
 cost: "$30 (For all classes)"
 
