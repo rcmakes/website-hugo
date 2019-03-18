@@ -5,7 +5,7 @@ draft: false
 
 subtitle: "Coming Fall 2019"
 
-image: TEDxRanchoCampanaHS7-cropped-507x380.jpg
+image: tedx-rancho-1400x1050.png
 
 datesTimes: [
    ]

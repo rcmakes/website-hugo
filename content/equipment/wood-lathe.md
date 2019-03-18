@@ -1,7 +1,11 @@
 ---
 title: "Wood Lathe"
 date: 2018-09-11T16:56:21-07:00
-draft: true
+draft: false
+tags: ["woodworking"]
+
+aliases:
+    - /wood_lathe.html
 
 photo: wood-lathe-1500x1500.jpg
 ---
@@ -15,7 +19,9 @@ photo: wood-lathe-1500x1500.jpg
 
 4. For the skew and other tools turn the speed up to between 1,000 and 1,200.
 
-5. For sanding and polishing, turn the speed up to at least 1800 rpm6. Hold the     tools with the point facing up and the handle down at a slight angle, if you      don’t, it will catch in between the wood and the support.
+5. For sanding and polishing, turn the speed up to at least 1800 rpm.
+
+6. Hold the     tools with the point facing up and the handle down at a slight angle, if you      don’t, it will catch in between the wood and the support.
 
 ##### Safety Guidelines:
 1. Follow all shop rules.
@@ -40,3 +46,24 @@ photo: wood-lathe-1500x1500.jpg
 
 ### Wood Lathe Tutorial
 {{< youtube N92XNewzrpc >}}
+
+
+
+### Wood Turnings Catches
+{{< youtube jOvF5f1phhY >}}
+
+
+
+### Bowl Turning: Part 1
+{{< youtube TIvROyV2n6w >}}
+
+
+
+### Bowl Turning: Part 2
+{{< youtube nPPvtP2bbkg >}}
+
+
+
+### Bowl Project
+{{< youtube aQylP1_KMtQ >}}
+

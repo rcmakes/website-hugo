@@ -4,11 +4,9 @@ rcmakes.com website built with Hugo static site builder
 
 `public/` folder uploaded to this git repository for deployment on GitHub pages: https://github.com/rcmakes/rcmakes.github.io
 
-Deployment of `develop` branch: http://rcmakes.github.io
-
 ## Viewing Your Changes
 
-`$ hugo server` to start the development server. Pass the `-D` flag to render drafts as well
+`$ hugo server` to start the development server.
 
 # Git Workflow
 
@@ -37,3 +35,39 @@ To keep track of who is working on what and avoid cluttering our branch namespac
 1. `ipn/updateCalendar` - uses camelcase and not kebab case
 2. `ajc-fix-dropdown-bug` - doen't have `/` to separate initials from branch name
 3. `fix-dropdown-bug` - doesn't have coder's initials
+
+### File Naming
+
+Use [kebab case](http://wiki.c2.com/?KebabCase), and all characters must be lowercase. No spaces or underscores.
+
+##### Examples:
+
+1. `/data`
+2. `summer-2018-interns-1200x900.jpg`
+3. `5-million-secured-for-newco-foundation.md`
+
+##### Not OK:
+
+1. `/Data` - uses titlecase
+2. `rcmakes_interns1200x900.jpg` - uses underscore
+3. `index.HTML` - all caps file extension
+
+### Images
+
+Images must have the resolution in the file name.
+
+Ex: `cornhole-custom1200x900.jpg`
+
+## AWS
+
+### S3 (Data Storage)
+
+Bucket: http://rcmakes.com.s3-website-us-west-1.amazonaws.com
+
+### CloudFront (Content Delivery Network serving over HTTPS)
+
+Distributions:
+1. rcmakes.com - https://d3hxlcmouehqb7.cloudfront.net
+2. www.rcmakes.com - https://d22qlhopn6e03v.cloudfront.net
+
+### Route 53 (DNS Management)

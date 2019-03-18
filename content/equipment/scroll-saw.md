@@ -2,6 +2,10 @@
 title: "Scroll Saw"
 date: 2018-09-18T16:13:49-07:00
 draft: false
+tags: ["woodworking"]
+
+aliases:
+    - /scroll_saw.html
 
 photo: scroll-saw-500x500.jpg
 ---

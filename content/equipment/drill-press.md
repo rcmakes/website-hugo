@@ -2,6 +2,12 @@
 title: "Drill Press"
 date: 2018-09-12T11:01:06-07:00
 draft: false
+tags: ["woodworking", "metalworking"]
+
+aliases:
+    - /drill_press.html
+    - /drill-press/
+    - /scrool_saw.html
 
 photo: drill-press-786x634.jpg
 ---
