@@ -5,20 +5,20 @@ draft: false
 
 subtitle: "Graphic Design Workshop"
 
-image: graphc-design-workshop-570x430.png
+image: graphic-design-workshop-570x430.png
 
 datesTimes: [ 
-  "April 11, 2019",
-  "April 25, 2019",
-  "May 2, 2019",
-  "May 9, 19",
-  "May 16, 2019",
-  "May 23, 2019"
+  "April 11, 2019 - 3-4:30p ",
+  "April 25, 2019 - 3-4:30p ",
+  "May 2, 2019 - 3-4:30p ",
+  "May 9, 19 - 3-4:30p ",
+  "May 16, 2019 - 3-4:30p ",
+  "May 23, 2019 - 3-4:30p "
    ]
 
-location: C3-Computer Lab
+location: Mac Lab
 
-cost: "$30"
+cost: "$30 (For all classes)"
 
 instructors: [
   "Angela Batoon, RCHS Sophomore",
