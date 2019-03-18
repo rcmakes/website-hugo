@@ -21,7 +21,7 @@ location: C3-Computer Lab
 cost: "$30"
 
 instructors: [
-  "Angela Batoon, RCHS Freshman",
+  "Angela Batoon, RCHS Sophmore",
   "Cecelia Wong, RCHS Junior"
 ]
 
