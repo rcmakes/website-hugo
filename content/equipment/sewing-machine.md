@@ -29,4 +29,6 @@ photo: emerald-118-sewing-machine-1884x1600.jpg
 #### How To: Set Up
 {{< youtube h4xeli62E68 >}}
 
-For more Information click <a href="https://www.youtube.com/watch?v=h4xeli62E68&list=PLvE6jwvXA4CHK20oZTnavYNH-r7HX_zd2&index=3" target="_blank">here</a>
+<br>
+
+<a href="https://www.youtube.com/watch?v=h4xeli62E68&list=PLvE6jwvXA4CHK20oZTnavYNH-r7HX_zd2&index=3" target="_blank">View more sewing machine instructional videos</a>
