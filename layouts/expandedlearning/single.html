@@ -19,23 +19,28 @@
       <div class="row">
 
         <div class="col-lg-6">
+          {{ if .Params.datesTimes }}
           <h6>Dates & Times</h6>
-            <p>
+          <p>
             {{ range .Params.datesTimes }}
-              {{ . }}
-              <br>
+            {{ . }}
+            <br>
             {{ end }}
-            </p>
-
+          </p>
+          {{ end }}
+          
+          {{ if .Params.Locations }}
           <h6>Location</h6>
           <p>
             {{ .Params.location}}
           </p>
+          {{ end }}
           
         </div>
 
         <div class="col-lg-6">
 
+          {{ if .Params.instructors }}
           <h6>
             Instructor(s)
           </h6>
@@ -45,20 +50,26 @@
               <br>
             {{ end }}
           </p>
+          {{ end }}
 
+          {{ if .Params.cost }}
           <h6>
             Cost
           </h6>
           <p>
             {{ .Params.cost }}
           </p>
-
+          {{ end }}
+          
+          {{ if .Params.registrationInstructions }}
           <h6>
             Register
           </h6>
           <p>
             {{ .Params.registrationInstructions}}
           </p>
+          {{ end }}
+
         </div>
 
       </div>
