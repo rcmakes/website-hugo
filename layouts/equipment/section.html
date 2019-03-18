@@ -1,4 +1,5 @@
 {{ define "main" }}
+
 <h1> {{ .Title }} </h1>
 
 <h2 class="mt-4">Woodworking</h2>
@@ -6,25 +7,8 @@
 <section class="row mt-4">
 
   {{ range .Site.Taxonomies.tags.woodworking }}
-  <div class="col-lg-3 col-md-6 my-3 d-flex align-items-stretch">
-    <div class="card">
-      <a href="{{ .URL }}">
-        <img class="card-img-top" src="/equipment/{{ .Params.photo }}" alt="Card image cap">
-      </a>
-      <div class="card-body d-flex align-items-end">
-        <div class="col">
-          <div class="row">
-            <a href="{{ .URL }}">
-              <h5 class="card-title">{{ .Title }}</h5>
-            </a>
-          </div>
-          <div class="row">
-            <a href="{{ .URL }}" class="btn btn-primary">View Instructions</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  
+    {{ partial "equipment-cards" . }}
 
   {{ end }}
 
@@ -33,26 +17,10 @@
 <h2 class="mt-4">Metalworking</h2>
 
 <section class="row mt-4">
+  
   {{ range .Site.Taxonomies.tags.metalworking }}
-  <div class="col-lg-3 col-md-6 my-3 d-flex align-items-stretch">
-    <div class="card">
-      <a href="{{ .URL }}">
-        <img class="card-img-top" src="/equipment/{{ .Params.photo }}" alt="Card image cap">
-      </a>
-      <div class="card-body d-flex align-items-end">
-        <div class="col">
-          <div class="row">
-            <a href="{{ .URL }}">
-              <h5 class="card-title">{{ .Title }}</h5>
-            </a>
-          </div>
-          <div class="row">
-            <a href="{{ .URL }}" class="btn btn-primary">View Instructions</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  
+    {{ partial "equipment-cards" . }}
 
   {{ end }} 
 
@@ -61,26 +29,10 @@
 <h2 class="mt-4">Other</h2>
 
 <section class="row mt-4">
+  
   {{ range .Site.Taxonomies.tags.other }}
-  <div class="col-lg-3 col-md-6 my-3 d-flex align-items-stretch">
-    <div class="card">
-      <a href="{{ .URL }}">
-        <img class="card-img-top" src="/equipment/{{ .Params.photo }}" alt="Card image cap">
-      </a>
-      <div class="card-body d-flex align-items-end">
-        <div class="col">
-          <div class="row">
-            <a href="{{ .URL }}">
-              <h5 class="card-title">{{ .Title }}</h5>
-            </a>
-          </div>
-          <div class="row">
-            <a href="{{ .URL }}" class="btn btn-primary">View Instructions</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  
+    {{ partial "equipment-cards" . }}
 
   {{ end }} 
 
