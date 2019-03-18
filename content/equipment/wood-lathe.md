@@ -10,23 +10,20 @@ aliases:
 photo: wood-lathe-1500x1500.jpg
 ---
 
-##### How to Use:
-1. Find the center of the wood (ex: by using the centering tool, or by drawing      lines from corner to corner, and using the x-point).
 
-2. Put tool stand just under the middle of the wood, to allow the tool to make      the best contact.
 
-3. For using the gouge RPM should be 800 to 1000.
 
-4. For the skew and other tools turn the speed up to between 1,000 and 1,200.
+# <strong> Important! </strong>
+### <strong class="text-danger">Special training is required to use the wood lathe to protect yourself, others and the equipment. Don’t use this machine if you have not received training.</strong>
+<div class="pb-3 pt-3">
+    <img style="max-width:200px; max-height:200px;" src="/img/face-shield-1500x1500.jpg" alt="Face Shield">
+</div>
+<p><small>You must wear a full face mask at all times!</small></p>
 
-5. For sanding and polishing, turn the speed up to at least 1800 rpm.
-
-6. Hold the     tools with the point facing up and the handle down at a slight angle, if you      don’t, it will catch in between the wood and the support.
-
-##### Safety Guidelines:
+## Safety Guidelines:
 1. Follow all shop rules.
 
-2. When using the lathe, a full-face shield is used instead of goggles. This        shield MUST be worn AT ALL TIMES when the lathe is on.
+2. When using the lathe, a full-face shield is used instead of goggles. This        shield MUST be worn AT ALL TIMES by all students and instructors operating or supervising.
 
 3. Make sure everyone without a face shield is at a safe distance before turning    on the lathe.
 
@@ -42,7 +39,28 @@ photo: wood-lathe-1500x1500.jpg
 
 9. Never leave the lathe on when unattended.
 
-10. Be confidant! If you are not confidant you can end up injuring yourself or      others.
+10. Keep your tools sharpened, dull tools can cause injuries.
+
+11. No exposed long hair, no loose clothing, roll up long sleeves. Do not wear gloves.
+
+12. Be confidant! If you are not confidant you can end up injuring yourself or      others.
+
+
+##### How to Use:
+1. Find the center of the wood (ex: by using the centering tool, or by drawing      lines from corner to corner, and using the x-point).
+
+2. Put tool stand just under the middle of the wood, to allow the tool to make      the best contact.
+
+3. For using the gouge RPM should be 800 to 1000.
+
+4. For the skew and other tools turn the speed up to between 1,000 and 1,200.
+
+5. For sanding and polishing, turn the speed up to at least 1800 rpm.
+
+6. Hold the     tools with the point facing up and the handle down at a slight angle, if you      don’t, it will catch in between the wood and the support.
+
+
+
 
 ### Wood Lathe Tutorial
 {{< youtube N92XNewzrpc >}}
