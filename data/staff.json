@@ -1,6 +1,36 @@
 {
   "semesters": [
     {
+      "semesterTitle": "Winter 2019",
+      "students":[
+        "Karina Arteaga",
+        "Angela Batoon",
+        "Benjamin Bonini",
+        "Alex Cano",
+        "Jeremy Carroll",
+        "Aiden Clark",
+        "Aidan Compton",
+        "C.J. DuHamel",
+        "Ricardo Estrada",
+        "Tiare Gulsvig",
+        "Sam Kristofferson",
+        "Zach Menes",
+        "Sage Mertes",
+        "Jake Needham",
+        "Samuel Perry",
+        "Anthony Paulo",
+        "Abby Pritchett",
+        "Tanner Rompal",
+        "Sophia Scipione",
+        "Cody Sylvester",
+        "Jake Sylvester",
+        "Sophie Taylor",
+        "Cecelia Wong",
+        "Caden Ziegler"
+      ]
+
+    },
+    {
       "semesterTitle": "Fall 2018",
       "students": [
         "Karina Arteaga",
