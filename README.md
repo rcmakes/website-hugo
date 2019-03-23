@@ -58,6 +58,12 @@ Images must have the resolution in the file name.
 
 Ex: `cornhole-custom1200x900.jpg`
 
+## Travis (Build Progress)
+
+https://travis-ci.org/rcmakes/rcmakes/builds
+
+### S3 (Data Storage)
+
 ## AWS
 
 ### S3 (Data Storage)
