@@ -2,6 +2,10 @@
 title: "Miter Saw"
 date: 2018-09-11T17:14:09-07:00
 draft: false
+tags: ["woodworking"]
+
+aliases:
+    - /miter_saw.html
 
 photo: miter-saw-450x450.jpg
 ---

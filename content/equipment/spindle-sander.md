@@ -2,6 +2,10 @@
 title: "Spindle Sander"
 date: 2018-09-11T16:36:22-07:00
 draft: false
+tags: ["woodworking"]
+
+aliases:
+    - /spindle_sander.html
 
 photo: spindle-sander-1-2000x2000.jpg
 ---

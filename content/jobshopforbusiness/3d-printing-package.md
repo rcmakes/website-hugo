@@ -7,5 +7,5 @@ subtitle:
 
 image: 3D-package-1200x900.png
 
-link: /3D-flyer/flyer.html
+link: /store/3d-printing-package/
 ---

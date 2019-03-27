@@ -2,8 +2,12 @@
 title: "Sewing Machine"
 date: 2018-09-12T16:39:52-07:00
 draft: false
+tags: ["other"]
 
-photo: Sewing-machine-2592x1944.jpg
+aliases:
+    - /sewing_machine.html
+
+photo: emerald-118-sewing-machine-1884x1600.jpg
 ---
 
 ##### How to Use:
@@ -22,10 +26,9 @@ photo: Sewing-machine-2592x1944.jpg
 7. Sew the fabric at once till the end of sewing. Do not pull the fabric during sewing. Sew the fabric straightly while taking up the slack. Be sure to handle the fabric with the right hand.
 
 
-### Sewing Tutorials
-##### How To: Use an Industrial Sewing Machine
-{{< youtube RmQNSbKMiMg >}}
+#### How To: Set Up
+{{< youtube h4xeli62E68 >}}
 
+<br>
 
-##### How to Thread A Sewing Machine
-{{< youtube oar000HnCQQ >}}
+<a href="https://www.youtube.com/watch?v=h4xeli62E68&list=PLvE6jwvXA4CHK20oZTnavYNH-r7HX_zd2&index=3" target="_blank">View more sewing machine instructional videos</a>

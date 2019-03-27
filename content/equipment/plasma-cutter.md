@@ -2,6 +2,10 @@
 title: "Plasma Cutter"
 date: 2018-09-18T15:04:49-07:00
 draft: false
+tags: ["metalworking"]
+
+aliases:
+    - /plasma_cutter.html
 
 photo: plasma-cutter-1000x677.jpg
 ---

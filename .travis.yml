@@ -19,18 +19,28 @@ script:
   - hugo
 
 deploy:
-  provider: s3
+  # deploy master branch to AWS S3
+  - provider: s3
 
-  # these environment variables are stored on Travis website
-  access_key_id: $AWS_ACCESS_KEY_ID
-  secret_access_key: $AWS_SECRET_ACCESS_KEY
+    # these environment variables are stored on Travis website
+    access_key_id: $AWS_ACCESS_KEY_ID
+    secret_access_key: $AWS_SECRET_ACCESS_KEY
 
-  bucket: rcmakes.com
-  region: us-west-1
+    bucket: rcmakes.com
+    region: us-west-1
 
-  local_dir: public
-  on:
-    branch: master
-  # Prevent Travis from deleting built site (so it can be uploaded)
-  skip_cleanup: true
-  # cache_control: "max-age=21600"
+    local_dir: public
+    on:
+      branch: master
+    # Prevent Travis from deleting built site (so it can be uploaded)
+    skip_cleanup: true
+    # cache_control: "max-age=21600"
+
+    # deploy develop branch to GitHub Pages
+  - provider: pages
+    github-token: $GITHUB_TOKEN  # this environment variable stored on Travis website
+    local_dir: public
+    on:
+      branch: develop
+    skip-cleanup: true
+    keep-history: true # Deploying to GitHub Pages uses git push --force to overwrite the history on the target branch. This disable this “force push” behavior
