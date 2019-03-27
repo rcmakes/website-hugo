@@ -11,6 +11,18 @@
   3px 3px 5px rgb(17, 17, 17);
 }
 
+.carousel-next-icon, .carousel-prev-icon{
+  text-shadow: 2px 2px 2px black;
+}
+ 
+.carousel-indicators li{
+  box-shadow: 1px 1px 1px #666;
+}
+ 
+.carousel-indicators .active{
+  box-shadow: 2px 2px 2px black;
+}
+
 /* menu dropdowns expand on hover */
 .dropdown:hover > .dropdown-menu {
   display: block;
