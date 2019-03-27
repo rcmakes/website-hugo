@@ -1,0 +1,123 @@
+{{ define "main" }}
+
+<h1 class="h1-responsive mb-3 display-4 text-center">RCMakes</h1>
+
+<p>RCMakes is a non-profit conglomerate operated by students at Rancho Campana High School. Services include an online
+    store selling wares made by students, a community makerspace,
+    a build-to-spec job shop for individual and business customers, expanded learning programs for incoming and current
+    high school students, video production, software development
+    and graphic design.</p>
+
+{{partial "services" .}}
+
+<p> RCMakes may be operated by students but it is managed by the serial Dave Gross who founded RCMakes and NewCo
+    Foundation in 2017. He is an educator, entrepreneur, engineer and investor.
+    He co-founded Motodyne, Fastclick, Persistence Partners, Connexity, RCMakes and NewCo Foundation with multiple
+    successful exits including an IPO.
+</p>
+
+<p>
+    Gross graduated from the University of California Santa Barbara with a BS in Mechanical Engineering and a BA in
+    Environmental Studies. Since then, Mr. Gross has used his education
+    and skills in the fields of internet, aerospace, and alternative transportation. In the early stages of his career,
+    he was responsible for designing electric and hybrid electric vehicles
+    as well as hardware for various aerospace applications including the International Space Station and the longest
+    rigid structure ever deployed in space.
+</p>
+
+<p>
+    He co-founded Fastclick, a successful Internet advertising company. Under his leadership, Fastclick, which started
+    with $400K in seed capital, raised a $75M private-equity round and
+    went from startup to public company in less than of 5 years.
+</p>
+
+<p>
+    RCMakes provides thousands of internship hours annually to high school and college students. Interns gain hands on
+    experience in engineering, manufacturing, entrepreneurship, and various
+    other aspect of operating a business. Students incubate their product and service ideas thus learning the realities
+    of a startup company, developing confidence and gaining pride of ownership
+    by being directly involved in the decision-making process.
+</p>
+
+<div class="row">
+    <div class="col-lg-4">
+        <img style="max-width:300px;" class="img-responsive" src="/img/dave_gross.png" />
+    </div>
+    <div class="col-lg-8 my-auto">
+        <h4 class="h1-responsive display-6"> - Dave Gross, General Manager and Founder</h1>
+    </div>
+</div>
+
+
+<div class="row border rounded mt-3">
+    <div class="col-lg-6">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner mt-3 mb-3">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="/img/spinners-being-printed-800x600.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/img/working-on-spinners-800x600.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/img/mass-fidget-spinner-one-800x600.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/img/mass-fidget-spinner-two-800x600.png" alt="Fourth slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/img/single-spinner-on-logo-800x600.png" alt="Fifth slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div class="col-lg-6 pt-2">
+        <h3>
+            Fidget Spinner Case Study
+        </h3>
+        <p>
+            In the winter and spring of 2017, the fidget spinner craze swept the nation. RCMakes began making our own as
+            demand took off. They were re-engineered, 3D printed and assembled at Rancho Campana High School. This
+            instantly viral product was a good start on our path to economic self-sufficiency. We sold over 2,500 units
+            in three months.
+        </p>
+        <p>
+            Average Selling Price (ASP) $3.25
+        </p>
+        <p>
+            Cost of Goods Sold (COGS) $1.75
+        </p>
+        <p>
+            Gross Profit per Unit $1.50
+        </p>
+        <p>
+            Units sold > 2,500
+        </p>
+        <p>
+            Revenue > $8,000
+        </p>
+        <p>
+            Gross Profit > $3,750
+        </p>
+    </div>
+</div>
+
+
+
+
+{{ end }}

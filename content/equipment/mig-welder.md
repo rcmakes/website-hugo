@@ -2,6 +2,10 @@
 title: "MIG Welder"
 date: 2018-09-12T11:09:17-07:00
 draft: false
+tags: ["metalworking"]
+
+aliases:
+    - /mig_welder.html
 
 photo: mig-welder-528x371.jpg
 ---

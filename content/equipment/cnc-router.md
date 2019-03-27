@@ -2,6 +2,10 @@
 title: "CNC Router"
 date: 2018-09-18T16:14:47-07:00
 draft: false
+tags: ["woodworking", "metalworking"]
+
+aliases:
+    - /cncrouter.html
 
 photo: cnc-router-800x800.jpg
 ---

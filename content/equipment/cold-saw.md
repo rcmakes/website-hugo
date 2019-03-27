@@ -2,6 +2,10 @@
 title: "Cold Saw"
 date: 2018-09-11T16:55:09-07:00
 draft: false
+tags: ["metalworking"]
+
+aliases:
+    - /cold_saw.html
 
 photo: cold-saw-830x830.jpg
 ---
