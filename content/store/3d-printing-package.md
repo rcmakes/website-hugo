@@ -1,6 +1,6 @@
 ---
 title: "3D Printing Package"
-date: 2019-02-09T13:28:10-08:00
+date: 2018-01-09T13:28:10-08:00
 draft: false
 
 oneLineDescription: "Start 3D printing now with training and setup included"
