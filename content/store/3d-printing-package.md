@@ -5,7 +5,7 @@ draft: false
 
 oneLineDescription: "Start 3D printing now with training and setup included"
 price: 1,995
-productImage: "/img/3D-package-1200x900.png"
+productImage: "/products/3D-package-920x920.png"
 additionalImage: ""
 freedomMerchantsLink: "https://freedommerchants.com/rcmakes.html?qbinvoice=true&invoicenum=------&amt=1995&desc=3D%20Printing%20Package"
 ---
