@@ -30,8 +30,8 @@ To keep track of who is working on what and avoid cluttering our branch namespac
 
 ##### Not OK:
 
-1. `ipn/updateCalendar` - uses camelcase and not kebab case
-2. `ajc-fix-dropdown-bug` - doen't have `/` to separate initials from branch name
+1. `ipn/updateCalendar` - don't use camelCase, use kebab case
+2. `ajc-fix-dropdown-bug` - doesn't have `/` to separate initials from branch name
 3. `fix-dropdown-bug` - doesn't have coder's initials
 
 ### File Naming
