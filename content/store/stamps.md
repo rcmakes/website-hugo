@@ -1,5 +1,5 @@
 ---
-title: "Self Inking Stamps"
+title: "Self-Inking Stamps"
 date: 2018-12-02T15:30:14-07:00
 draft: false
 
