@@ -58,16 +58,18 @@ Images must have the resolution in the file name.
 
 Ex: `cornhole-custom1200x900.jpg`
 
-## AWS
+## Deployment
 
-### S3 (Data Storage)
+### Netlify
 
-Bucket: http://rcmakes.com.s3-website-us-west-1.amazonaws.com
+Deployed here: https://flamboyant-mcclintock-0df90e.netlify.com/
 
-### CloudFront (Content Delivery Network serving over HTTPS)
+Netlify uses the AWS CDN, so it's fast
 
-Distributions:
-1. rcmakes.com - https://d3hxlcmouehqb7.cloudfront.net
-2. www.rcmakes.com - https://d22qlhopn6e03v.cloudfront.net
+HTTPS handled by Netlify with an auto-renewing Let's Encrypt certificate (free)
 
-### Route 53 (DNS Management)
+### GoDaddy
+
+The domain `rcmakes.com` is registered with GoDaddy, and we point the DNS to Netlify's nameservers.
+
+DNS is the system that translates human-readable domain names (example.com) into IP addresses (192.0.2.0)
