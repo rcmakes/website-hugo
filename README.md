@@ -2,8 +2,6 @@
 
 rcmakes.com website built with Hugo static site builder
 
-`public/` folder uploaded to this git repository for deployment on GitHub pages: https://github.com/rcmakes/rcmakes.github.io
-
 ## Viewing Your Changes
 
 `$ hugo server` to start the development server.
@@ -32,8 +30,8 @@ To keep track of who is working on what and avoid cluttering our branch namespac
 
 ##### Not OK:
 
-1. `ipn/updateCalendar` - uses camelcase and not kebab case
-2. `ajc-fix-dropdown-bug` - doen't have `/` to separate initials from branch name
+1. `ipn/updateCalendar` - don't use camelCase, use kebab case
+2. `ajc-fix-dropdown-bug` - doesn't have `/` to separate initials from branch name
 3. `fix-dropdown-bug` - doesn't have coder's initials
 
 ### File Naming
@@ -58,7 +56,9 @@ Images must have the resolution in the file name.
 
 Ex: `cornhole-custom1200x900.jpg`
 
+
 ## Deployment
+=======
 
 ### Netlify
 
