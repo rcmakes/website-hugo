@@ -62,7 +62,7 @@ Ex: `cornhole-custom1200x900.jpg`
 
 ### Netlify
 
-Deployed here: https://flamboyant-mcclintock-0df90e.netlify.com/
+Deployed here: https://rcmakes.netlify.com/
 
 Netlify uses the AWS CDN, so it's fast
 
