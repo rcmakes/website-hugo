@@ -58,7 +58,6 @@ Ex: `cornhole-custom1200x900.jpg`
 
 
 ## Deployment
-=======
 
 ### Netlify
 
