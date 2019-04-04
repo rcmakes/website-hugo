@@ -33,7 +33,10 @@
 
 
     {{ if isset .Params "carousel" }}
-      <div class="col-lg-4">
+      <div class="col-lg-12">
+        <hr>
+      </div>
+      <div class="col-lg-8">
         {{ partial "cornhole-carousel" . }}
       </div>
     {{ end }}

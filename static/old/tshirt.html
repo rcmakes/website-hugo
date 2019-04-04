@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+	<meta content="en-us" http-equiv="Content-Language">
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	<meta name="keywords" content="rancho campana,rchs,rcmakes,makerspace">
+	<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+	<link rel= "stylesheet" type= "text/css" href= "stylesheet.css">
+	<link rel="shortcut icon" href="images/rc.png" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, intiial scale=1.0">
+	<title>Redbox | RCMakes</title>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108811477-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-108811477-1');
+	</script>
+
+	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script> 
+		$(function(){
+			$("#header").load("header.html"); 
+			$("#footer").load("footer.html");
+			$("#products").load("product.html"); 
+		});
+	</script> 
+</head>
+
+<body>
+
+	<div id="header"></div>
+
+	<div class="white" style="padding: 0 20px 0 20px">
+		<h2>T-Shirt Designs:</h2>
+		<ul class="product_list">
+			<li>
+				<h3>Redbox T-Shirt</h3>
+				<img src="images/redbox.jpg">
+			</li>
+			<li>
+				<h3>Spring T-Shirt #1</h3>
+				<img src="images/Karina_Shirt_1.jpg">
+			</li>
+			<li>
+				<h3>Spring T-Shirt #2</h3>
+				<img src="images/Karina_Shirt_2.jpg">
+			</li>
+			<li>
+				<h3>Spring T-Shirt #3</h3>
+				<img src="images/Karina_Shirt_3.jpg">
+			</li>
+		</ul>
+	</div>
+
+	<div style="text-align: center">
+		<h4>All T-Shirts &ndash; $12 Each</h4>
+		<a href="https://docs.google.com/forms/d/e/1FAIpQLSf_29yjD4eaMFu812_wqWlCED_F7iaGFdx2E546pKt3PFVpow/viewform?ts=59fcb0e9" target="_blank"><button class="purchase_btn">Place Order</button></a>
+		<a href="https://freedommerchants.com/rcmakes.html?qbinvoice=true&invoicenum=------&amt=12&desc=1%20Redbox%20Custom%20T-Shirt" target="_blank"><button class="purchase_btn">Pay for Order</button></a>
+		<p>Contact us for Volume Discounts</p>
+		<a href="mailto:sales@rcmakes.com?subject=PERSONALIZED REDBOX T-SHIRTS"><button class="purchase_btn">Special Order</button></a>
+	</div>
+
+	<div id="products"></div>
+
+	<div id="footer"></div>
+</body>
