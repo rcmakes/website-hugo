@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/eb482406-a9c2-4edf-898f-ba1ba8a29dcb/deploy-status)](https://app.netlify.com/sites/rcmakes/deploys)
+
 # RCMakes Hugo Website Documentation
 
 rcmakes.com website built with Hugo static site builder
