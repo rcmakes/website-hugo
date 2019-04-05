@@ -58,7 +58,6 @@ Images must have the resolution in the file name.
 
 Ex: `cornhole-custom1200x900.jpg`
 
-
 ## Deployment
 
 ### Netlify
@@ -74,3 +73,7 @@ HTTPS handled by Netlify with an auto-renewing Let's Encrypt certificate (free)
 The domain `rcmakes.com` is registered with GoDaddy, and we point the DNS to Netlify's nameservers.
 
 DNS is the system that translates human-readable domain names (example.com) into IP addresses (192.0.2.0)
+
+## SEO (Search Engine Optimization)
+
+Google Search Console: https://search.google.com/search-console/inspect?resource_id=sc-domain%3Arcmakes.com&id=vTVp3qo_PjkwUCnGfo2GTw&hl=en
