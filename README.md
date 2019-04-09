@@ -1,26 +1,28 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/eb482406-a9c2-4edf-898f-ba1ba8a29dcb/deploy-status)](https://app.netlify.com/sites/rcmakes/deploys)
 
-# RCMakes Hugo Website Documentation
+# RCMakes Website Documentation
 
-rcmakes.com website built with Hugo static site builder
+## Hugo
 
-## Viewing Your Changes
+rcmakes.com is built with the [Hugo static site builder](gohugo.io). Hugo is like a website factory where you input templates, markdown, images, and JSON, and a website is generated.
+
+#### Viewing Your Changes
 
 `$ hugo server` to start the development server.
 
-# Git Workflow
+## Git Workflow
 
-## Getting the Latest Changes
+#### Getting the Latest Changes
 
 Before making any changes, `$ git pull origin <branch-you-are-working-on>` to get the latest changes from GitHub
 
-## Creating a New Feature Branch
+#### Creating a New Feature Branch
 
 All new feature branches must be created from `develop`. You must be on branch `develop` before running `$ git checkout -b abc/new-feature-branch-name`
 
 `$ git pull origin develop` before working on your feature branch. This will pull the latest changes from `develop` and put them on your feature branch
 
-### Branch Naming Rules
+#### Branch Naming Rules
 
 To keep track of who is working on what and avoid cluttering our branch namespace, use your three letter initials followed by a `/` and then the branch name using [kebab case](http://wiki.c2.com/?KebabCase) (use hyphens to separate words). Remember, *no spaces!*
 
