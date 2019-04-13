@@ -1,3 +1,7 @@
 baseURL = "https://www.rcmakes.com"
 languageCode = "en-us"
 title = "Student-Operated Makerspace in Camarillo, CA"
+
+#SEO
+enableRobotsTXT = true
+canonifyURLs = true
