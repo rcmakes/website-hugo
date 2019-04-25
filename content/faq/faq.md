@@ -23,10 +23,10 @@ draft: false
 **A:** We have a number of woodworking, metalworking, 3D printing and laser cutting machines. Our list of major equipment can be found [here](/equipment).
 
 **Q:** Do I need to know how to use the equipment?  
-**A:** Yes and No. We are avaialbe to help with any equipment and to further your project but we ar not experts in all disciplines adn are not availabe to help you product items at no charge. If you are interesed in contacting with us please see our [job shop](/jobshopforindividuals) offering.
+**A:** Yes and No. We are avaialbe to help with any equipment and to further your project but we are not experts in all disciplines and are not availabe to help you produce items at no charge. If you are interesed in contracting with us please see our [job shop](/jobshopforindividuals) offering.
 
 **Q:** Are you a non-profit?   
 **A:** Yes. RCMakes is a program of [NewCo Foundation](https://www.newco.foundation/), a 501(c)(3) non-profit.
 
 **Q:** How do students apply for an internship?  
-**A:** The intern application is locaeted [here](https://docs.google.com/forms/d/e/1FAIpQLSfWGbIHuGq26Dtx3AMH4X1C1bCRbKgfEdbx3RYK0bXdHlmvHw/viewform).
+**A:** The intern application is located [here](https://docs.google.com/forms/d/e/1FAIpQLSfWGbIHuGq26Dtx3AMH4X1C1bCRbKgfEdbx3RYK0bXdHlmvHw/viewform).
