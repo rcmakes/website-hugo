@@ -2,8 +2,6 @@
 
 rcmakes.com website built with Hugo static site builder
 
-`public/` folder uploaded to this git repository for deployment on GitHub pages: https://github.com/rcmakes/rcmakes.github.io
-
 ## Viewing Your Changes
 
 `$ hugo server` to start the development server.
@@ -32,8 +30,8 @@ To keep track of who is working on what and avoid cluttering our branch namespac
 
 ##### Not OK:
 
-1. `ipn/updateCalendar` - uses camelcase and not kebab case
-2. `ajc-fix-dropdown-bug` - doen't have `/` to separate initials from branch name
+1. `ipn/updateCalendar` - don't use camelCase, use kebab case
+2. `ajc-fix-dropdown-bug` - doesn't have `/` to separate initials from branch name
 3. `fix-dropdown-bug` - doesn't have coder's initials
 
 ### File Naming
@@ -58,16 +56,20 @@ Images must have the resolution in the file name.
 
 Ex: `cornhole-custom1200x900.jpg`
 
-## AWS
 
-### S3 (Data Storage)
+## Deployment
+=======
 
-Bucket: http://rcmakes.com.s3-website-us-west-1.amazonaws.com
+### Netlify
 
-### CloudFront (Content Delivery Network serving over HTTPS)
+Deployed here: https://flamboyant-mcclintock-0df90e.netlify.com/
 
-Distributions:
-1. rcmakes.com - https://d3hxlcmouehqb7.cloudfront.net
-2. www.rcmakes.com - https://d22qlhopn6e03v.cloudfront.net
+Netlify uses the AWS CDN, so it's fast
 
-### Route 53 (DNS Management)
+HTTPS handled by Netlify with an auto-renewing Let's Encrypt certificate (free)
+
+### GoDaddy
+
+The domain `rcmakes.com` is registered with GoDaddy, and we point the DNS to Netlify's nameservers.
+
+DNS is the system that translates human-readable domain names (example.com) into IP addresses (192.0.2.0)
