@@ -20,4 +20,4 @@ instructors: [
 registrationInstructions:
 ---
 
-Visit the official TEDx RanchoCampanaHS page <a href="/tedx">here</a>.
+TEDTalks video and live speakers will combine to spark deep discussion and connection in a small group at the RCHS PAC. Speakers are encouraged to apply.
