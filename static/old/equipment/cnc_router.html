@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+  <meta content="en-us" http-equiv="Content-Language" />
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <meta name="keywords" content="rancho campana,rchs,rcmakes,makerspace" />
+  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+  <link rel= "stylesheet" type= "text/css" href= "../stylesheet.css">
+  <link rel="shortcut icon" href="images/rc.png" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width, intiial scale=1.0">
+  <title>CNC-Router | RCMakes</title>
+
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script>
+  $(function(){
+    $("#header").load("header.html");
+    $("#footer").load("footer.html");
+  });
+  </script>
+</head>
+
+<body>
+<div id="header"></div>
+<div style="background-color: #ffffff">
+      <table style="background-color: #ffffff; padding: 20px">
+        <tr>
+          <td>
+            <h1 class="equipment_title">CNC Router</h1>
+            <img class="equipment_image2" src="../images/cnc_router.png">
+            <hr class="hr"/>
+          </td>
+        </tr>
+      </table>
+      <table style="background-color: #ffffff; padding: 20px">
+        <tr>
+          <td>
+
+            <h2 class="equipment_safety">Safety Guidelines:</h2>
+                          <ol class="equipment_guideline_list">
+                            <li>1. Using the Cam G-code generation software "CamBam", design the pattern you wish to be engraved/drilled into the chosen material.</li>
+                                  <p>IMPORTANT: DO NOT CLOSE THE CAMBAM SOFTWARE.  At the time of the writing of these instructions, we are using Cambam on a trial use basis.  This is subject to change.</p>
+                            <li>2. Save the engraving file as a g-code, or .nc file.  Save it in the "cnc router files" folder, in the "engraving files" subfolder. </li>
+                                  <p>Note: You will also be given the option to save your work as a .cb file.  .cb files are to allow editing within Cambam, and will not allow you to proceed to the engraving phase.  Save them under the "cnc router files" folder, in the "cambam files" subfolder</p>
+                            <li>3. Open the mach3 program.  On the desktop, there are two icons named "mach3" and "mach3Mill".  Both of these will open a program similar enough to be inconsequential for basic use. </li>
+                            <li>4. Using the clamps on the operating surface of the CNC router, secure the operating material and/or any supporting material. </li>
+                                  <p>Note that if supporting material is used, the operating material must be flat to prevent mistakes from occuring as the CNC Router operates. </p>
+                            <li>5. Switch the SXCNC Desktop CNC Engraving Machine Module (located under the monitor) on.  Both switches labeled "Pump" must also be switched on. </li>
+                            <li>6. Raise the spindle a safe distance away from the operating material.  Zero all coordinates.  Run the machine to guage where the spindle will go while executing the program.  Adjust the spindle's position as necessary.  Repeat until you are satisfied. </li>
+                            <li>7. Once you are satisfied with the spindle's position, press the green "Run" button on the CNC router module underneath the monitor.  Adjust the spindle speed with the dial as needed. </li>
+                            <li>8. Lower the spindle to the operating material.  Press "start" on the mach3 interface. </li>
+                            <li>9. Observe the CNC Router while having the mouse hover over the "stop" button on the mach3 interface. </li>
+                            <li>10. When the CNC Router is done operating, raise the spindle as far as it will go.  Undo the clamps securing the operating material.  Carefuly remove the operating material. </li>
+                            <li>11. Turn of the CNC Router module under the monitor. </li>
+                          </ol>
+					<br><br><br><br><br><br><br><br><br><br>
+            <h2 class= "equipment_safety">How to Use:</h2>
+            <ol class="equipment_guideline_list">
+              <li>1. Make sure the metal you are using is ferrous (steel only). Do not grind aluminum, copper, bronze or brass</li>
+              <li>2. Flip the switch in the middle of the machine to the on (left) position.</li>
+              <li>3. wait for it to come to full speed before touching material to it.</li>
+              <li>4. Make sure the piece of meatal is secure (ie. holding it in a vice grip)</li>
+              <li>5. Begin grinding the meatal until you are finished</li>
+              <li>6. Switch the machine to the off (right) position</li>
+            </ol>
+            <br/><br/><br/>
+            <h2 class="video_title">CNC Router Videos</h2>
+            <iframe class="video1" src="https://www.youtube.com/embed/jeBWo95eOfs?list=PLq3MKhpLNHQUB_hyJsw67GaBaMcS2qV8J" frameborder="0" allowfullscreen></iframe>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!--footer-->
+    <div id="footer"></div>
+</body>
+</html>

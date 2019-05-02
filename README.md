@@ -1,26 +1,28 @@
-# RCMakes Hugo Website Documentation
+[![Netlify Status](https://api.netlify.com/api/v1/badges/eb482406-a9c2-4edf-898f-ba1ba8a29dcb/deploy-status)](https://app.netlify.com/sites/rcmakes/deploys)
 
-rcmakes.com website built with Hugo static site builder
+# RCMakes Website Documentation
 
-`public/` folder uploaded to this git repository for deployment on GitHub pages: https://github.com/rcmakes/rcmakes.github.io
+## Hugo
 
-## Viewing Your Changes
+rcmakes.com is built with the [Hugo static site builder](gohugo.io). Hugo is like a website factory where you input templates, markdown, images, and JSON, and a website is generated.
+
+#### Viewing Your Changes
 
 `$ hugo server` to start the development server.
 
-# Git Workflow
+## Git Workflow
 
-## Getting the Latest Changes
+#### Getting the Latest Changes
 
 Before making any changes, `$ git pull origin <branch-you-are-working-on>` to get the latest changes from GitHub
 
-## Creating a New Feature Branch
+#### Creating a New Feature Branch
 
 All new feature branches must be created from `develop`. You must be on branch `develop` before running `$ git checkout -b abc/new-feature-branch-name`
 
 `$ git pull origin develop` before working on your feature branch. This will pull the latest changes from `develop` and put them on your feature branch
 
-### Branch Naming Rules
+#### Branch Naming Rules
 
 To keep track of who is working on what and avoid cluttering our branch namespace, use your three letter initials followed by a `/` and then the branch name using [kebab case](http://wiki.c2.com/?KebabCase) (use hyphens to separate words). Remember, *no spaces!*
 
@@ -32,8 +34,8 @@ To keep track of who is working on what and avoid cluttering our branch namespac
 
 ##### Not OK:
 
-1. `ipn/updateCalendar` - uses camelcase and not kebab case
-2. `ajc-fix-dropdown-bug` - doen't have `/` to separate initials from branch name
+1. `ipn/updateCalendar` - don't use camelCase, use kebab case
+2. `ajc-fix-dropdown-bug` - doesn't have `/` to separate initials from branch name
 3. `fix-dropdown-bug` - doesn't have coder's initials
 
 ### File Naming
@@ -58,16 +60,22 @@ Images must have the resolution in the file name.
 
 Ex: `cornhole-custom1200x900.jpg`
 
-## AWS
+## Deployment
 
-### S3 (Data Storage)
+### Netlify
 
-Bucket: http://rcmakes.com.s3-website-us-west-1.amazonaws.com
+Deployed here: https://rcmakes.netlify.com/
 
-### CloudFront (Content Delivery Network serving over HTTPS)
+Netlify uses the AWS CDN, so it's fast
 
-Distributions:
-1. rcmakes.com - https://d3hxlcmouehqb7.cloudfront.net
-2. www.rcmakes.com - https://d22qlhopn6e03v.cloudfront.net
+HTTPS handled by Netlify with an auto-renewing Let's Encrypt certificate (free)
 
-### Route 53 (DNS Management)
+### GoDaddy
+
+The domain `rcmakes.com` is registered with GoDaddy, and we point the DNS to Netlify's nameservers.
+
+DNS is the system that translates human-readable domain names (example.com) into IP addresses (192.0.2.0)
+
+## SEO (Search Engine Optimization)
+
+Google Search Console: https://search.google.com/search-console/inspect?resource_id=sc-domain%3Arcmakes.com&id=vTVp3qo_PjkwUCnGfo2GTw&hl=en
