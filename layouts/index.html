@@ -1,6 +1,30 @@
 {{ define "main" }}
 
 <!-- Alerts -->
+<script>
+  concole.log("Working")
+  //var fetch = require("node-fetch"); // or fetch() is native in browsers
+  var makeQuerystring = params =>
+    Object.keys(params)
+      .map(key => {
+        return encodeURIComponent(key) + "=" + encodeURIComponent(params[key]);
+      })
+      .join("&");
+  
+  var url = "https://www.googleapis.com/calendar/v3/calendars/rcmakes.calendar@gmail.com/events";
+  var querystring = makeQuerystring({
+    q: "Makerspace"
+  });
+
+  fetch(url + "?" + querystring, {
+    method: "get",
+    headers: {
+      Authorization: "Bearer ya29.GlsFB1hVyuF3wo3ekliHEXkqMX7fWOewCGgULKB6VmtM8bP_Ni42gRln7SelR6eiWK-CyomIJ507KFo9v-vMDJ-nb8BPWeVN6pR7grRW4IWHqUwhxXsykWeUBUSf"
+    }
+  })
+    .then(res => res.json())
+    .then(json => console.log(json));
+</script>
 <section class="alert alert-success">
   
   <div class="row">
