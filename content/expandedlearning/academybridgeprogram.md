@@ -22,7 +22,4 @@ registrationInstructions:
 
 ---
 
-This three-week summer program exposes incoming freshmen to
-woodworking, metalworking, solid modeling, 3D printing, laser
-cutting, and coding to help them prepare for the multitude of courses
-Rancho Campana High School has to offer.
+For incoming freshmen in all academeies, this three-week program runs from 8:00 AM to 12:00 PM, Monday July 29th through Friday August 16th. All programs run concurrently on campus with both academy-specific activities and combined activities. 
