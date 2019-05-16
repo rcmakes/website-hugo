@@ -2,7 +2,6 @@
 
 <!-- Alerts -->
 <script>
-  concole.log("Working")
   //var fetch = require("node-fetch"); // or fetch() is native in browsers
   var makeQuerystring = params =>
     Object.keys(params)
@@ -16,14 +15,25 @@
     q: "Makerspace"
   });
 
-  fetch(url + "?" + querystring, {
+  var yeet = fetch(url + "?" + querystring, {
     method: "get",
     headers: {
-      Authorization: "Bearer ya29.GlsFB1hVyuF3wo3ekliHEXkqMX7fWOewCGgULKB6VmtM8bP_Ni42gRln7SelR6eiWK-CyomIJ507KFo9v-vMDJ-nb8BPWeVN6pR7grRW4IWHqUwhxXsykWeUBUSf"
+      Authorization: "Bearer ya29.GlsMB22HGLVaB45hxeMlSROhYxRBCWI_Jn4lrfXvR2PbUUU7Pd61MfT0s2LXjJX1wojQDMiXEguAEDanhFrarJc2__zs0GVKPRPALs1VqXeswodCPGw8qDMUW2PP"
     }
   })
-    .then(res => res.json())
-    .then(json => console.log(json));
+  //.then(res => res.json())
+    //.then(json => console.log(json))}
+
+    //{return json}
+  let sampleQuiz = RequestHelpers.testing()
+  .then((sampleQuiz) => {
+      console.log(sampleQuiz);
+  });
+  var arraynew = vari.items;
+  console.log(vari);
+  vari.forEach(function(entry) {
+  console.log(entry);
+});
 </script>
 <section class="alert alert-success">
   
