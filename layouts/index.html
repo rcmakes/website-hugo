@@ -20,39 +20,53 @@ var monthRn = today.getMonth()+1
 var dayRn = today.getDate()
 var hoursRn = today.getHours()
 var minutesRn = today.getMinutes()
-var datetime = new Date(yearRn, monthRn, dayRn, hoursRn, 00,00) //+ ":" + minutesRn +":00"
-console.log(datetime)
-console.log("Hour: " + hoursRn)
-console.log("Todays Date: " + dayRn)
-console.log("This is the current year " + yearRn)
-console.log("Today's Month " + monthRn)
+var datetime = new Date(yearRn, monthRn, dayRn, hoursRn, 00,00)
 var indexarray = []
 fetch(url + "?" + querystring, {
     method: "get",
     headers: {
-      Authorization: "Bearer ya29.GlsNB8vArJFZLEgwRooel-5jFpZ1YViONwvmite4JDTOgnyLc-qSeya-sRzZojaXQVCAAnsBdfEGbe3V64PhZZ47jjGXZilAV1AC6AUf7xdtpwDg5nJ4Pgm4buAN"
+      Authorization: "Bearer ya29.GlsOB4zJpxeKooUsdG9NuJNFsiPgLcLg8uLvHOz0B0dk7IUkOlN7RcE43HnGlkTLb5Q-HPqaIGQLsjvsCKHKXSb0RCJf6NboOuymaeIr9g3SZ4vb0DYIZ4IZdH0b"
     }
   })
   .then(res => res.json())
   .then(json => values = json.items)
   .then(values => values.some((element, index) => {
     var date = element.end.dateTime.split('-');
-    console.log(date)
     var newdate = new Date(date[0], date[1], date[2].split("T")[0], date[2].split("T")[1].split(":")[0])
-    console.log(newdate)
     if(newdate >= datetime){
       var updatedDate =  new Date(date[0], date[1]-1, date[2].split("T")[0], date[2].split("T")[1].split(":")[0])
       indexarray.push(updatedDate)
     }
-    console.log(indexarray)
     
     var mydate = new Date(newdate[0], newdate[1] , newdate[2]);
-    console.log(indexarray[0])
     if(indexarray.length > 0){
       var stringified = indexarray[0].toString()
       var month = stringified.slice(4,7)
       var day = stringified.slice(8,10)
-      console.log(day)
+      var weekday = stringified.slice(0,3)
+      console.log(weekday)
+      console.log(stringified)
+      if(weekday == "Sat"){
+        defWeekDay = "Saturday"
+      }
+      else if(weekday == "Sun"){
+        defWeekDay = "Sunday"
+      }
+      else if(weekday == "Mon"){
+        defWeekDay = "Monday"
+      }
+      else if(weekday == "Tue"){
+        defWeekDay = "Tuesday"
+      }
+      else if(weekday == "Wed"){
+        defWeekDay = "Wednesday"
+      }
+      else if(weekday == "Thu"){
+        defWeekDay = "Thursday"
+      }
+      else if(weekday == "Fri"){
+        defWeekDay = "Friday"
+      }
       if(month == "Jan"){
         defMonth = "January"
       }
@@ -182,8 +196,7 @@ fetch(url + "?" + querystring, {
       else if(day == "31"){
         defDay = "31th"
       }
-      var doneDate = defMonth + " " + defDay
-      console.log(doneDate)
+      var doneDate = defWeekDay + " " + defMonth + " " + defDay
       document.getElementById("nextDate").innerHTML = doneDate;
 
   }
@@ -191,7 +204,6 @@ fetch(url + "?" + querystring, {
 
 
   }))
-console.log("")
 
 
 </script>
