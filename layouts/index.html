@@ -14,26 +14,43 @@
   var querystring = makeQuerystring({
     q: "Makerspace"
   });
-
-  var yeet = fetch(url + "?" + querystring, {
+var today = new Date();
+var yearRn = today.getFullYear()
+var monthRn = today.getMonth()+1
+var dayRn = today.getDate()
+var hoursRn = today.getHours()
+var minutesRn = today.getMinutes()
+var datetime = new Date(yearRn, monthRn, dayRn, hoursRn, 00,00) //+ ":" + minutesRn +":00"
+console.log(datetime)
+console.log("Hour: " + hoursRn)
+console.log("Todays Date: " + dayRn)
+console.log("This is the current year " + yearRn)
+console.log("Today's Month " + monthRn)
+var indexarray = []
+fetch(url + "?" + querystring, {
     method: "get",
     headers: {
-      Authorization: "Bearer ya29.GlsMB22HGLVaB45hxeMlSROhYxRBCWI_Jn4lrfXvR2PbUUU7Pd61MfT0s2LXjJX1wojQDMiXEguAEDanhFrarJc2__zs0GVKPRPALs1VqXeswodCPGw8qDMUW2PP"
+      Authorization: "Bearer ya29.GlsNB64n-PjwbN4Kznzezh2A8oQI_XZOeSJVmK_L_14cqTThoaKuORlyKV5CgkoiW0QIGzxN6X2xig4GP6-e-lgT16IPE5WFY9WmvX02WGdHglNaoaS0H4rESJds"
     }
   })
-  //.then(res => res.json())
-    //.then(json => console.log(json))}
+  .then(res => res.json())
+  .then(json => values = json.items)
+  .then(values => values.some((element, index) => {
+    var date = element.end.dateTime.split('-');
+    console.log(date)
+    var newdate = new Date(date[0], date[1]-1, date[2].split("T")[0], date[2].split("T")[1].split(":")[0])
+    console.log(newdate)
+    if(newdate >= datetime){
+      indexarray.push(newdate)
+    }
+    console.log(indexarray)
+    
+    var mydate = new Date(newdate[0], newdate[1] , newdate[2]);
+    console.log(indexarray[0])
 
-    //{return json}
-  let sampleQuiz = RequestHelpers.testing()
-  .then((sampleQuiz) => {
-      console.log(sampleQuiz);
-  });
-  var arraynew = vari.items;
-  console.log(vari);
-  vari.forEach(function(entry) {
-  console.log(entry);
-});
+
+  }))
+console.log(indexarray[0])
 </script>
 <section class="alert alert-success">
   
