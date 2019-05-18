@@ -30,7 +30,7 @@ var indexarray = []
 fetch(url + "?" + querystring, {
     method: "get",
     headers: {
-      Authorization: "Bearer ya29.GlsNB64n-PjwbN4Kznzezh2A8oQI_XZOeSJVmK_L_14cqTThoaKuORlyKV5CgkoiW0QIGzxN6X2xig4GP6-e-lgT16IPE5WFY9WmvX02WGdHglNaoaS0H4rESJds"
+      Authorization: "Bearer ya29.GlsNB8vArJFZLEgwRooel-5jFpZ1YViONwvmite4JDTOgnyLc-qSeya-sRzZojaXQVCAAnsBdfEGbe3V64PhZZ47jjGXZilAV1AC6AUf7xdtpwDg5nJ4Pgm4buAN"
     }
   })
   .then(res => res.json())
@@ -38,28 +38,172 @@ fetch(url + "?" + querystring, {
   .then(values => values.some((element, index) => {
     var date = element.end.dateTime.split('-');
     console.log(date)
-    var newdate = new Date(date[0], date[1]-1, date[2].split("T")[0], date[2].split("T")[1].split(":")[0])
+    var newdate = new Date(date[0], date[1], date[2].split("T")[0], date[2].split("T")[1].split(":")[0])
     console.log(newdate)
     if(newdate >= datetime){
-      indexarray.push(newdate)
+      var updatedDate =  new Date(date[0], date[1]-1, date[2].split("T")[0], date[2].split("T")[1].split(":")[0])
+      indexarray.push(updatedDate)
     }
     console.log(indexarray)
     
     var mydate = new Date(newdate[0], newdate[1] , newdate[2]);
     console.log(indexarray[0])
+    if(indexarray.length > 0){
+      var stringified = indexarray[0].toString()
+      var month = stringified.slice(4,7)
+      var day = stringified.slice(8,10)
+      console.log(day)
+      if(month == "Jan"){
+        defMonth = "January"
+      }
+      else if(month == "Feb"){
+        defMonth = "February"
+      }
+      else if(month == "Mar"){
+        defMonth = "March"
+      }
+      else if(month == "Apr"){
+        defMonth = "April"
+      }
+      else if(month == "May"){
+        defMonth = "May"
+      }
+      else if(month == "Jun"){
+        defMonth = "June"
+      }
+      else if(month == "Jul"){
+        defMonth = "July"
+      }
+      else if(month == "Aug"){
+        defMonth = "August"
+      }
+      else if(month == "Sep"){
+        defMonth = "September"
+      }
+      else if(month == "Oct"){
+        defMonth = "October"
+      }
+      else if(month == "Nov"){
+        defMonth = "November"
+      }
+      else if(month == "Dec"){
+        defMonth = "December"
+      }
+      if(day == "01"){
+        defDay = "1st"
+      }
+      else if(day == "02"){
+        defDay = "2nd"
+      }
+      else if(day == "03"){
+        defDay = "3rd"
+      }
+      else if(day == "04"){
+        defDay = "4th"
+      }
+      else if(day == "05"){
+        defDay = "5th"
+      }
+      else if(day == "06"){
+        defDay = "6th"
+      }
+      else if(day == "07"){
+        defDay = "7th"
+      }
+      else if(day == "08"){
+        defDay = "8th"
+      }
+      else if(day == "09"){
+        defDay = "9th"
+      }
+      else if(day == "10"){
+        defDay = "10th"
+      }
+      else if(day == "11"){
+        defDay = "11th"
+      }
+      else if(day == "12"){
+        defDay = "12th"
+      }
+      else if(day == "13"){
+        defDay = "13th"
+      }
+      else if(day == "14"){
+        defDay = "14th"
+      }
+      else if(day == "15"){
+        defDay = "15th"
+      }
+      else if(day == "16"){
+        defDay = "16th"
+      }
+      else if(day == "17"){
+        defDay = "17th"
+      }
+      else if(day == "18"){
+        defDay = "18th"
+      }
+      else if(day == "19"){
+        defDay = "19th"
+      }
+      else if(day == "20"){
+        defDay = "20th"
+      }
+      else if(day == "21"){
+        defDay = "21st"
+      }
+      else if(day == "22"){
+        defDay = "22nd"
+      }
+      else if(day == "23"){
+        defDay = "23rd"
+      }
+      else if(day == "24"){
+        defDay = "24th"
+      }
+      else if(day == "25"){
+        defDay = "25th"
+      }
+      else if(day == "26"){
+        defDay = "26th"
+      }
+      else if(day == "27"){
+        defDay = "27th"
+      }
+      else if(day == "28"){
+        defDay = "28th"
+      }
+      else if(day == "29"){
+        defDay = "29th"
+      }
+      else if(day == "30"){
+        defDay = "30th"
+      }
+      else if(day == "31"){
+        defDay = "31th"
+      }
+      var doneDate = defMonth + " " + defDay
+      console.log(doneDate)
+      document.getElementById("nextDate").innerHTML = doneDate;
+
+  }
+    
 
 
   }))
-console.log(indexarray[0])
+console.log("")
+
+
 </script>
 <section class="alert alert-success">
   
   <div class="row">
     
     <div class="col-lg-12">
+      <p id="fooHolder"></p>
       <p class="mt-2 text-center h5">
-        The Community Makerspace will be open next on May 4th
-      </p>
+        The Community Makerspace will be open next on
+      </p><p id="nextDate" class="mt-2 text-center h5"></p>
     </div>
 
   </div>
