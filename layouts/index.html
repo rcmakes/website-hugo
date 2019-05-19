@@ -15,37 +15,35 @@
     q: "Makerspace"
   });
 var today = new Date();
-var yearRn = today.getFullYear()
-var monthRn = today.getMonth()+1
-var dayRn = today.getDate()
-var hoursRn = today.getHours()
-var minutesRn = today.getMinutes()
-var datetime = new Date(yearRn, monthRn, dayRn, hoursRn, 00,00)
-var indexarray = []
+var yearRn = today.getFullYear();
+var monthRn = today.getMonth()+1;
+var dayRn = today.getDate();
+var hoursRn = today.getHours();
+var minutesRn = today.getMinutes();
+var datetime = new Date(yearRn, monthRn, dayRn, hoursRn, 00,00);
+var indexarray = [];
 fetch(url + "?" + querystring, {
     method: "get",
     headers: {
-      Authorization: "Bearer ya29.GlsOB4zJpxeKooUsdG9NuJNFsiPgLcLg8uLvHOz0B0dk7IUkOlN7RcE43HnGlkTLb5Q-HPqaIGQLsjvsCKHKXSb0RCJf6NboOuymaeIr9g3SZ4vb0DYIZ4IZdH0b"
+      Authorization: "Bearer ya29.GlsOB191HKbeY9ZYx3nloxQ8PZteo9s7oKEOZ8J9oF9WAWA1kN1pKuV_g2IoSrWVRdVkU1I7C1aVDlz_bkdC9yRSSsAdSHeJ3e2sOz5qHSskFwqogDhIr1kbujac"
     }
   })
   .then(res => res.json())
   .then(json => values = json.items)
   .then(values => values.some((element, index) => {
     var date = element.end.dateTime.split('-');
-    var newdate = new Date(date[0], date[1], date[2].split("T")[0], date[2].split("T")[1].split(":")[0])
+    var newdate = new Date(date[0], date[1], date[2].split("T")[0], date[2].split("T")[1].split(":")[0]);
     if(newdate >= datetime){
-      var updatedDate =  new Date(date[0], date[1]-1, date[2].split("T")[0], date[2].split("T")[1].split(":")[0])
-      indexarray.push(updatedDate)
-    }
+      var updatedDate =  new Date(date[0], date[1]-1, date[2].split("T")[0], date[2].split("T")[1].split(":")[0]);
+      indexarray.push(updatedDate);
+    };
     
     var mydate = new Date(newdate[0], newdate[1] , newdate[2]);
     if(indexarray.length > 0){
-      var stringified = indexarray[0].toString()
-      var month = stringified.slice(4,7)
-      var day = stringified.slice(8,10)
-      var weekday = stringified.slice(0,3)
-      console.log(weekday)
-      console.log(stringified)
+      var stringified = indexarray[0].toString();
+      var month = stringified.slice(4,7);
+      var day = stringified.slice(8,10);
+      var weekday = stringified.slice(0,3);
       if(weekday == "Sat"){
         defWeekDay = "Saturday"
       }
@@ -66,7 +64,7 @@ fetch(url + "?" + querystring, {
       }
       else if(weekday == "Fri"){
         defWeekDay = "Friday"
-      }
+      };
       if(month == "Jan"){
         defMonth = "January"
       }
@@ -102,7 +100,7 @@ fetch(url + "?" + querystring, {
       }
       else if(month == "Dec"){
         defMonth = "December"
-      }
+      };
       if(day == "01"){
         defDay = "1st"
       }
@@ -112,56 +110,8 @@ fetch(url + "?" + querystring, {
       else if(day == "03"){
         defDay = "3rd"
       }
-      else if(day == "04"){
-        defDay = "4th"
-      }
-      else if(day == "05"){
-        defDay = "5th"
-      }
-      else if(day == "06"){
-        defDay = "6th"
-      }
-      else if(day == "07"){
-        defDay = "7th"
-      }
-      else if(day == "08"){
-        defDay = "8th"
-      }
-      else if(day == "09"){
-        defDay = "9th"
-      }
-      else if(day == "10"){
-        defDay = "10th"
-      }
-      else if(day == "11"){
-        defDay = "11th"
-      }
-      else if(day == "12"){
-        defDay = "12th"
-      }
-      else if(day == "13"){
-        defDay = "13th"
-      }
-      else if(day == "14"){
-        defDay = "14th"
-      }
-      else if(day == "15"){
-        defDay = "15th"
-      }
-      else if(day == "16"){
-        defDay = "16th"
-      }
-      else if(day == "17"){
-        defDay = "17th"
-      }
-      else if(day == "18"){
-        defDay = "18th"
-      }
-      else if(day == "19"){
-        defDay = "19th"
-      }
-      else if(day == "20"){
-        defDay = "20th"
+      else if(parseInt(day) >= 04 && parseInt(day) <= 20){
+        defDay = day + "th"
       }
       else if(day == "21"){
         defDay = "21st"
@@ -172,31 +122,10 @@ fetch(url + "?" + querystring, {
       else if(day == "23"){
         defDay = "23rd"
       }
-      else if(day == "24"){
-        defDay = "24th"
-      }
-      else if(day == "25"){
-        defDay = "25th"
-      }
-      else if(day == "26"){
-        defDay = "26th"
-      }
-      else if(day == "27"){
-        defDay = "27th"
-      }
-      else if(day == "28"){
-        defDay = "28th"
-      }
-      else if(day == "29"){
-        defDay = "29th"
-      }
-      else if(day == "30"){
-        defDay = "30th"
-      }
-      else if(day == "31"){
-        defDay = "31th"
-      }
-      var doneDate = defWeekDay + " " + defMonth + " " + defDay
+      else if(parseInt(day) >= 24){
+        defDay = day + "th"
+      };
+      var doneDate = defWeekDay + " " + defMonth + " " + defDay;
       document.getElementById("nextDate").innerHTML = doneDate;
 
   }
