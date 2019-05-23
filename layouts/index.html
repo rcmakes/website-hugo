@@ -14,7 +14,8 @@
   var querystring = makeQuerystring({
     q: "Makerspace"
   });
-console.log("${API_KEY}")
+var key = ${API_KEY}
+console.log(key)
 var today = new Date();
 var yearRn = today.getFullYear();
 var monthRn = today.getMonth()+1;
@@ -26,7 +27,7 @@ var indexarray = [];
 fetch(url + "?" + querystring, {
     method: "get",
     headers: {
-      Authorization: "Bearer " +${API_KEY}
+      Authorization: "Bearer " +key
     }
   })
   .then(res => res.json())
