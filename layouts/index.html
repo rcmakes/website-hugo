@@ -26,7 +26,7 @@ var indexarray = [];
 fetch(url + "?" + querystring, {
     method: "get",
     headers: {
-      Authorization: "Bearer ${API_KEY}"
+      Authorization: "Bearer " +${API_KEY}
     }
   })
   .then(res => res.json())
