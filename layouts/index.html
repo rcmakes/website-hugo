@@ -25,21 +25,30 @@ var indexarray = [];
 fetch(url + "?" + querystring, {
     method: "get",
     headers: {
-      Authorization: "Bearer ya29.GlsOB191HKbeY9ZYx3nloxQ8PZteo9s7oKEOZ8J9oF9WAWA1kN1pKuV_g2IoSrWVRdVkU1I7C1aVDlz_bkdC9yRSSsAdSHeJ3e2sOz5qHSskFwqogDhIr1kbujac"
+      Authorization: "Bearer ${API_KEY}"
     }
   })
   .then(res => res.json())
   .then(json => values = json.items)
   .then(values => values.some((element, index) => {
+    var length = values.length;
+    console.log(length)
     var date = element.end.dateTime.split('-');
     var newdate = new Date(date[0], date[1], date[2].split("T")[0], date[2].split("T")[1].split(":")[0]);
     if(newdate >= datetime){
       var updatedDate =  new Date(date[0], date[1]-1, date[2].split("T")[0], date[2].split("T")[1].split(":")[0]);
       indexarray.push(updatedDate);
-    };
-    
+      console.log(newdate)
+    }; 
     var mydate = new Date(newdate[0], newdate[1] , newdate[2]);
-    if(indexarray.length > 0){
+    if(index+1 == length){
+      console.log(indexarray)
+      var date_sort_asc = function (date1, date2) {
+        if (date1 > date2) return 1;
+        if (date1 < date2) return -1;
+        return 0;
+        };
+      indexarray.sort(date_sort_asc);
       var stringified = indexarray[0].toString();
       var month = stringified.slice(4,7);
       var day = stringified.slice(8,10);
