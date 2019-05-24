@@ -2,7 +2,6 @@
 
 <!-- Alerts -->
 <script>
-  import {} from 'dotenv/config'
   //var fetch = require("node-fetch"); // or fetch() is native in browsers
   var makeQuerystring = params =>
     Object.keys(params)
@@ -15,7 +14,7 @@
   var querystring = makeQuerystring({
     q: "Makerspace"
   });
-console.log(process.env.API_KEY)
+console.log({{ getenv "API_KEY" }})
 var today = new Date();
 
 var yearRn = today.getFullYear();
@@ -28,7 +27,7 @@ var indexarray = [];
 fetch(url + "?" + querystring, {
     method: "get",
     headers: {
-      Authorization: "Bearer " + process.env.API_KEY
+      Authorization: "Bearer "+ {{ getenv "API_KEY" }}
     }
   })
   .then(res => res.json())
