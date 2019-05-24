@@ -14,7 +14,6 @@
   var querystring = makeQuerystring({
     q: "Makerspace"
   });
-console.log({{ getenv "API_KEY" }})
 var today = new Date();
 
 var yearRn = today.getFullYear();
@@ -27,24 +26,21 @@ var indexarray = [];
 fetch(url + "?" + querystring, {
     method: "get",
     headers: {
-      Authorization: "Bearer "+ {{ getenv "API_KEY" }}
+      Authorization: "Bearer " + {{ getenv "API_KEY" }}
     }
   })
   .then(res => res.json())
   .then(json => values = json.items)
   .then(values => values.some((element, index) => {
     var length = values.length;
-    console.log(length)
     var date = element.end.dateTime.split('-');
     var newdate = new Date(date[0], date[1], date[2].split("T")[0], date[2].split("T")[1].split(":")[0]);
     if(newdate >= datetime){
       var updatedDate =  new Date(date[0], date[1]-1, date[2].split("T")[0], date[2].split("T")[1].split(":")[0]);
       indexarray.push(updatedDate);
-      console.log(newdate)
     }; 
     var mydate = new Date(newdate[0], newdate[1] , newdate[2]);
     if(index+1 == length){
-      console.log(indexarray)
       var date_sort_asc = function (date1, date2) {
         if (date1 > date2) return 1;
         if (date1 < date2) return -1;
