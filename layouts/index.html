@@ -2,6 +2,7 @@
 
 <!-- Alerts -->
 <script>
+  import {} from 'dotenv/config'
   //var fetch = require("node-fetch"); // or fetch() is native in browsers
   var makeQuerystring = params =>
     Object.keys(params)
@@ -16,6 +17,7 @@
   });
 console.log(process.env.API_KEY)
 var today = new Date();
+
 var yearRn = today.getFullYear();
 var monthRn = today.getMonth()+1;
 var dayRn = today.getDate();
