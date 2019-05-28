@@ -45,6 +45,7 @@
   line-height: 1.2;
 }
 
+//To make the word "Entrepreneurship" on Home Responsive
 @media (max-width: 300px) {
   .display-responsive {
     font-size: 1.5rem;
