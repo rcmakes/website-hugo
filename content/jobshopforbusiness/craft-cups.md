@@ -6,6 +6,7 @@ draft: false
 subtitle: 
 
 image: craft-cups-1200x900.jpg 
+alt: "Craft cups image"
 
 link:
 ---

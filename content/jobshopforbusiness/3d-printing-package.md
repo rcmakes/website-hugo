@@ -6,6 +6,7 @@ draft: false
 subtitle:
 
 image: 3D-package-1200x900.png
+alt: "3D Printing Package Flyer"
 
 link: /store/3d-printing-package/
 ---
