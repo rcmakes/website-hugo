@@ -7,4 +7,6 @@ image: 805strong-buttons-635x476.jpeg
 
 subTitle: A fun and easy activity
 
+alt: "805 Strong Buttons"
+
 ---

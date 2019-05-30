@@ -7,4 +7,6 @@ image: makerspace-2024x1518.jpeg
 
 subTitle: Use our fully-equipped shop
 
+alt: "RCMakes Community Makerspace"
+
 ---
