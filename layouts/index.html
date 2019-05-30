@@ -2,19 +2,6 @@
 
 <!-- Alerts -->
 <script>  
-  var url = "https://www.googleapis.com/calendar/v3/calendars/rcmakes.calendar@gmail.com/events";
-  var querystring = makeQuerystring({
-    q: "Makerspace"
-  });
-var today = new Date();
-
-var yearRn = today.getFullYear();
-var monthRn = today.getMonth()+1;
-var dayRn = today.getDate();
-var hoursRn = today.getHours();
-var minutesRn = today.getMinutes();
-var datetime = new Date(yearRn, monthRn, dayRn, hoursRn, 00,00);
-var indexarray = [];
 fetch("https://www.rcmakes.com/functions/calendar", {
     method: "get"
   })
@@ -22,10 +9,6 @@ fetch("https://www.rcmakes.com/functions/calendar", {
   .then(json => console.log(json))
   .then(json => document.getElementById("nextDate").innerHTML = json);
   
-
-
-
-
 </script>
 <section class="alert alert-success">
   
