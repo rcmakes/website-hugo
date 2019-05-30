@@ -7,6 +7,7 @@ oneLineDescription: Show your community suppport with these locally-made sticker
 price: 1
 productImage: "/products/805strong-stickers-640x639.jpg"
 freedomMerchantsLink: "https://freedommerchants.com/rcmakes.html?qbinvoice=true&invoicenum=------&amt=1&desc=805Strong%20Sticker"
+alt: "805 Strong Sticker"
 ---
 
 Size: 3 in. diameter

@@ -8,6 +8,7 @@ price: 7
 productImage: "/products/dog-tags-400x400.jpg"
 additionalImage: ""
 freedomMerchantsLink: "https://freedommerchants.com/rcmakes.html?qbinvoice=true&invoicenum=------&amt=7&desc=Dog%20Tags"
+alt: "Custom Dog Tags"
 ---
 
 With a minimum order of 40 dog tags, each dog tag is 5 dollars
