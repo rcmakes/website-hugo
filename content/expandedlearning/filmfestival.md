@@ -6,6 +6,7 @@ draft: false
 subtitle: "Student Film Festival"
 
 image: film-festival-1200x900.jpeg
+alt: "Film Festival Flyer"
 
 datesTimes: [ 
    "April 26th, 2019 - 6-9p"

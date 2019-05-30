@@ -6,6 +6,7 @@ draft: false
 subtitle: "September 21, 2019"
 
 image: tedx-rancho-1400x1050.png
+alt: "TEDx RCHS Flyer"
 
 datesTimes: [
    ]
