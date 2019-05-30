@@ -19,14 +19,11 @@ fetch("https://www.rcmakes.com/functions/calendar", {
     method: "get"
   })
   .then(res => res.json())
-  .then(json => print(json))
-  document.getElementById("nextDate").innerHTML = doneDate;
-
-  }
-    
+  .then(json => console.log(json))
+  .then(json => document.getElementById("nextDate").innerHTML = json);
+  
 
 
-  }))
 
 
 </script>
