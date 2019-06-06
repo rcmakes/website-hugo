@@ -7,4 +7,6 @@ image: aromarina-1200x900.jpeg
 
 subTitle: Perfect for any sewing projects
 
+alt: "Textile Work"
+
 ---

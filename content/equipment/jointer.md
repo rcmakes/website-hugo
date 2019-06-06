@@ -8,6 +8,7 @@ aliases:
     - /jointer.html
 
 photo: jointer-1000x1000.jpg
+alt: "Jointer Image"
 ---
 
 ##### How to Use:

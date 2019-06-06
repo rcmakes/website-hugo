@@ -8,5 +8,6 @@ price: 200
 productImage: "/products/custom-cornhole-400x400.jpg"
 carousel: true
 freedomMerchantsLink: "https://freedommerchants.com/rcmakes.html?qbinvoice=true&invoicenum=------&amt=200&desc=Custom%20Cornhole"
+alt: "Custom Cornhole"
 ---
 

@@ -8,6 +8,7 @@ aliases:
     - /mill-lathe_combo.html
 
 photo: mill-and-lathe-combo-1500x1408.jpg
+alt: "Mill and Lathe Combo Image"
 ---
 
 ##### Safety Guidelines:

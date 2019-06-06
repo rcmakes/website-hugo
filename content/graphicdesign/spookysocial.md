@@ -5,4 +5,5 @@ draft: false
 client: "Key Club"
 subtitle: "GIF Poster"
 image: "/img/spooky-social.gif"
+alt: "Spooky Social Flyer"
 ---

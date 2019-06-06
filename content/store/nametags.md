@@ -8,4 +8,5 @@ price: 4
 productImage: "/products/name-tags-400x400.jpg"
 additionalImage: ""
 freedomMerchantsLink: "https://freedommerchants.com/rcmakes.html?qbinvoice=true&invoicenum=------&amt=4&desc=Name%20Tag"
+alt: "Custom Name Tags"
 ---

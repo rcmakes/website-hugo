@@ -4,6 +4,7 @@ date: 2018-09-02T13:04:01-07:00
 draft: false
 
 image: showtime-sign-1200x900.jpg
+alt: "Showtime Marquee Sign"
 
 link:
 ---

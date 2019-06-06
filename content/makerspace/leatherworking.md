@@ -7,4 +7,6 @@ image: leatherwork-1978x1483.jpeg
 
 subTitle: Customize your leather projects
 
+alt: "Leather Working"
+
 ---

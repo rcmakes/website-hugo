@@ -8,6 +8,7 @@ aliases:
     - /plasma_cutter.html
 
 photo: plasma-cutter-1000x677.jpg
+alt: "PLasma Cutter Image"
 ---
 
 

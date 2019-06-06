@@ -8,6 +8,7 @@ aliases:
     - /panel_saw.html
 
 photo: panel-saw-1050x788.png
+alt: "Panel Saw Image"
 ---
 
 ##### Safety Guidelines:

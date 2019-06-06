@@ -8,6 +8,7 @@ price: 1,995
 productImage: "/products/3D-package-920x920.png"
 additionalImage: ""
 freedomMerchantsLink: "https://freedommerchants.com/rcmakes.html?qbinvoice=true&invoicenum=------&amt=1995&desc=3D%20Printing%20Package"
+alt: "3D Printing Package Flyer"
 ---
 RCMakes has over 30,000 hours of 3D printing experience. Our experience led us to develop a package offering for 3D printing. We combine free, easy to use software with a robust off-the-shelf printer We perform an advanced all metal hot end upgrade, plus tools, filament and additional supplies. Setup and training are included with a 1-year warranty. Previous costumers include: Hub101, Pleasant Valley Christan School and Camarillo Public Library.
 

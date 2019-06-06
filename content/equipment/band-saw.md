@@ -8,6 +8,7 @@ aliases:
     - /band_saw.html
 
 photo: band-saw-425x425.jpg
+alt: "Band Saw Photo"
 
 videos: []
 ---

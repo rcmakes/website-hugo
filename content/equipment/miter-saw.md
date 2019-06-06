@@ -8,6 +8,7 @@ aliases:
     - /miter_saw.html
 
 photo: miter-saw-450x450.jpg
+alt: "Miter Saw Image"
 ---
 
 ##### Safety Guidelines:

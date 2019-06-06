@@ -8,6 +8,7 @@ aliases:
     - /router_table.html
 
 photo: router-table-1000x850.jpg
+alt: "Router Table Image"
 ---
 
 ##### Safety Guidelines:

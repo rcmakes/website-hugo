@@ -5,6 +5,7 @@ draft: false
 tags: ["other"]
 
 photo: flashforge-printer-700x700.jpg
+alt: "Flashforge 3D Printer"
 ---
 
 ##### Safety

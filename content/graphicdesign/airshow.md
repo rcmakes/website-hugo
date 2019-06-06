@@ -5,4 +5,5 @@ draft: false
 client: "Key Club"
 subtitle: "GIF Poster"
 image: "/img/air-show.gif"
+alt: "Camarillo Air Show Flyer"
 ---

@@ -5,6 +5,7 @@ draft: false
 tags: ["metalworking"]
 
 photo: plasma-table.png
+alt: "Plasma Table Image"
 ---
 
 ##### Safety Guidelines:

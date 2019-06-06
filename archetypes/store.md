@@ -8,4 +8,5 @@ price: 0
 productImage: "/products/<image-name-here.jpg>"
 additionalImage: ""
 freedomMerchantsLink: ""
+alt: ""
 ---

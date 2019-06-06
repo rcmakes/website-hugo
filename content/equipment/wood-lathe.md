@@ -8,6 +8,7 @@ aliases:
     - /wood_lathe.html
 
 photo: wood-lathe-1500x1500.jpg
+alt: "Wood Lathe Image"
 ---
 
 

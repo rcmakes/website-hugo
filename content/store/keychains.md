@@ -8,6 +8,7 @@ price: "8.50"
 productImage: "/products/key-chains-400x400.jpg"
 additionalImage: ""
 freedomMerchantsLink: "https://freedommerchants.com/rcmakes.html?qbinvoice=true&invoicenum=------&amt=8.5&desc=Key%20Chain"
+alt: "Custom Key Chains"
 ---
 
 With a minimum order of 20, each key chain is $6.00
