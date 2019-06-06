@@ -8,6 +8,7 @@ aliases:
     - /cabinet_saw.html
 
 photo: cabinet-saw-1500x1090.jpg
+alt: "Cabinet Saw Image"
 ---
 
 ##### Safety Guidelines:

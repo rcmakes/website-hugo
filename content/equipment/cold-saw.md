@@ -8,6 +8,7 @@ aliases:
     - /cold_saw.html
 
 photo: cold-saw-830x830.jpg
+alt: "Cold Saw Image"
 ---
 ##### How to Use
 1. To your right on the wall behind the cold saw, there is a white box with a switch, flip the switch up.

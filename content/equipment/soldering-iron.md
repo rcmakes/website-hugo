@@ -8,6 +8,7 @@ aliases:
     - /soldering-iron.html
 
 photo: soldering-iron-1067x800.png
+alt: "Soldering Iron Image"
 ---
 
 ##### How to Use:

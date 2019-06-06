@@ -8,6 +8,7 @@ aliases:
     - /sewing_machine.html
 
 photo: emerald-118-sewing-machine-1884x1600.jpg
+alt: "Sewing Machine Image"
 ---
 
 ##### How to Use:

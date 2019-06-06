@@ -8,6 +8,7 @@ aliases:
     - /cncrouter.html
 
 photo: cnc-router-800x800.jpg
+alt: "CNC Router Image"
 ---
 
 ##### Safety Guidelines:

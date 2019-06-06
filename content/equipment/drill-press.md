@@ -10,6 +10,7 @@ aliases:
     - /scrool_saw.html
 
 photo: drill-press-786x634.jpg
+alt: "Drill Press Image"
 ---
 
 ##### How to Use:
