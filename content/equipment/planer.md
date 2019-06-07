@@ -5,6 +5,7 @@ draft: false
 tags: ["woodworking"]
 
 photo: planer.jpg
+alt: "Planar Image"
 ---
 
 ##### Safety Guidelines:

@@ -34,7 +34,7 @@
   <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
     <div class="card">
       <a href="{{ .URL }}">
-        <img class="card-img-top" src="/img/{{ .Params.image }}" alt="Card image cap">
+        <img class="card-img-top" src="/img/{{ .Params.image }}" alt="{{ .Params.alt }}">
       </a>
       <div class="card-body">
         <h5 class="card-title">{{ .Title }}</h5>

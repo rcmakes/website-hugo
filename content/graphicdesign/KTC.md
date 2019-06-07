@@ -5,4 +5,5 @@ draft: false
 client: "Kiwins"
 subtitle: "Poster"
 image: "/img/KTC-1080x1350.png"
+alt: "Kiwins Training Conference Flyer"
 ---

@@ -8,6 +8,7 @@ aliases:
     - /belt-disc_sander.html
 
 photo: belt-and-disc-sander-1500x1500.jpg
+alt: "Belt and Disc Sander Image"
 
 ---
 

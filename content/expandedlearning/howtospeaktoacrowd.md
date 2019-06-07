@@ -6,6 +6,7 @@ draft: false
 subtitle: "Public Speaking Workshop"
 
 image: tighty-dwighty-tedx-1200x900.jpg
+alt: "How to speak to a crowd image"
 
 datesTimes: [ 
   "January 9, 2019 - 3-4:30p",

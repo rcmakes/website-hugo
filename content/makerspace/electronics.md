@@ -7,4 +7,6 @@ image: abp-electronics-2024x1518.jpeg
 
 subTitle: A great skill to learn
 
+alt: "Electronic Work"
+
 ---

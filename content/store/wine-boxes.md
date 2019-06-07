@@ -7,6 +7,7 @@ oneLineDescription: This beautifully ornate gift box is the perfect pairing for 
 price: 20
 productImage: "/products/wine-boxes-640x663.jpg"
 freedomMerchantsLink: "https://freedommerchants.com/rcmakes.html?qbinvoice=true&invoicenum=------&amt=20&desc=Wine%20Box"
+alt: "Wine Gift Boxes"
 ---
 
 Choose your design (Left: "Harvest", Right: "Vine") and color (Left: "Rosé", Right: "Pecan").

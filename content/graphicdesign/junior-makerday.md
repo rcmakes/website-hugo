@@ -5,4 +5,5 @@ draft: false
 client: RCMakes
 subtitle: 
 image: /img/junior-makerday.png
+alt: "RCMakes Junior Maker Day Flyer"
 ---

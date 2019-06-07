@@ -8,6 +8,7 @@ aliases:
     - /scroll_saw.html
 
 photo: scroll-saw-500x500.jpg
+alt: "Scroll Saw Image"
 ---
 
 ##### Safety Guidelines:

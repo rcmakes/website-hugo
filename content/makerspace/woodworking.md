@@ -7,4 +7,6 @@ image: machine-makerspace-5322x3991.jpeg
 
 subTitle: Our wide variety of classic woodworking tools makes any project doable
 
+alt: "Woodworking"
+
 ---

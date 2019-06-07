@@ -6,6 +6,7 @@ draft: false
 subtitle: "Graphic Design Workshop"
 
 image: graphic-design-workshop-570x430.png
+alt: "Graphic Design Workshop Logo"
 
 datesTimes: [ 
   "April 11, 2019 - 3-4:30p ",

@@ -8,6 +8,7 @@ aliases:
     - /mig_welder.html
 
 photo: mig-welder-528x371.jpg
+alt: "MIG Welder Image"
 ---
 
 ##### Safety Guidelines:

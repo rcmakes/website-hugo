@@ -8,6 +8,7 @@ price: 20
 productImage: "/products/stamps-400x400.jpg"
 additionalImage: ""
 freedomMerchantsLink: "https://freedommerchants.com/rcmakes.html?qbinvoice=true&invoicenum=------&amt=20&desc=Self%20Inking%20Stamp"
+alt: "Custom Stamps"
 ---
 
 $18 - 2-3/8" X 7/8"

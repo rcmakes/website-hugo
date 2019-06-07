@@ -5,4 +5,5 @@ draft: false
 client: Kiwanis
 subtitle: 
 image: /img/scs.png
+alt: "Santa Clara Chapel Fiesta Flyer"
 ---

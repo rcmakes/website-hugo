@@ -8,6 +8,7 @@ price: 1
 productImage: "/products/805strong-buttons-640x640.jpg"
 additionalImage: "/products/805strong-buttons-designs-1128x270.png"
 freedomMerchantsLink: "https://freedommerchants.com/rcmakes.html?qbinvoice=true&invoicenum=------&amt=1&desc=805Strong*%20Button"
+alt: "805 Strong Button"
 ---
 
 Choose from four local designs

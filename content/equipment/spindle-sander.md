@@ -8,6 +8,7 @@ aliases:
     - /spindle_sander.html
 
 photo: spindle-sander-1-2000x2000.jpg
+alt: "Spindle Sander Image"
 ---
 
 ##### Safety Guidelines

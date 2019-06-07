@@ -8,6 +8,7 @@ aliases:
     - /bench_grinder.html
 
 photo: bench-grinder-1000x1000.jpg
+alt: "Bench Grinder Image"
 ---
 
 ##### Safety Guidelines:

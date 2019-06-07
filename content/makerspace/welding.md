@@ -7,4 +7,6 @@ image: welding-1200x900.jpeg
 
 subTitle: Watch the sparks fly as you learn to weld. Try not to get attached!
 
+alt: "Welding work"
+
 ---

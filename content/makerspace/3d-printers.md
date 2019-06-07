@@ -7,4 +7,6 @@ image: 3d-print-makerspace-5333x3999.jpeg
 
 subTitle: With our CAD software 3D printing has never been easier
 
+alt: "3D Printed Trinkets"
+
 ---

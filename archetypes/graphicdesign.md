@@ -5,4 +5,5 @@ draft: true
 client: ""
 subtitle: ""
 image: ""
+alt: ""
 ---

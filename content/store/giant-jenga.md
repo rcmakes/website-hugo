@@ -7,6 +7,7 @@ oneLineDescription: Tumbling timbers for family fun – custom-engraved with you
 price: 150
 productImage: "/products/giant-jenga.jpg"
 freedomMerchantsLink: "https://freedommerchants.com/rcmakes.html?qbinvoice=true&invoicenum=------&amt=150&desc=Standard%20Giant%20Jenga"
+alt: "Giant Jenga"
 ---
 
 Contact us for custom laser-engraving.

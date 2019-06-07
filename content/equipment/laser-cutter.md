@@ -8,6 +8,7 @@ aliases:
     - /laser.html
 
 photo: laser-cutter-802x802.png
+alt: "Laser Cutter Image"
 
 ---
 
