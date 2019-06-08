@@ -1,7 +1,7 @@
 ---
 title: "Graphic Design"
 date: 2019-03-18T09:42:27-07:00
-draft: false
+draft: true
 
 subtitle: "Graphic Design Workshop"
 

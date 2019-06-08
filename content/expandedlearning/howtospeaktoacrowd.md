@@ -1,7 +1,7 @@
 ---
 title: "How to Speak To a Crowd"
 date: 2018-10-4T16:44:42-07:00
-draft: false
+draft: true
 
 subtitle: "Public Speaking Workshop"
 
