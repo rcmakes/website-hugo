@@ -1,7 +1,7 @@
 ---
 title: "Film Festival"
 date: 2018-12-15T09:04:42-08:00
-draft: true
+draft: false
 
 subtitle: "Student Film Festival"
 
