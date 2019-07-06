@@ -3,7 +3,7 @@ title: "Graphic Design"
 date: 2019-03-18T09:42:27-07:00
 draft: false
 
-subtitle: "Graphic Design Workshop"
+subtitle: "Graphic Design Workshop (Past Event)"
 
 image: graphic-design-workshop-570x430.png
 alt: "Graphic Design Workshop Logo"

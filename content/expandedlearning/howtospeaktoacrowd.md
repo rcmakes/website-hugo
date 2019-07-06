@@ -3,7 +3,7 @@ title: "How to Speak To a Crowd"
 date: 2018-10-4T16:44:42-07:00
 draft: false
 
-subtitle: "Public Speaking Workshop"
+subtitle: "Public Speaking Workshop (Past Event)"
 
 image: tighty-dwighty-tedx-1200x900.jpg
 alt: "How to speak to a crowd image"
