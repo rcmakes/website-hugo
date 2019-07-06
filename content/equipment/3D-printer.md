@@ -40,6 +40,3 @@ extruder (left or right)?
 10. Once the build starts, did the first layer stick and build correctly?
 
 11. Once the build is complete, do you know how to safely remove it from the build plate and leave the machine ready for the next build?
-
-![alt text](/equipment/heat-table-2.JPG "photo example")
-
