@@ -11,10 +11,15 @@
     <div class="col-lg-4 col-md-6 mb-3">
       <img src="{{ .Params.productImage }}" class="img-fluid rounded" alt="{{ .Params.alt }}">
     </div>
-
+    {{ if .Params.customDescription}}
+    <div class="col-lg-4 col-md-4">
+      <p>{{ .Params.customDescription }}</p>
+    </div>
+    {{ else }}
     <div class="col-lg-4 col-md-4">
       <p>{{ .Params.oneLineDescription }}</p>
     </div>
+    {{ end }}
 
     <div class="col-lg-4 col-md-2">
       <h6>${{ .Params.price }}</h6>
