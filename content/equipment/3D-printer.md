@@ -40,3 +40,7 @@ extruder (left or right)?
 10. Once the build starts, did the first layer stick and build correctly?
 
 11. Once the build is complete, do you know how to safely remove it from the build plate and leave the machine ready for the next build?
+
+<br/>
+
+For additional information, visit the [Manufacturer's Page](https://flashforge-usa.com/products/dreamer-dual-extrusion-3d-printer?variant=5344977190950).

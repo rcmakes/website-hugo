@@ -45,6 +45,11 @@ alt: "Spindle Sander Image"
 
 4. Press red stop button to stop the sander.
 
+<br/>
+
+For additional information, visit the [Manufacturer's Page](https://www.jettools.com/us/en/p/joss-s-floor-model-oscillating-spindle-sander-1hp-1ph-115v/723950).
+
+
 ##### Spindle Sander Tutorial
 {{< youtube XjCYYkNKXCo >}}
 

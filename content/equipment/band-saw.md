@@ -67,5 +67,9 @@ videos: []
 
 10. This allows others to remember that they have to postion the Post when using    this machine, because doing this can be forgotten easily
 
+<br/>
+
+For additional information, visit the [Manufacturer's Page](https://www.jettools.com/us/en/p/jwbs-14dxpro-14-deluxe-pro-bandsaw-kit/710116K).
+
 ### Band Saw Tutorial
 {{< youtube wGbZqWac0jU >}}

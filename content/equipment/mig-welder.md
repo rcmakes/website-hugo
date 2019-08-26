@@ -46,5 +46,9 @@ alt: "MIG Welder Image"
 
 17. Make sure that the area you are working in is clean and dry. Keep flammables    away and do not work in areas that are wet as water will conduct electricity.
 
+<br/>
+
+For additional information, visit the [Manufacturer's Page](https://www.lincolnelectric.com/en-us/Equipment/Pages/product.aspx?product=K2697-1(LincolnElectric)).
+
 ### MIG Welder Tutorial
 {{< youtube 5KrwmK7df-s >}}

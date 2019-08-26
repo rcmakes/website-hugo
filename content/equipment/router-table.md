@@ -44,6 +44,10 @@ alt: "Router Table Image"
 
 5. Once the wood has gone all the way through, pull the wood out, and turn the machine off by pushing the red switch to the down position.
 
+<br/>
+
+For additional information, visit the [Manufacturer's Page](https://www.boschtools.com/us/en/boschtools-ocs/router-tables-ra1181-27744-p/).
+
 ### Router Table Tutorial
 {{< youtube jamwRhQTJbA >}}
 

@@ -114,5 +114,10 @@ alt: "Mill and Lathe Combo Image"
 13. After having completely finished turning a workpiece, turn the machine off, 
 put the tool bit away, and clean up the area completely by removing shavings with a dustpan and brush. Put any other equipment back where you found it.
 
+<br/>
+
+For additional information, visit the [Manufacturer's Page](http://www.otmtmachines.com/otmt-multifunction-machines-87-115-935.html).
+
+
 ### Mill and Lathe Combo Tutorial
 {{< youtube H0AyVUfl8-k>}}
