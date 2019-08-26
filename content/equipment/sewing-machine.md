@@ -26,6 +26,10 @@ alt: "Sewing Machine Image"
 
 7. Sew the fabric at once till the end of sewing. Do not pull the fabric during sewing. Sew the fabric straightly while taking up the slack. Be sure to handle the fabric with the right hand.
 
+<br/>
+
+For additional information, visit the [Manufacturer's Page](http://www.husqvarnaviking.com/en-US/Machines/EMERALD-trade;-118).
+
 
 #### How To: Set Up
 {{< youtube h4xeli62E68 >}}

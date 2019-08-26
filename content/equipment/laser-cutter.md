@@ -75,5 +75,10 @@ it to the desired height, to tighten the laser simply pull the knob in the direc
 
 7. If there is ever an emergency or you see something wrong with the laser hit the BIG RED EMERGENCY STOP BOTTON located on the front right side of the Laser Cutter.
 
+
+<br/>
+
+For additional information, visit the [Manufacturer's Page](https://www.camfivelaser.com/camfive-laser-co2-cutter-engraver-cma4824-working-area-48x24-machine-for-cutting-and-engraving-wood-acrylic-fabric-and-more.html).
+
 ### Laser Cutter Tutorial
 {{< youtube jEE9YOvAYc0 >}}

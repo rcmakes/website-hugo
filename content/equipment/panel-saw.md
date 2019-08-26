@@ -46,5 +46,9 @@ alt: "Panel Saw Image"
 
 6. Once finished, push the STOP button, and collect wood. Put wood you do not need in the scrap wood bin to the right of the saw.
 
+<br/>
+
+For additional information, visit the [Manufacturer's Page](http://www.powermatic.com/us/en/p/511-panel-saw-3hp-1ph-115v/1510007).
+
 ### Panel Saw Tutorial
 {{< youtube mME9qY883sA >}}

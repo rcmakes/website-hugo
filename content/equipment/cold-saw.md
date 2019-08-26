@@ -82,6 +82,10 @@ alt: "Cold Saw Image"
 
 15. Keep the area clean and free from oil, grease, and debris and clean up any coolant spills as soon as is safe.
 
+<br/>
+
+For additional information, visit the [Manufacturer's Page](https://www.jettools.com/us/en/p/j-fk350-2k-350mm-ferrous-manual-cold-saw/414214K).
+
 ##### Cold Saw Tutorial
 {{< youtube Hi_5f5cUB4g >}}
 

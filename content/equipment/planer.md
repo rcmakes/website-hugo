@@ -30,5 +30,9 @@ alt: "Planar Image"
 
 5. Never look into the machine (infeed or outfeed end) when it’s running.
 
+<br/>
+
+For additional information, visit the [Manufacturer's Page](https://wenproducts.com/collections/planers-jointers/products/wen-6550t-15-amp-12-5-in-corded-thickness-planer).
+
 ### Planer Tutorial
 {{< youtube OCcRRvPsk-Q >}}

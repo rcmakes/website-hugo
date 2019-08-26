@@ -50,7 +50,12 @@ alt: "Scroll Saw Image"
 
 6. As you are cutting, cut through slowly, going to fast, may cause injury or cause the wood to be ruined.
 
-7. When you are done, turn of the machine and clean your area up.
+7. When you are done, turn off the machine and clean your area up.
+
+<br/>
+
+For additional information, visit the [Manufacturer's Page](https://www.woodstockint.com/products/W1713).
+
 
 ### Scroll Saw Turtorial
 {{< youtube ADzMucMY1t0 >}}

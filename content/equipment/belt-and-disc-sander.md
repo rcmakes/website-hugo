@@ -46,5 +46,9 @@ alt: "Belt and Disc Sander Image"
 
 3. Press red stop button to stop the sander.
 
+<br/>
+
+For additional information, visit the [Manufacturer's Page](https://www.jettools.com/us/en/p/jsg-6dc-6-x-48-belt-12-disc-sander-1-1-2hp-1ph-115-230v/708599).
+
 ### Belt and Disc Sander Tutorial
 {{< youtube UEnAHGuWQZk >}}

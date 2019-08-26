@@ -30,5 +30,10 @@ alt: "Miter Saw Image"
 
 9. Don’t raise blade from workpiece until blade has come to a complete stop.
 
+<br/>
+
+For additional information, visit the [Manufacturer's Page](https://www.dewalt.com/products/power-tools/saws/miter-saws/12-in-double-bevel-sliding-compound-miter-saw/dws780).
+
+
 ### Miter Saw Tutorial
 {{< youtube yQSeNzaa96c >}}
