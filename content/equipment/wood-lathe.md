@@ -60,7 +60,9 @@ alt: "Wood Lathe Image"
 
 6. Hold the     tools with the point facing up and the handle down at a slight angle, if you      don’t, it will catch in between the wood and the support.
 
+<br/>
 
+For additional information, visit the [Manufacturer's Page](https://www.jettools.com/us/en/p/jwl-1221vs-12-x-21-variable-speed-wood-lathe/719200).
 
 
 ### Wood Lathe Tutorial

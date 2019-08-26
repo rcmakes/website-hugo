@@ -61,5 +61,9 @@ alt: "PLasma Cutter Image"
 
 5. Begin grinding the meatal until you are finished6. Switch the machine to the off (right) position
 
+<br/>
+
+For additional information, visit the [Manufacturer's Page](https://www.uwelding.com/plasma-cutter-50-amp-lt5000d-dual-voltage-compact-metal-cutter/).  
+
 ### Plasma Cutter Tutorial
 {{< youtube gBgoCXmGsys >}}

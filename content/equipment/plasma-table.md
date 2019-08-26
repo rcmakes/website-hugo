@@ -46,4 +46,8 @@ alt: "Plasma Table Image"
 
 10. Once the print is done press "origin ok" to go back to home screen.
 
+<br/>
+
+For additional information, visit the [Manufacturer's Page](https://www.baileigh.com/plasma-table-pt-22).
+
 

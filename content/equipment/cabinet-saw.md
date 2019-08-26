@@ -65,5 +65,9 @@ alt: "Cabinet Saw Image"
 
 6. Switch the machine to the off (right) position.
 
+<br/>
+
+For additional information, visit the [Manufacturer's Page](https://www.sawstop.com/table-saws/by-model/professional-cabinet-saw).
+
 ### Cabinet Saw Tutorial
 {{< youtube Bwf0ASmVD2A >}}

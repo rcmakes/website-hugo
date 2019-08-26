@@ -41,5 +41,10 @@ alt: "Drill Press Image"
 
 7. Reduce drill pressure when it begins to go through the piece.
 
+<br/>
+
+For additional information, visit the [Manufacturer's Page](https://deltamachinery.com/products/drilling-boring/18-900l/).
+
+
 ### Drill Press Tutorial
 {{< youtube yYenTisnkwY >}}

@@ -37,5 +37,9 @@ alt: "Bench Grinder Image"
 
 6. Switch the machine to the off (right) position.
 
+<br/>
+
+For additional information, visit the [Manufacturer's Page](https://www.dewalt.com/products/power-tools/grinders/bench-grinders/6-150mm-bench-grinder/dw756).
+
 ### Bench Grinder Tutorial
 {{< youtube GB-Pa73Snp4 >}}
