@@ -53,17 +53,26 @@ alt: "Cabinet Saw Image"
 20. Always use a sled or miter gauge when crosscutting.
 
 ##### How to Use:
-1. Make sure the metal you are using is ferrous (steel only). Do not grind          aluminum, copper, bronze or brass.
+1. Before working with the Table Saw make sure you have one partner and have the shop supervisor at hand.
 
-2. Flip the switch in the middle of the machine to the on (left) position.
+2. Turn on the main safety switch at the column, then the main machine power toggle
 
-3. wait for it to come to full speed before touching material to it.
+3. Adjust the height of the blade to cut slightly above the top of the wood by turning the height crank.
 
-4. Make sure the piece of meatal is secure (ie. holding it in a vice grip).
+4. Make sure to have a partner behind the blade to collect the wood!
 
-5. Begin grinding the meatal until you are finished.
+5. Pull the red paddle to start the machine.
 
-6. Switch the machine to the off (right) position.
+6. Push the wood through the blade with the black guiding stick.
+
+7. Have a partner collect the fully cut wood once it is past the guards and blade.
+
+8. Once finished with cutting, make sure to turn off the blade by pushing the stop switch paddle and then switching the power switch to off.
+
+9. Lower the saw blade by turning the height crank, until the saw blade is all the way down, below the table surface.
+
+10. Turn off the main safety switch at the column.
+
 
 <br/>
 
