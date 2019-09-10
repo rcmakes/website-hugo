@@ -23,4 +23,4 @@ registrationInstructions:
 
 ---
 
-For incoming freshmen in all academeies, this three-week program runs from 8:00 AM to 12:00 PM, Monday July 29th through Friday August 16th. All programs run concurrently on campus with both academy-specific activities and combined activities. 
+For incoming freshmen in all academies, this three-week program runs from 8:00 AM to 12:00 PM, Monday July 29th through Friday August 16th. All programs run concurrently on campus with both academy-specific activities and combined activities. 
