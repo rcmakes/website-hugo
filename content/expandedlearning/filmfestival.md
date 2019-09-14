@@ -3,13 +3,13 @@ title: "Film Festival"
 date: 2018-12-15T09:04:42-08:00
 draft: false
 
-subtitle: "Student Film Festival"
+subtitle: "Student Film Festival (Past Event)"
 
 image: film-festival-1200x900.jpeg
 alt: "Film Festival Flyer"
 
 datesTimes: [ 
-   "April 26th, 2019 - 6-9p"
+   
    ]
 
 location: "Black Box Theater"
@@ -21,4 +21,4 @@ instructors: [
 
 registrationInstructions: 
 ---
-Attention all high school student writers, directors, and editors of all levels of experience! Here is your opportunity to show us what you got for a chance to win $300, $225, or $150! Hosted by RCMakes and RCHS Film Club, fill out [this form](https://goo.gl/forms/760yT8PAx7OxNjH42) by March 24 to be a confirmed contestant by March 28th. Final films are due on April 24th. Get filming!
+High school student writers, directors, and editors all participated in a Film Festival. It was hosted by RCMakes and the RCHS Film Club, on March 28th.
