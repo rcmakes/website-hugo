@@ -5,7 +5,7 @@ draft: false
 
 oneLineDescription: This beautifully ornate gift box is the perfect pairing for gifting wine
 price: 25
-productImage: "/img/wine-caddies1200x900.jpeg"
+productImage: "/img/wine-caddies-2508x2507.jpg"
 freedomMerchantsLink: "https://freedommerchants.com/rcmakes.html?qbinvoice=true&invoicenum=------&amt=20&desc=Wine%20Box"
 alt: "Wine Gift Boxes"
 ---
